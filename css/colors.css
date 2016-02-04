@@ -1,0 +1,19 @@
+/**
+* @section Settings
+*/
+/*bg*/
+/*colors*/
+/* line 6, ../dev/sass/colors.scss */
+.b-siteTitle__item.-type_important {
+  color: #5bb14d;
+}
+
+/* line 12, ../dev/sass/colors.scss */
+.l-siteSearch {
+  background-image: url("../img/blocks/siteSearch/siteSearch-bg.png");
+}
+
+/* line 16, ../dev/sass/colors.scss */
+.b-siteSearch__input {
+  background-image: url("../img/blocks/siteSearch/siteSearch__input-ico.png");
+}

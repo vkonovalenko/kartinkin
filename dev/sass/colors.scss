@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import 'settings';
+
+.b-siteTitle {
+	&__item {
+		&.-type_important {
+			color: $themeColor;
+		}
+	}
+}
+
+.l-siteSearch {
+	background-image: url('../img/blocks/siteSearch/siteSearch-bg.png');
+}
+.b-siteSearch {
+	&__input {
+		background-image: url('../img/blocks/siteSearch/siteSearch__input-ico.png');
+	}
+}

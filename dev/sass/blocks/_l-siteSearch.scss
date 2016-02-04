@@ -1,0 +1,65 @@
+/**
+* @subsection Main Site Search
+*/
+.l-siteSearch {
+  background: transparent 0 0 no-repeat;
+  background-size: cover;
+}
+.b-siteSearch {
+  @include clearfix;
+  position: relative;
+  max-width: $siteWidth;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+
+
+  &__inner {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  &__form {}
+
+  &__title {
+    display: block;
+    margin: 0 0 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  &__input {
+    position: relative;
+    box-sizing: border-box !important;
+    width: 100%;
+    height: 80px;
+    display: block;
+    margin: 0;
+    padding: 0 80px 0 37px;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    background: #fff right 16px no-repeat;
+    color: inherit;
+    font-style: normal;
+    font-size: 18px;
+  }
+}
+
+.b-siteSearch__input:placeholder {
+  color: #b1b8c1; 
+  font-style: italic;
+}
+.b-siteSearch__input::-moz-placeholder {
+  color: #b1b8c1; 
+  font-style: italic;
+} 
+.b-siteSearch__input:-moz-placeholder {
+  color: #b1b8c1; 
+  font-style: italic;
+} 
+.b-siteSearch__input:-ms-input-placeholder {
+  color: #b1b8c1; 
+  font-style: italic;
+}

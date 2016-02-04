@@ -1,0 +1,26 @@
+/**
+* @section Site Title
+*/
+.l-siteTitle {
+	float: left;
+  margin: 3px 0 0;
+}
+.b-siteTitle {
+	display: block;
+	color: inherit;
+	font-size: 12px;
+	line-height: 1.1;
+	text-transform: uppercase;
+	text-decoration: none;
+	&:hover, &:activem &:visited, &:focus {
+		color: inherit;
+		text-decoration: none;
+	}
+	&__item {
+		display: block;
+		&.-type_important {
+			font-size: 20px;
+			font-weight: 700;
+		}
+	}
+}

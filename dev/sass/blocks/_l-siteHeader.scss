@@ -1,0 +1,18 @@
+/**
+* @section Main Site Header
+*/
+.l-siteHeader {
+  background: $headerBg;
+ 
+  .-device_mobile & {
+  
+  }
+}
+.b-siteHeader {
+	@include clearfix;
+  position: relative;
+  max-width: $siteWidth;
+  margin: 0 auto;
+  padding: 10px 20px;
+  color: #fff;
+}
