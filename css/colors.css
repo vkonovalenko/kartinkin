@@ -17,3 +17,8 @@
 .b-siteSearch__input {
   background-image: url("../img/blocks/siteSearch/siteSearch__input-ico.png");
 }
+
+/* line 22, ../dev/sass/colors.scss */
+.b-pageTitle:before {
+  border-bottom-color: #5bb14d;
+}

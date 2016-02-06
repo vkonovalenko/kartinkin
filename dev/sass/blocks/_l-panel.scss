@@ -1,0 +1,9 @@
+/**
+* @section Panel
+*/
+.l-panel {}
+
+.b-panel {
+	@include clearfix;
+	margin: 33px 0 20px;
+}

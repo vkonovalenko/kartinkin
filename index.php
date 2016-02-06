@@ -6,7 +6,13 @@
 ?>
 
 <main class="b-content" role="main">
-	test
+	<div class="l-panel">
+		<div class="b-panel">
+			<div class="l-pageTitle">
+				<h2 class="b-pageTitle">Последние добавленные картинки</h2>
+			</div>
+		</div>
+	</div>
 </main>
 
 

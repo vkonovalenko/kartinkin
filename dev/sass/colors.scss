@@ -17,3 +17,9 @@
 		background-image: url('../img/blocks/siteSearch/siteSearch__input-ico.png');
 	}
 }
+
+.b-pageTitle { 
+	&:before {
+		border-bottom-color: $themeColor;
+	}
+}

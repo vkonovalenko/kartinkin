@@ -1,0 +1,26 @@
+/**
+* @section Page Title
+*/
+
+.l-pageTitle {
+	float: left;
+}
+.b-pageTitle {
+	position: relative;
+	padding: 0 0 14px;
+	margin: 0;	
+	color: $pageTitleColor;
+	font-size: 24px;
+	font-weight: normal;
+	&:before {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		display: block;
+		width: 100px;
+		height: 1px;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;	
+		content: '';
+	}
+}
