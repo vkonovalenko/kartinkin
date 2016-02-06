@@ -53,8 +53,13 @@ html, body {
 .b-content {
   position: relative;
   display: block;
+  margin: 20px 0 0;
+  &__content {
+    overflow: hidden;
+  }
 }
 
+@import 'blocks/l-sidebar';
 @import 'blocks/l-siteFooter';
 @import 'blocks/l-siteCopyright';
 @import 'blocks/b-developerCopyright';
