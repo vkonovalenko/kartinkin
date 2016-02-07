@@ -37,3 +37,16 @@
 		}
 	}
 }
+
+.b-sidebarMenu {
+
+	&__item {
+		&.-state_active {
+			color: $themeColor;
+		}
+	}
+
+	&__count {
+		background: $themeColor;
+	}
+}

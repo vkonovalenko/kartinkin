@@ -1194,6 +1194,7 @@ replacement image appears.
 /* line 21, ../dev/sass/main.scss */
 html, body {
   height: 100%;
+  background: #e7eded;
   color: #33373b;
   font: normal 14px/1.3 "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -1201,7 +1202,7 @@ html, body {
 /**
 * @section wrapper
 */
-/* line 30, ../dev/sass/main.scss */
+/* line 31, ../dev/sass/main.scss */
 .l-wrapper {
   position: relative;
 }
@@ -1434,9 +1435,294 @@ html, body {
 * @subsection Main Site Nav
 */
 /**
+* @section Panel
+*/
+/* line 4, ../dev/sass/blocks/_l-panel.scss */
+.l-panel {
+  max-width: 1180px;
+  margin: 33px auto 20px;
+}
+
+/* line 16, ../dev/sass/_mixins.scss */
+.b-panel:before, .b-panel:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-panel:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-panel {
+  *zoom: 1;
+}
+
+/**
+* @section Page Title
+*/
+/* line 5, ../dev/sass/blocks/_l-pageTitle.scss */
+.l-pageTitle {
+  float: left;
+}
+
+/* line 8, ../dev/sass/blocks/_l-pageTitle.scss */
+.b-pageTitle {
+  position: relative;
+  padding: 0 0 14px;
+  margin: 0;
+  color: #33373b;
+  font-size: 24px;
+  font-weight: normal;
+}
+/* line 15, ../dev/sass/blocks/_l-pageTitle.scss */
+.b-pageTitle:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100px;
+  height: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  content: '';
+}
+
+/**
+* @section Side Bar
+*/
+/* line 5, ../dev/sass/blocks/_l-sidebar.scss */
+.l-sidebar {
+  width: 280px;
+  float: right;
+}
+
+/* line 11, ../dev/sass/blocks/_l-sidebar.scss */
+.b-sidebar__block {
+  padding: 20px;
+  margin: 0 0 20px;
+  background: #fff;
+}
+
+/* line 18, ../dev/sass/blocks/_l-sidebar.scss */
+.b-sidebarMenu {
+  display: block;
+  margin: 5px 0 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 25, ../dev/sass/blocks/_l-sidebar.scss */
+.b-sidebarMenu__item {
+  position: relative;
+  padding: 0 0 10px 13px;
+  margin: 0 0 7px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid #f1f3f3;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-sidebarMenu__item:before, .b-sidebarMenu__item:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-sidebarMenu__item:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-sidebarMenu__item {
+  *zoom: 1;
+}
+/* line 35, ../dev/sass/blocks/_l-sidebar.scss */
+.b-sidebarMenu__item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+/* line 41, ../dev/sass/blocks/_l-sidebar.scss */
+.b-sidebarMenu__item:before {
+  position: absolute;
+  left: 0;
+  top: -17px;
+  display: block;
+  color: inherit;
+  font-size: 28px;
+  content: ".";
+}
+/* line 52, ../dev/sass/blocks/_l-sidebar.scss */
+.b-sidebarMenu__link {
+  display: block;
+  float: left;
+  color: inherit;
+  text-decoration: none;
+}
+/* line 58, ../dev/sass/blocks/_l-sidebar.scss */
+.b-sidebarMenu__link:hover, .b-sidebarMenu__link:active, .b-sidebarMenu__link:visited, .b-sidebarMenu__link:focus {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 64, ../dev/sass/blocks/_l-sidebar.scss */
+.b-sidebarMenu__count {
+  display: block;
+  float: right;
+  min-width: 7px;
+  padding: 2px 6px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+/**
+* @section Btn
+*/
+/* line 5, ../dev/sass/blocks/_l-btn.scss */
+.l-btn {
+  margin: 0 0 20px;
+}
+
+/* line 9, ../dev/sass/blocks/_l-btn.scss */
+.b-btn {
+  position: relative;
+  display: inline-block;
+  min-width: 100px;
+  padding: 10px;
+  margin: 0 20px 20px 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -moz-border-radius: 2px;
+       border-radius: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* line 24, ../dev/sass/blocks/_l-btn.scss */
+.l-btn .b-btn {
+  margin-bottom: 0;
+}
+/* line 28, ../dev/sass/blocks/_l-btn.scss */
+.b-btn.-display_block {
+  display: block;
+  width: 100%;
+  margin-right: 0;
+}
+/* line 34, ../dev/sass/blocks/_l-btn.scss */
+.b-btn.-type_icon {
+  padding-left: 40px;
+}
+/* line 36, ../dev/sass/blocks/_l-btn.scss */
+.b-btn.-type_icon:before {
+  display: block;
+}
+/* line 41, ../dev/sass/blocks/_l-btn.scss */
+.b-btn:before {
+  display: none;
+  position: absolute;
+  left: 41px;
+  top: 14px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url("../img/blocks/btn/btn-ico.png");
+  content: '';
+}
+/* line 53, ../dev/sass/blocks/_l-btn.scss */
+.b-btn:hover, .b-btn:active, .b-btn:visited, .b-btn:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/**
+* @section Links
+*/
+/* line 16, ../dev/sass/_mixins.scss */
+.l-links:before, .l-links:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.l-links:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.l-links {
+  *zoom: 1;
+}
+
+/* line 9, ../dev/sass/blocks/_l-links.scss */
+.b-link {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  text-decoration: underline;
+  font-weight: 700;
+  /*special styles*/
+}
+/* line 16, ../dev/sass/blocks/_l-links.scss */
+.b-link:hover, .b-link:active, .b-link:visited, .b-link:focus {
+  text-decoration: underline;
+}
+/* line 19, ../dev/sass/blocks/_l-links.scss */
+.b-link:hover {
+  text-decoration: none;
+}
+/* line 23, ../dev/sass/blocks/_l-links.scss */
+.b-link.-type_icon {
+  padding: 0 0 0 35px;
+}
+/* line 25, ../dev/sass/blocks/_l-links.scss */
+.b-link.-type_icon:before {
+  display: block;
+}
+/* line 30, ../dev/sass/blocks/_l-links.scss */
+.b-link:before {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 1px;
+  background-image: url("../img/blocks/links/links-ico.png");
+  width: 15px;
+  height: 15px;
+  content: '';
+}
+/* line 45, ../dev/sass/blocks/_l-links.scss */
+.b-link.-color_red {
+  color: #db2304;
+}
+/* line 47, ../dev/sass/blocks/_l-links.scss */
+.b-link.-color_red:hover, .b-link.-color_red:active, .b-link.-color_red:visited, .b-link.-color_red:focus {
+  color: #db2304;
+}
+/* line 53, ../dev/sass/blocks/_l-links.scss */
+.b-link.-type_login, .b-link.-type_favorites {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+/* line 59, ../dev/sass/blocks/_l-links.scss */
+.b-link.-type_login {
+  float: left;
+}
+/* line 61, ../dev/sass/blocks/_l-links.scss */
+.b-link.-type_login:before {
+  background-position: 0 0;
+}
+/* line 66, ../dev/sass/blocks/_l-links.scss */
+.b-link.-type_favorites {
+  float: right;
+}
+/* line 68, ../dev/sass/blocks/_l-links.scss */
+.b-link.-type_favorites:before {
+  background-position: -31px 0;
+}
+
+/**
 * @section content
 */
-/* line 44, ../dev/sass/main.scss */
+/* line 50, ../dev/sass/main.scss */
 .l-content {
   max-width: 1180px;
   margin: 0 auto;
@@ -1444,10 +1730,28 @@ html, body {
   position: relative;
 }
 
-/* line 51, ../dev/sass/main.scss */
+/* line 57, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
+  margin: 20px 0 0;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-content:before, .b-content:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-content:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-content {
+  *zoom: 1;
+}
+/* line 62, ../dev/sass/main.scss */
+.b-content__content {
+  overflow: hidden;
 }
 
 /**

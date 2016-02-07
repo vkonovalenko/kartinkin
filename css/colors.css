@@ -36,3 +36,12 @@
 .b-link.-color_green:hover, .b-link.-color_green:active, .b-link.-color_green:visited, .b-link.-color_green:focus {
   color: #5bb14d;
 }
+
+/* line 44, ../dev/sass/colors.scss */
+.b-sidebarMenu__item.-state_active {
+  color: #5bb14d;
+}
+/* line 49, ../dev/sass/colors.scss */
+.b-sidebarMenu__count {
+  background: #5bb14d;
+}
