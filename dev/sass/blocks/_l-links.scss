@@ -1,0 +1,72 @@
+/**
+* @section Links
+*/
+
+.l-links {
+	@include clearfix;
+}
+
+.b-link {
+	position: relative;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	text-decoration: underline;
+	font-weight: 700;
+
+	&:hover, &:active, &:visited, &:focus {
+		text-decoration: underline;
+	}
+	&:hover {
+		text-decoration: none;
+	}
+
+	&.-type_icon {
+		padding: 0 0 0 35px;
+		&:before {
+			display: block;
+		}
+	}
+
+	&:before {
+		display: none;
+		position: absolute;
+		left: 10px;
+		top: 1px;
+		background-image: url('../img/blocks/links/links-ico.png');
+		width: 15px;
+		height: 15px;
+		content: '';
+	}
+
+	&.-color_green {
+
+	}
+
+	&.-color_red {
+		color: #db2304;
+		&:hover, &:active, &:visited, &:focus {
+			color: #db2304;
+		}
+	}
+
+	/*special styles*/
+	&.-type_login, &.-type_favorites  {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	&.-type_login {
+		float: left;
+		&:before {
+			background-position: 0 0;
+		}
+	}
+
+	&.-type_favorites {
+		float: right;
+		&:before {
+			background-position: -31px 0;
+		}
+	}
+}

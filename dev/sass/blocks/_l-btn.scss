@@ -1,0 +1,58 @@
+/**
+* @section Btn
+*/
+
+.l-btn {
+	margin: 0 0 20px;
+}
+
+.b-btn {
+	position: relative;
+	display: inline-block;
+	min-width: 100px;
+	padding: 10px;
+	margin: 0 20px 20px 0;
+	box-sizing: border-box;
+	border-radius: 2px; 
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 700;
+
+	.l-btn & {
+		margin-bottom: 0;
+	}
+
+	&.-display_block {
+		display: block;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	&.-type_icon {
+		padding-left: 40px;
+		&:before {
+			display: block;
+		}
+	}
+
+	&:before {
+		display: none;
+		position: absolute;
+		left: 41px;
+		top: 14px;
+		display: block;
+		width: 15px;
+		height: 15px;
+		background-image: url('../img/blocks/btn/btn-ico.png');
+		content: '';
+	}
+
+	&:hover, &:active, &:visited, &:focus {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
