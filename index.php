@@ -14,7 +14,31 @@
 <main class="b-content" role="main">
 	<?php require('inc/sidebar.php'); ?>
 	<div class="b-content__content">
-		test
+		<div class="l-preview">
+			<ul class="b-preview">
+				<li class="b-preview__item">
+					<div class="b-preview__imgWrapper">
+						<a href="" class="b-preview__linkWrapper">
+							<img src="img/userfiles/preview/preview-1.png" alt="" class="b-preview__img">
+						</a>
+					</div>
+					<div class="b-preview__info -type_one">
+						<div class="b-preview__title">
+							<a href="" class="b-preview__linkWrapper">
+								Девушка покрашенная желтой краской строителями
+							</a>
+						</div>
+						<div class="b-preview__like">
+							<i class="b-preview__likeSign">like</i>
+						</div>
+					</div>
+					<div class="b-preview__info -type_two">
+						<div class="b-preview__stars"></div>
+						<div class="b-preview__count">6378</div>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 </main>
 
