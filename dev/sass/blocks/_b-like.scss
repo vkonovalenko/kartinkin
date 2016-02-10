@@ -1,0 +1,16 @@
+/**
+* @section Like
+*/
+
+.b-like {
+	display: block;
+	overflow: hidden;
+	width: 15px;
+	height: 13px;
+	text-indent: 100px;
+	background: url('../img/blocks/like/like-ico.png') 0 0 no-repeat;
+	cursor: pointer;
+	&.-state_liked, &:hover {
+		background-position: -35px 0;
+	}
+}

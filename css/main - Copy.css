@@ -1480,7 +1480,7 @@ html, body {
   left: 0;
   bottom: 0;
   display: block;
-  width: 100px;
+  width: 60px;
   height: 1px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -1720,9 +1720,140 @@ html, body {
 }
 
 /**
+* @section Preview
+*/
+/* line 7, ../dev/sass/blocks/_l-preview.scss */
+.b-preview {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-preview:before, .b-preview:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-preview:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-preview {
+  *zoom: 1;
+}
+/* line 14, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__item {
+  width: 280px;
+  padding: 9px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  background: #fff;
+}
+/* line 22, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__linkWrapper {
+  display: inline-block;
+  outline: 0;
+  color: inherit;
+  text-decoration: none;
+}
+/* line 27, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__linkWrapper:hover, .b-preview__linkWrapper:active, .b-preview__linkWrapper:visited, .b-preview__linkWrapper:focus {
+  outline: 0;
+  color: inherit;
+  text-decoration: none;
+}
+/* line 34, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__imgWrapper {
+  height: 171px;
+  overflow: hidden;
+}
+/* line 39, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 45, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__info {
+  margin: 5px 0 0;
+  padding: 0 0 0 11px;
+  color: #555454;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-preview__info:before, .b-preview__info:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-preview__info:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-preview__info {
+  *zoom: 1;
+}
+/* line 53, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__info.-type_two {
+  margin-top: 13px;
+}
+/* line 58, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__title {
+  float: left;
+  width: 215px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+/* line 65, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__like {
+  position: relative;
+  padding: 14px 0 4px 12px;
+  overflow: hidden;
+}
+/* line 69, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__like:before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  display: block;
+  width: 1px;
+  height: 21px;
+  border-left: 1px solid #e1e6e6;
+  content: '';
+}
+/* line 81, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__stars {
+  overflow: hidden;
+}
+/* line 85, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__count {
+  float: right;
+}
+
+/**
+* @section Like
+*/
+/* line 5, ../dev/sass/blocks/_b-like.scss */
+.b-like {
+  display: block;
+  overflow: hidden;
+  width: 15px;
+  height: 13px;
+  text-indent: 100px;
+  background: url("../img/blocks/like/like-ico.png") 0 0 no-repeat;
+  cursor: pointer;
+}
+/* line 13, ../dev/sass/blocks/_b-like.scss */
+.b-like.-state_liked, .b-like:hover {
+  background-position: -35px 0;
+}
+
+/**
 * @section content
 */
-/* line 50, ../dev/sass/main.scss */
+/* line 52, ../dev/sass/main.scss */
 .l-content {
   max-width: 1180px;
   margin: 0 auto;
@@ -1730,7 +1861,7 @@ html, body {
   position: relative;
 }
 
-/* line 57, ../dev/sass/main.scss */
+/* line 59, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
@@ -1749,7 +1880,7 @@ html, body {
 .b-content {
   *zoom: 1;
 }
-/* line 62, ../dev/sass/main.scss */
+/* line 64, ../dev/sass/main.scss */
 .b-content__content {
   overflow: hidden;
 }

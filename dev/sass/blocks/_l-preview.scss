@@ -43,24 +43,40 @@
 	}
 
 	&__info {
+    margin: 5px 0 0;
+    padding: 0 0 0 11px;
+		color: $secondColor;
 		@include clearfix;
 
 		&.-type_one {}
 
-		&.-type_two {}
+		&.-type_two {
+			margin-top: 13px;
+		}
 	}
 
 	&__title {
 		float: left;
-		width: 225px;
+		width: 215px;
 		font-size: 14px;
+    line-height: 1.4;
 	}
 
 	&__like {
+		position: relative;
+    padding: 14px 0 4px 12px;
 		overflow: hidden;
+		&:before {
+			position: absolute;
+			top: 10px;
+			left: 0;
+			display: block;
+			width: 1px;
+			height: 21px;
+			border-left: 1px solid #e1e6e6;
+			content: '';
+		}
 	}
-
-	&__likeSign {}
 
 	&__stars {
 		overflow: hidden;

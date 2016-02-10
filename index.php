@@ -25,11 +25,11 @@
 					<div class="b-preview__info -type_one">
 						<div class="b-preview__title">
 							<a href="" class="b-preview__linkWrapper">
-								Девушка покрашенная желтой краской строителями
+								Девушка покрашенная <br> желтой краской строителями
 							</a>
 						</div>
 						<div class="b-preview__like">
-							<i class="b-preview__likeSign">like</i>
+							<i class="b-like js-like">like</i>
 						</div>
 					</div>
 					<div class="b-preview__info -type_two">
