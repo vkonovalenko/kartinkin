@@ -33,8 +33,12 @@
 						</div>
 					</div>
 					<div class="b-preview__info -type_two">
-						<div class="b-preview__stars"></div>
-						<div class="b-preview__count">6378</div>
+						<div class="b-preview__stars">
+							<div id="stars-default"><input type=hidden name"rating"/></div></td>
+						</div>
+						<div class="b-preview__rate">
+							<div class="b-rate">6378</div>
+						</div>
 					</div>
 				</li>
 			</ul>

@@ -50,6 +50,7 @@
   </style>
   <link rel="shortcut icon" href="favicon.ico" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css?<?php echo filemtime('css/main.css'); ?>" />
   <link rel="stylesheet" href="css/colors.css?<?php echo filemtime('css/colors.css'); ?>" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -76,6 +77,8 @@
     ga('create', 'UA-68801405-1', 'auto');
     ga('send', 'pageview');
   </script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 
 <body class="-type_home">
