@@ -30,6 +30,7 @@ html, body {
 */
 .l-wrapper {
   position: relative;
+  min-height: 100%;
 }
 
 @import 'blocks/l-siteHeader';
@@ -53,7 +54,7 @@ html, body {
 .l-content {
   max-width: $siteWidth;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 33px 20px 161px;
   position: relative;
 }
 
@@ -64,6 +65,9 @@ html, body {
   margin: 20px 0 0;
   &__content {
     overflow: hidden;
+    @media only screen and (max-width: 640px) { 
+     overflow: auto;
+    }
   }
 }
 

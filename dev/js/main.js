@@ -13,5 +13,11 @@ function like() {
 }
 
 function initRate() {
-	$("#stars-default").rating();
+	$( '.js-rateStarts' ).rating('create', {
+		coloroff: '#e1e6e6',
+		coloron:'#47e12d', 
+		limit: 5,
+		size: '1.0em',
+		cursor: 'pointer'
+	});	
 }

@@ -2,7 +2,12 @@
 * @section Preview
 */
 
-.l-preview {}
+.l-preview {
+	@media only screen and (max-width: 640px) { 
+    width: 280px;
+    margin: 0 auto;
+	}
+}
 
 .b-preview {
 	@include clearfix;
@@ -13,7 +18,8 @@
 
 	&__item {
 		width: 280px;
-		padding: 9px;
+    margin: 0 19px 20px 0;
+		padding: 9px 9px 6px;
 		box-sizing: border-box;
 		float: left;
 		background: #fff;
@@ -32,8 +38,44 @@
 	}
 
 	&__imgWrapper {
+		position: relative;
 		height: 171px;
 		overflow: hidden;
+	}
+
+	&__panel {
+		display: none;
+		.b-preview__imgWrapper:hover & {
+			display: block;
+		} 
+		@include clearfix;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		padding: 10px 9px 6px;
+		background: #000;
+		background-color: rgba(0,0,0,.75);
+		color: #fff;
+		font-size: 12px;
+		&_left {
+			position: relative;
+			padding: 0 0 0 20px;
+			float: left;
+			&:before {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 9px;
+				height: 11px;
+				background: url('../img/blocks/preview/panel-ico.png') 0 0 no-repeat;
+				content: '';
+			}
+		}
+		&_right {
+			float: right;
+			text-align: right;
+		}
 	}
 
 	&__img {
@@ -79,7 +121,7 @@
 	}
 
 	&__stars {
-		overflow: hidden;
+		float: left;
 	}
 
 	&__rate {

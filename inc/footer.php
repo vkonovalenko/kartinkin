@@ -1,5 +1,4 @@
-    </div><!--content-->
-  </div><!--wrapper-->
+  </div><!--content-->
 
   <footer class="l-siteFooter" role="contentinfo">
     <div class="b-siteFooter">
@@ -11,6 +10,7 @@
       </div>
     </div>
   </footer>
+</div><!--wrapper-->
 
   <script src="js/scripts.js?<?php echo filemtime('js/scripts.js'); ?>"></script>
   <!--<script src="js/scripts-extra.js?<?php echo filemtime('js/scripts-extra.js'); ?>"></script>-->
