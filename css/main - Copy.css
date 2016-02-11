@@ -1205,6 +1205,7 @@ html, body {
 /* line 31, ../dev/sass/main.scss */
 .l-wrapper {
   position: relative;
+  min-height: 100%;
 }
 
 /**
@@ -1218,7 +1219,7 @@ html, body {
 /* line 11, ../dev/sass/blocks/_l-siteHeader.scss */
 .b-siteHeader {
   position: relative;
-  max-width: 1180px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 10px 20px;
   color: #fff;
@@ -1354,7 +1355,7 @@ html, body {
 /* line 8, ../dev/sass/blocks/_l-siteSearch.scss */
 .b-siteSearch {
   position: relative;
-  max-width: 1180px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 40px 20px 60px;
 }
@@ -1439,8 +1440,8 @@ html, body {
 */
 /* line 4, ../dev/sass/blocks/_l-panel.scss */
 .l-panel {
-  max-width: 1180px;
-  margin: 33px auto 20px;
+  max-width: 1220px;
+  margin: 0 auto 20px;
 }
 
 /* line 16, ../dev/sass/_mixins.scss */
@@ -1495,22 +1496,29 @@ html, body {
   width: 280px;
   float: right;
 }
+@media only screen and (max-width: 640px) {
+  /* line 5, ../dev/sass/blocks/_l-sidebar.scss */
+  .l-sidebar {
+    width: 100%;
+    float: none;
+  }
+}
 
-/* line 11, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 15, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebar__block {
   padding: 20px;
   margin: 0 0 20px;
   background: #fff;
 }
 
-/* line 18, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 22, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu {
   display: block;
   margin: 5px 0 0;
   padding: 0;
   list-style: none;
 }
-/* line 25, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 29, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__item {
   position: relative;
   padding: 0 0 10px 13px;
@@ -1533,13 +1541,13 @@ html, body {
 .b-sidebarMenu__item {
   *zoom: 1;
 }
-/* line 35, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 39, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__item:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: 0;
 }
-/* line 41, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 45, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__item:before {
   position: absolute;
   left: 0;
@@ -1549,19 +1557,19 @@ html, body {
   font-size: 28px;
   content: ".";
 }
-/* line 52, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 56, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__link {
   display: block;
   float: left;
   color: inherit;
   text-decoration: none;
 }
-/* line 58, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 62, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__link:hover, .b-sidebarMenu__link:active, .b-sidebarMenu__link:visited, .b-sidebarMenu__link:focus {
   color: inherit;
   text-decoration: none;
 }
-/* line 64, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 68, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__count {
   display: block;
   float: right;
@@ -1722,7 +1730,15 @@ html, body {
 /**
 * @section Preview
 */
-/* line 7, ../dev/sass/blocks/_l-preview.scss */
+@media only screen and (max-width: 640px) {
+  /* line 5, ../dev/sass/blocks/_l-preview.scss */
+  .l-preview {
+    width: 280px;
+    margin: 0 auto;
+  }
+}
+
+/* line 12, ../dev/sass/blocks/_l-preview.scss */
 .b-preview {
   display: block;
   margin: 0;
@@ -1742,41 +1758,94 @@ html, body {
 .b-preview {
   *zoom: 1;
 }
-/* line 14, ../dev/sass/blocks/_l-preview.scss */
+/* line 19, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__item {
   width: 280px;
-  padding: 9px;
+  margin: 0 19px 20px 0;
+  padding: 9px 9px 6px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   float: left;
   background: #fff;
 }
-/* line 22, ../dev/sass/blocks/_l-preview.scss */
+/* line 28, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__linkWrapper {
   display: inline-block;
   outline: 0;
   color: inherit;
   text-decoration: none;
 }
-/* line 27, ../dev/sass/blocks/_l-preview.scss */
+/* line 33, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__linkWrapper:hover, .b-preview__linkWrapper:active, .b-preview__linkWrapper:visited, .b-preview__linkWrapper:focus {
   outline: 0;
   color: inherit;
   text-decoration: none;
 }
-/* line 34, ../dev/sass/blocks/_l-preview.scss */
+/* line 40, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__imgWrapper {
+  position: relative;
   height: 171px;
   overflow: hidden;
 }
-/* line 39, ../dev/sass/blocks/_l-preview.scss */
+/* line 46, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__panel {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 10px 9px 6px;
+  background: #000;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 12px;
+}
+/* line 48, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__imgWrapper:hover .b-preview__panel {
+  display: block;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-preview__panel:before, .b-preview__panel:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-preview__panel:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-preview__panel {
+  *zoom: 1;
+}
+/* line 61, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__panel_left {
+  position: relative;
+  padding: 0 0 0 20px;
+  float: left;
+}
+/* line 65, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__panel_left:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 9px;
+  height: 11px;
+  background: url("../img/blocks/preview/panel-ico.png") 0 0 no-repeat;
+  content: '';
+}
+/* line 75, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__panel_right {
+  float: right;
+  text-align: right;
+}
+/* line 81, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__img {
   display: block;
   width: 100%;
   height: 100%;
 }
-/* line 45, ../dev/sass/blocks/_l-preview.scss */
+/* line 87, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__info {
   margin: 5px 0 0;
   padding: 0 0 0 11px;
@@ -1795,24 +1864,24 @@ html, body {
 .b-preview__info {
   *zoom: 1;
 }
-/* line 53, ../dev/sass/blocks/_l-preview.scss */
+/* line 95, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__info.-type_two {
   margin-top: 13px;
 }
-/* line 58, ../dev/sass/blocks/_l-preview.scss */
+/* line 100, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__title {
   float: left;
   width: 215px;
   font-size: 14px;
   line-height: 1.4;
 }
-/* line 65, ../dev/sass/blocks/_l-preview.scss */
+/* line 107, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__like {
   position: relative;
   padding: 14px 0 4px 12px;
   overflow: hidden;
 }
-/* line 69, ../dev/sass/blocks/_l-preview.scss */
+/* line 111, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__like:before {
   position: absolute;
   top: 10px;
@@ -1823,13 +1892,14 @@ html, body {
   border-left: 1px solid #e1e6e6;
   content: '';
 }
-/* line 81, ../dev/sass/blocks/_l-preview.scss */
+/* line 123, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__stars {
-  overflow: hidden;
+  float: left;
 }
-/* line 85, ../dev/sass/blocks/_l-preview.scss */
-.b-preview__count {
+/* line 127, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__rate {
   float: right;
+  margin: 0 8px 0 0;
 }
 
 /**
@@ -1851,17 +1921,54 @@ html, body {
 }
 
 /**
+* @section Rate
+*/
+/* line 5, ../dev/sass/blocks/_b-rate.scss */
+.b-rate {
+  position: relative;
+  padding: 0 0 0 24px;
+  font-size: 12px;
+}
+/* line 9, ../dev/sass/blocks/_b-rate.scss */
+.b-rate:before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 14px;
+  height: 11px;
+  background: url("../img/blocks/rate/rate-ico.png") 0 0 no-repeat;
+  content: '';
+}
+
+/* line 20, ../dev/sass/blocks/_b-rate.scss */
+.b-rateStarts, .b-rateNumber {
+  display: inline-block;
+}
+
+/* line 24, ../dev/sass/blocks/_b-rate.scss */
+.b-rateStarts {
+  margin: 0 2px 0 0;
+}
+
+/* line 28, ../dev/sass/blocks/_b-rate.scss */
+.b-rateNumber {
+  margin: 1px 0 0;
+  font-size: 12px;
+  vertical-align: top;
+}
+
+/**
 * @section content
 */
-/* line 52, ../dev/sass/main.scss */
+/* line 54, ../dev/sass/main.scss */
 .l-content {
-  max-width: 1180px;
+  max-width: 1220px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 33px 20px 161px;
   position: relative;
 }
 
-/* line 59, ../dev/sass/main.scss */
+/* line 61, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
@@ -1880,9 +1987,15 @@ html, body {
 .b-content {
   *zoom: 1;
 }
-/* line 64, ../dev/sass/main.scss */
+/* line 66, ../dev/sass/main.scss */
 .b-content__content {
   overflow: hidden;
+}
+@media only screen and (max-width: 640px) {
+  /* line 66, ../dev/sass/main.scss */
+  .b-content__content {
+    overflow: auto;
+  }
 }
 
 /**
@@ -1890,15 +2003,20 @@ html, body {
 */
 /* line 4, ../dev/sass/blocks/_l-siteFooter.scss */
 .l-siteFooter {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 120px;
   background: #212121;
 }
 
-/* line 7, ../dev/sass/blocks/_l-siteFooter.scss */
+/* line 12, ../dev/sass/blocks/_l-siteFooter.scss */
 .b-siteFooter {
   position: relative;
-  max-width: 1180px;
+  max-width: 1220px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 50px 20px 70px;
   color: #fff;
 }
 
