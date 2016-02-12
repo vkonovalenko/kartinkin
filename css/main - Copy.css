@@ -1407,26 +1407,30 @@ html, body {
   font-style: normal;
   font-size: 18px;
 }
+/* line 47, ../dev/sass/blocks/_l-siteSearch.scss */
+.b-siteSearch__input:focus {
+  padding-right: 37px;
+}
 
-/* line 50, ../dev/sass/blocks/_l-siteSearch.scss */
+/* line 53, ../dev/sass/blocks/_l-siteSearch.scss */
 .b-siteSearch__input:placeholder {
   color: #b1b8c1;
   font-style: italic;
 }
 
-/* line 54, ../dev/sass/blocks/_l-siteSearch.scss */
+/* line 57, ../dev/sass/blocks/_l-siteSearch.scss */
 .b-siteSearch__input::-moz-placeholder {
   color: #b1b8c1;
   font-style: italic;
 }
 
-/* line 58, ../dev/sass/blocks/_l-siteSearch.scss */
+/* line 61, ../dev/sass/blocks/_l-siteSearch.scss */
 .b-siteSearch__input:-moz-placeholder {
   color: #b1b8c1;
   font-style: italic;
 }
 
-/* line 62, ../dev/sass/blocks/_l-siteSearch.scss */
+/* line 65, ../dev/sass/blocks/_l-siteSearch.scss */
 .b-siteSearch__input:-ms-input-placeholder {
   color: #b1b8c1;
   font-style: italic;
