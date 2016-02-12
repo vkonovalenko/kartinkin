@@ -38,7 +38,7 @@
 }
 
 /* line 44, ../dev/sass/colors.scss */
-.b-sidebarMenu__item.-state_active {
+.b-sidebarMenu__item.-state_active, .b-sidebarMenu__item:hover {
   color: #5bb14d;
 }
 /* line 49, ../dev/sass/colors.scss */

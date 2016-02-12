@@ -41,7 +41,7 @@
 .b-sidebarMenu {
 
 	&__item {
-		&.-state_active {
+		&.-state_active, &:hover {
 			color: $themeColor;
 		}
 	}
