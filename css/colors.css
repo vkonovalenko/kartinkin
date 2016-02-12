@@ -17,31 +17,35 @@
 .b-siteSearch__input {
   background-image: url("../img/blocks/siteSearch/siteSearch__input-ico.png");
 }
+/* line 18, ../dev/sass/colors.scss */
+.b-siteSearch__input:focus {
+  background-image: none;
+}
 
-/* line 22, ../dev/sass/colors.scss */
+/* line 25, ../dev/sass/colors.scss */
 .b-pageTitle:before {
   border-bottom-color: #5bb14d;
 }
 
-/* line 27, ../dev/sass/colors.scss */
+/* line 30, ../dev/sass/colors.scss */
 .b-btn {
   background: #5bb14d;
 }
 
-/* line 33, ../dev/sass/colors.scss */
+/* line 36, ../dev/sass/colors.scss */
 .b-link.-color_green {
   color: #5bb14d;
 }
-/* line 35, ../dev/sass/colors.scss */
+/* line 38, ../dev/sass/colors.scss */
 .b-link.-color_green:hover, .b-link.-color_green:active, .b-link.-color_green:visited, .b-link.-color_green:focus {
   color: #5bb14d;
 }
 
-/* line 44, ../dev/sass/colors.scss */
+/* line 47, ../dev/sass/colors.scss */
 .b-sidebarMenu__item.-state_active, .b-sidebarMenu__item:hover {
   color: #5bb14d;
 }
-/* line 49, ../dev/sass/colors.scss */
+/* line 52, ../dev/sass/colors.scss */
 .b-sidebarMenu__count {
   background: #5bb14d;
 }

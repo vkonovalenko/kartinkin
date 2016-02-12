@@ -15,6 +15,9 @@
 .b-siteSearch {
 	&__input {
 		background-image: url('../img/blocks/siteSearch/siteSearch__input-ico.png');
+		&:focus {
+			background-image: none;
+		}
 	}
 }
 

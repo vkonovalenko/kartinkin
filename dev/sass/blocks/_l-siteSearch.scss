@@ -44,6 +44,9 @@
     color: inherit;
     font-style: normal;
     font-size: 18px;
+    &:focus {
+      padding-right: 37px;
+    }
   }
 }
 
