@@ -1325,11 +1325,15 @@ html, body {
   text-decoration: none;
 }
 /* line 17, ../dev/sass/blocks/_l-siteContactUs.scss */
-.b-siteContactUs:hover, .b-siteContactUs:activem .b-siteContactUs:visited, .b-siteContactUs:focus {
+.b-siteContactUs:hover, .b-siteContactUs:active, .b-siteContactUs:visited, .b-siteContactUs:focus {
   color: inherit;
   text-decoration: none;
 }
 /* line 21, ../dev/sass/blocks/_l-siteContactUs.scss */
+.b-siteContactUs:hover {
+  text-decoration: underline;
+}
+/* line 24, ../dev/sass/blocks/_l-siteContactUs.scss */
 .b-siteContactUs:before {
   position: absolute;
   left: 0;
