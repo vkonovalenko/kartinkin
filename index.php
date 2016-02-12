@@ -50,7 +50,10 @@
 							<img src="img/userfiles/preview/preview-2.png" alt="" class="b-preview__img">
 						</a>
 						<div class="b-preview__panel">
-							<div class="b-preview__panel_left">439</div>
+							<div class="b-preview__panel_left">
+								<a href="" class="b-preview__download">Download</a>
+								<span class="b-preview__countDownload">439</span>
+							</div>
 							<div class="b-preview__panel_right">24 Сен. 2015</div>
 						</div>
 					</div>

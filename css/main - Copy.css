@@ -1820,32 +1820,33 @@ html, body {
 }
 /* line 61, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__panel_left {
-  position: relative;
-  padding: 0 0 0 20px;
   float: left;
 }
-/* line 65, ../dev/sass/blocks/_l-preview.scss */
-.b-preview__panel_left:before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 9px;
-  height: 11px;
-  background: url("../img/blocks/preview/panel-ico.png") 0 0 no-repeat;
-  content: '';
-}
-/* line 75, ../dev/sass/blocks/_l-preview.scss */
+/* line 64, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__panel_right {
   float: right;
   text-align: right;
 }
-/* line 81, ../dev/sass/blocks/_l-preview.scss */
+/* line 70, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__download, .b-preview__countDownload {
+  display: inline-block;
+}
+/* line 74, ../dev/sass/blocks/_l-preview.scss */
+.b-preview__download {
+  width: 9px;
+  height: 11px;
+  overflow: hidden;
+  margin: 0 11px 0 0;
+  background: url("../img/blocks/preview/panel-ico.png") 0 0 no-repeat;
+  text-indent: 100px;
+}
+/* line 83, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__img {
   display: block;
   width: 100%;
   height: 100%;
 }
-/* line 87, ../dev/sass/blocks/_l-preview.scss */
+/* line 89, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__info {
   margin: 5px 0 0;
   padding: 0 0 0 11px;
@@ -1864,24 +1865,24 @@ html, body {
 .b-preview__info {
   *zoom: 1;
 }
-/* line 95, ../dev/sass/blocks/_l-preview.scss */
+/* line 97, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__info.-type_two {
   margin-top: 13px;
 }
-/* line 100, ../dev/sass/blocks/_l-preview.scss */
+/* line 102, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__title {
   float: left;
   width: 215px;
   font-size: 14px;
   line-height: 1.4;
 }
-/* line 107, ../dev/sass/blocks/_l-preview.scss */
+/* line 109, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__like {
   position: relative;
   padding: 14px 0 4px 12px;
   overflow: hidden;
 }
-/* line 111, ../dev/sass/blocks/_l-preview.scss */
+/* line 113, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__like:before {
   position: absolute;
   top: 10px;
@@ -1892,11 +1893,11 @@ html, body {
   border-left: 1px solid #e1e6e6;
   content: '';
 }
-/* line 123, ../dev/sass/blocks/_l-preview.scss */
+/* line 125, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__stars {
   float: left;
 }
-/* line 127, ../dev/sass/blocks/_l-preview.scss */
+/* line 129, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__rate {
   float: right;
   margin: 0 8px 0 0;

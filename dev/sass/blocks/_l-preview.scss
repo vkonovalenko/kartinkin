@@ -59,23 +59,25 @@
 		color: #fff;
 		font-size: 12px;
 		&_left {
-			position: relative;
-			padding: 0 0 0 20px;
 			float: left;
-			&:before {
-				position: absolute;
-				left: 0;
-				top: 0;
-				width: 9px;
-				height: 11px;
-				background: url('../img/blocks/preview/panel-ico.png') 0 0 no-repeat;
-				content: '';
-			}
 		}
 		&_right {
 			float: right;
 			text-align: right;
 		}
+	}
+
+	&__download, &__countDownload {
+		display: inline-block;
+	}
+
+	&__download {
+		width: 9px;
+		height: 11px;
+		overflow: hidden;
+		margin: 0 11px 0 0;
+		background: url('../img/blocks/preview/panel-ico.png') 0 0 no-repeat;
+		text-indent: 100px;
 	}
 
 	&__img {
