@@ -4,15 +4,22 @@
   $uri = 'index';
   require('inc/header.php');
 ?>
-
-<div class="l-panel">
-	<div class="b-panel">
-		<div class="l-pageTitle">
-			<h2 class="b-pageTitle">Последние добавленные картинки</h2>
+<div class="l-breadCrumbs">
+	<ul class="b-breadCrumbs">
+		<li class="b-breadCrumbs__item">
+			<a href="" class="b-breadCrumbs__link">Секретный проект номер 1</a>
+		</li>
+		<li class="b-breadCrumbs__item">Избранное</li>
+	</ul>
+</div>
+<div class="l-content">
+	<div class="l-panel">
+		<div class="b-panel">
+			<div class="l-pageTitle">
+				<h2 class="b-pageTitle">Последние добавленные картинки</h2>
+			</div>
 		</div>
 	</div>
-</div>
- <div class="l-content">
 	<main class="b-content" role="main">
 		<?php require('inc/sidebar.php'); ?>
 		<div class="b-content__content">

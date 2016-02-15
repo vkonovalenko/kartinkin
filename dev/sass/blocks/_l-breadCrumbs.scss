@@ -1,0 +1,17 @@
+/**
+* @section bread сrumbs
+*/
+.l-breadCrumbs {
+	background: #fff;
+}
+.b-breadCrumbs {
+	max-width: $siteWidth;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	list-style: none;
+	&__item {}
+	&__link {}
+}
+
+
