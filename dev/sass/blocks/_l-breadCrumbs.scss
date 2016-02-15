@@ -5,13 +5,43 @@
 	background: #fff;
 }
 .b-breadCrumbs {
+	@include clearfix;
 	max-width: $siteWidth;
 	margin: 0 auto;
-	padding: 0;
+	padding: 26px 20px 16px;
 	display: block;
 	list-style: none;
-	&__item {}
-	&__link {}
+	&__item {
+		float: left;
+		margin: 0 20px 0 0;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__link {
+		position: relative;
+		display: inline-block;
+		padding: 0 30px 0 0;
+		color: $mainColor;
+		text-decoration: underline;
+		&:hover, &:focus, &:active, &:visited {
+			color: $mainColor;
+			text-decoration: underline;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+		&:before {
+			position: absolute;
+			right: 0;
+			top: 4px;
+			width: 7px;
+			height: 11px;
+			background: url('../img/blocks/breadCrumbs/breadCrumbs-ico.png') 0 0 no-repeat;
+			content: '';
+		}
+	}
 }
 
 

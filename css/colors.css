@@ -49,3 +49,8 @@
 .b-sidebarMenu__count {
   background: #5bb14d;
 }
+
+/* line 58, ../dev/sass/colors.scss */
+.b-breadCrumbs__item {
+  color: #5bb14d;
+}
