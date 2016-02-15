@@ -1467,6 +1467,87 @@ html, body {
   *zoom: 1;
 }
 
+/* line 13, ../dev/sass/blocks/_l-panel.scss */
+.l-panelDualLinks {
+  float: right;
+}
+
+/* line 17, ../dev/sass/blocks/_l-panel.scss */
+.b-panelDualLinks {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-panelDualLinks:before, .b-panelDualLinks:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-panelDualLinks:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-panelDualLinks {
+  *zoom: 1;
+}
+/* line 23, ../dev/sass/blocks/_l-panel.scss */
+.b-panelDualLinks__item {
+  float: left;
+  margin: 0 30px 0 0;
+}
+/* line 26, ../dev/sass/blocks/_l-panel.scss */
+.b-panelDualLinks__item:last-child {
+  margin-right: 0;
+}
+/* line 31, ../dev/sass/blocks/_l-panel.scss */
+.b-panelDualLinks__link, .b-panelDualLinks__btn {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 36, ../dev/sass/blocks/_l-panel.scss */
+.b-panelDualLinks__link {
+  padding: 12px 0 8px;
+}
+/* line 39, ../dev/sass/blocks/_l-panel.scss */
+.b-panelDualLinks__link:hover, .b-panelDualLinks__link:focus, .b-panelDualLinks__link:visted, .b-panelDualLinks__link:active {
+  text-decoration: none;
+}
+/* line 43, ../dev/sass/blocks/_l-panel.scss */
+.b-panelDualLinks__link:hover {
+  text-decoration: underline;
+}
+/* line 48, ../dev/sass/blocks/_l-panel.scss */
+.b-panelDualLinks__btn {
+  width: 40px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 10px 0 0;
+  padding: 0 0 0 2px;
+  border: 1px solid #d9e7e7;
+  background: #fff;
+}
+/* line 56, ../dev/sass/blocks/_l-panel.scss */
+.b-panelDualLinks__btn:before {
+  display: block;
+  width: 11px;
+  height: 11px;
+  overflow: hidden;
+  margin: 15px auto 0;
+  background: transparent 0 0 no-repeat;
+  content: '';
+}
+/* line 66, ../dev/sass/blocks/_l-panel.scss */
+.-type_download .b-panelDualLinks__btn:before {
+  background-position: 0 0;
+}
+/* line 72, ../dev/sass/blocks/_l-panel.scss */
+.-type_clear .b-panelDualLinks__btn:before {
+  background-position: -24px 0;
+}
+
 /**
 * @section Page Title
 */
@@ -1996,16 +2077,16 @@ html, body {
 .b-breadCrumbs {
   *zoom: 1;
 }
-/* line 14, ../dev/sass/blocks/_l-breadCrumbs.scss */
+/* line 15, ../dev/sass/blocks/_l-breadCrumbs.scss */
 .b-breadCrumbs__item {
   float: left;
   margin: 0 20px 0 0;
 }
-/* line 17, ../dev/sass/blocks/_l-breadCrumbs.scss */
+/* line 19, ../dev/sass/blocks/_l-breadCrumbs.scss */
 .b-breadCrumbs__item:last-child {
   margin-right: 0;
 }
-/* line 22, ../dev/sass/blocks/_l-breadCrumbs.scss */
+/* line 24, ../dev/sass/blocks/_l-breadCrumbs.scss */
 .b-breadCrumbs__link {
   position: relative;
   display: inline-block;
@@ -2013,16 +2094,16 @@ html, body {
   color: #33373b;
   text-decoration: underline;
 }
-/* line 28, ../dev/sass/blocks/_l-breadCrumbs.scss */
+/* line 31, ../dev/sass/blocks/_l-breadCrumbs.scss */
 .b-breadCrumbs__link:hover, .b-breadCrumbs__link:focus, .b-breadCrumbs__link:active, .b-breadCrumbs__link:visited {
   color: #33373b;
   text-decoration: underline;
 }
-/* line 32, ../dev/sass/blocks/_l-breadCrumbs.scss */
+/* line 36, ../dev/sass/blocks/_l-breadCrumbs.scss */
 .b-breadCrumbs__link:hover {
   text-decoration: none;
 }
-/* line 35, ../dev/sass/blocks/_l-breadCrumbs.scss */
+/* line 40, ../dev/sass/blocks/_l-breadCrumbs.scss */
 .b-breadCrumbs__link:before {
   position: absolute;
   right: 0;
