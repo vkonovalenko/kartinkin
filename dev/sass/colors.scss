@@ -59,3 +59,19 @@
 		color: $themeColor;
 	}
 }
+
+.b-panelDualLinks {
+	&__link {
+		color: $themeColor;
+		&:hover, &:active, &:visited, &:focus {
+			color: $themeColor;
+		}
+	}
+
+	&__btn {
+		&:before {
+			background-image: url('../img/blocks/panel/panelDualLinks-ico.png');
+		}
+	}
+}
+

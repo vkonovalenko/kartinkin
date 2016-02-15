@@ -54,3 +54,16 @@
 .b-breadCrumbs__item {
   color: #5bb14d;
 }
+
+/* line 64, ../dev/sass/colors.scss */
+.b-panelDualLinks__link {
+  color: #5bb14d;
+}
+/* line 66, ../dev/sass/colors.scss */
+.b-panelDualLinks__link:hover, .b-panelDualLinks__link:active, .b-panelDualLinks__link:visited, .b-panelDualLinks__link:focus {
+  color: #5bb14d;
+}
+/* line 72, ../dev/sass/colors.scss */
+.b-panelDualLinks__btn:before {
+  background-image: url("../img/blocks/panel/panelDualLinks-ico.png");
+}
