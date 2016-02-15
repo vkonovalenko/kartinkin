@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -1967,9 +1968,75 @@ html, body {
 }
 
 /**
+* @section bread ╤ürumbs
+*/
+/* line 4, ../dev/sass/blocks/_l-breadCrumbs.scss */
+.l-breadCrumbs {
+  background: #fff;
+}
+
+/* line 7, ../dev/sass/blocks/_l-breadCrumbs.scss */
+.b-breadCrumbs {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 26px 20px 16px;
+  display: block;
+  list-style: none;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-breadCrumbs:before, .b-breadCrumbs:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-breadCrumbs:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-breadCrumbs {
+  *zoom: 1;
+}
+/* line 14, ../dev/sass/blocks/_l-breadCrumbs.scss */
+.b-breadCrumbs__item {
+  float: left;
+  margin: 0 20px 0 0;
+}
+/* line 17, ../dev/sass/blocks/_l-breadCrumbs.scss */
+.b-breadCrumbs__item:last-child {
+  margin-right: 0;
+}
+/* line 22, ../dev/sass/blocks/_l-breadCrumbs.scss */
+.b-breadCrumbs__link {
+  position: relative;
+  display: inline-block;
+  padding: 0 30px 0 0;
+  color: #33373b;
+  text-decoration: underline;
+}
+/* line 28, ../dev/sass/blocks/_l-breadCrumbs.scss */
+.b-breadCrumbs__link:hover, .b-breadCrumbs__link:focus, .b-breadCrumbs__link:active, .b-breadCrumbs__link:visited {
+  color: #33373b;
+  text-decoration: underline;
+}
+/* line 32, ../dev/sass/blocks/_l-breadCrumbs.scss */
+.b-breadCrumbs__link:hover {
+  text-decoration: none;
+}
+/* line 35, ../dev/sass/blocks/_l-breadCrumbs.scss */
+.b-breadCrumbs__link:before {
+  position: absolute;
+  right: 0;
+  top: 4px;
+  width: 7px;
+  height: 11px;
+  background: url("../img/blocks/breadCrumbs/breadCrumbs-ico.png") 0 0 no-repeat;
+  content: '';
+}
+
+/**
 * @section content
 */
-/* line 54, ../dev/sass/main.scss */
+/* line 55, ../dev/sass/main.scss */
 .l-content {
   max-width: 1220px;
   margin: 0 auto;
@@ -1977,7 +2044,7 @@ html, body {
   position: relative;
 }
 
-/* line 61, ../dev/sass/main.scss */
+/* line 62, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
@@ -1996,12 +2063,12 @@ html, body {
 .b-content {
   *zoom: 1;
 }
-/* line 66, ../dev/sass/main.scss */
+/* line 67, ../dev/sass/main.scss */
 .b-content__content {
   overflow: hidden;
 }
 @media only screen and (max-width: 640px) {
-  /* line 66, ../dev/sass/main.scss */
+  /* line 67, ../dev/sass/main.scss */
   .b-content__content {
     overflow: auto;
   }
