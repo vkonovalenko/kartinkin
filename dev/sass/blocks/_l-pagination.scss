@@ -1,0 +1,94 @@
+/**
+* @section Pagination
+*/
+
+.l-pagination {
+	margin: 20px 23px 0 0;
+}
+
+.b-pagination {
+	@include clearfix;
+	text-align: center;
+
+	&__arrow, &__number {
+		display: block;
+		width: 40px;
+		height: 40px;
+		margin: 0;
+    padding: 10px 0;
+		box-sizing: border-box;
+		text-align: center;
+		text-decoration: none;
+
+		&:hover, &:active, &:visited, &:focus {
+			text-decoration: none;
+		}
+	}
+
+	&__arrow  {
+		position: relative;
+		overflow: hidden;
+		text-indent: 100px;
+		font-size: 0;
+		border: 1px solid #d9e7e7; 
+		background: #fff;
+		color: $secondColor;
+
+		&.-type_prev {
+			float: left;
+			&:before {
+				background-position: 0 0;
+			}
+			&:hover, &.-state_inactive {
+				&:before {
+					background-position: 0 -17px;
+				}
+			}
+		}
+
+		&.-type_next {
+			float: right;
+			&:before {
+				background-position: -36px 0;
+			}
+			&:hover, &.-state_inactive {
+				&:before {
+					background-position: -36px -17px;
+				}
+			}
+		}
+
+		&:before {
+			display: block;
+			margin: 3px auto 0;
+			width: 7px;
+			height: 13px;
+			background: transparent 0 0 no-repeat;
+			content: '';
+		}
+	}
+
+	&__pages {
+		@include clearfix;
+		display: inline-block;
+	}
+
+	&__number {
+		float: left;
+		text-decoration: none;
+		border: 1px solid transparent;
+
+		&:hover, &:active, &:visited, &:focus { 
+			text-decoration: none;
+		}
+
+		&.-state_active {
+			border: 1px solid #d9e7e7; 
+			background: #fff;
+			color: $secondColor;
+			&:hover, &:active, &:visited, &:focus {
+				color: $secondColor;
+			}
+		}
+	}
+}

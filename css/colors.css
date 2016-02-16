@@ -80,3 +80,20 @@
 .b-panelView__number:before {
   background-image: url("../img/blocks/panel/panelView-ico.png");
 }
+
+/* line 96, ../dev/sass/colors.scss */
+.b-pagination__arrow:before {
+  background-image: url("../img/blocks/pagination/pagination-ico.png");
+}
+/* line 100, ../dev/sass/colors.scss */
+.b-pagination__number {
+  color: #5bb14d;
+}
+/* line 103, ../dev/sass/colors.scss */
+.b-pagination__number:hover, .b-pagination__number:active, .b-pagination__number:visited, .b-pagination__number:focus {
+  color: #5bb14d;
+}
+/* line 108, ../dev/sass/colors.scss */
+.b-pagination__number.-state_active:hover {
+  color: #5bb14d;
+}

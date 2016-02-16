@@ -1470,7 +1470,7 @@ html, body {
 /* line 13, ../dev/sass/blocks/_l-panel.scss */
 .l-panelView, .l-panelDualLinks {
   float: right;
-  margin: 0 0 0 70px;
+  margin: 0 0 5px 70px;
 }
 
 /* line 18, ../dev/sass/blocks/_l-panel.scss */
@@ -1570,28 +1570,29 @@ html, body {
           box-sizing: border-box;
   margin: 0;
   padding: 10px 0;
+  border: 1px solid transparent;
   text-align: center;
   font-style: italic;
   cursor: pointer;
 }
-/* line 105, ../dev/sass/blocks/_l-panel.scss */
+/* line 106, ../dev/sass/blocks/_l-panel.scss */
 .-state_active .b-panelView__number {
   border: 1px solid #d9e7e7;
   background: #fff;
   color: #555454;
 }
-/* line 111, ../dev/sass/blocks/_l-panel.scss */
+/* line 112, ../dev/sass/blocks/_l-panel.scss */
 .-type_sort .b-panelView__number {
   padding: 0;
   overflow: hidden;
   text-indent: 100px;
   font-size: 0;
 }
-/* line 116, ../dev/sass/blocks/_l-panel.scss */
+/* line 117, ../dev/sass/blocks/_l-panel.scss */
 .-type_sort .b-panelView__number:before {
   display: block;
 }
-/* line 121, ../dev/sass/blocks/_l-panel.scss */
+/* line 122, ../dev/sass/blocks/_l-panel.scss */
 .b-panelView__number:before {
   display: none;
   width: 13px;
@@ -1601,53 +1602,53 @@ html, body {
   background: transparent 0 0 no-repeat;
   content: '';
 }
-/* line 132, ../dev/sass/blocks/_l-panel.scss */
+/* line 133, ../dev/sass/blocks/_l-panel.scss */
 .b-panelView__number.-type_date:before {
   background-position: 0 0;
 }
-/* line 136, ../dev/sass/blocks/_l-panel.scss */
+/* line 137, ../dev/sass/blocks/_l-panel.scss */
 .-state_active .b-panelView__number.-type_date:before {
   background-position: 0 -29px;
 }
-/* line 141, ../dev/sass/blocks/_l-panel.scss */
+/* line 142, ../dev/sass/blocks/_l-panel.scss */
 .b-panelView__number.-type_date:hover:before {
   background-position: 0 0;
 }
-/* line 147, ../dev/sass/blocks/_l-panel.scss */
+/* line 148, ../dev/sass/blocks/_l-panel.scss */
 .b-panelView__number.-type_view:before {
   width: 14px;
   background-position: -44px 0;
 }
-/* line 152, ../dev/sass/blocks/_l-panel.scss */
+/* line 153, ../dev/sass/blocks/_l-panel.scss */
 .-state_active .b-panelView__number.-type_view:before {
   background-position: -44px -29px;
 }
-/* line 157, ../dev/sass/blocks/_l-panel.scss */
+/* line 158, ../dev/sass/blocks/_l-panel.scss */
 .b-panelView__number.-type_view:hover:before {
   background-position: -44px 0;
 }
-/* line 163, ../dev/sass/blocks/_l-panel.scss */
+/* line 164, ../dev/sass/blocks/_l-panel.scss */
 .b-panelView__number.-type_rate:before {
   background-position: -81px -1px;
 }
-/* line 167, ../dev/sass/blocks/_l-panel.scss */
+/* line 168, ../dev/sass/blocks/_l-panel.scss */
 .-state_active .b-panelView__number.-type_rate:before {
   background-position: -81px -29px;
 }
-/* line 171, ../dev/sass/blocks/_l-panel.scss */
+/* line 172, ../dev/sass/blocks/_l-panel.scss */
 .-state_active .b-panelView__number.-type_rate:hover:before {
   background-position: -81px -1px;
 }
-/* line 178, ../dev/sass/blocks/_l-panel.scss */
+/* line 179, ../dev/sass/blocks/_l-panel.scss */
 .b-panelView__number.-type_ascDesc:before {
   width: 20px;
   background-position: -127px 0;
 }
-/* line 183, ../dev/sass/blocks/_l-panel.scss */
+/* line 184, ../dev/sass/blocks/_l-panel.scss */
 .-state_active .b-panelView__number.-type_ascDesc:before {
   background-position: -127px -28px;
 }
-/* line 188, ../dev/sass/blocks/_l-panel.scss */
+/* line 189, ../dev/sass/blocks/_l-panel.scss */
 .b-panelView__number.-type_ascDesc:hover:before {
   background-position: -127px 0;
 }
@@ -2219,9 +2220,132 @@ html, body {
 }
 
 /**
+* @section Pagination
+*/
+/* line 5, ../dev/sass/blocks/_l-pagination.scss */
+.l-pagination {
+  margin: 20px 23px 0 0;
+}
+
+/* line 9, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination {
+  text-align: center;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-pagination:before, .b-pagination:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-pagination:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-pagination {
+  *zoom: 1;
+}
+/* line 13, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow, .b-pagination__number {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 10px 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 23, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow:hover, .b-pagination__arrow:active, .b-pagination__arrow:visited, .b-pagination__arrow:focus, .b-pagination__number:hover, .b-pagination__number:active, .b-pagination__number:visited, .b-pagination__number:focus {
+  text-decoration: none;
+}
+/* line 28, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow {
+  position: relative;
+  overflow: hidden;
+  text-indent: 100px;
+  font-size: 0;
+  border: 1px solid #d9e7e7;
+  background: #fff;
+  color: #555454;
+}
+/* line 37, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow.-type_prev {
+  float: left;
+}
+/* line 39, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow.-type_prev:before {
+  background-position: 0 0;
+}
+/* line 43, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow.-type_prev:hover:before, .b-pagination__arrow.-type_prev.-state_inactive:before {
+  background-position: 0 -17px;
+}
+/* line 49, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow.-type_next {
+  float: right;
+}
+/* line 51, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow.-type_next:before {
+  background-position: -36px 0;
+}
+/* line 55, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow.-type_next:hover:before, .b-pagination__arrow.-type_next.-state_inactive:before {
+  background-position: -36px -17px;
+}
+/* line 61, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__arrow:before {
+  display: block;
+  margin: 3px auto 0;
+  width: 7px;
+  height: 13px;
+  background: transparent 0 0 no-repeat;
+  content: '';
+}
+/* line 71, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__pages {
+  display: inline-block;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-pagination__pages:before, .b-pagination__pages:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-pagination__pages:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-pagination__pages {
+  *zoom: 1;
+}
+/* line 76, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__number {
+  float: left;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+/* line 81, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__number:hover, .b-pagination__number:active, .b-pagination__number:visited, .b-pagination__number:focus {
+  text-decoration: none;
+}
+/* line 85, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__number.-state_active {
+  border: 1px solid #d9e7e7;
+  background: #fff;
+  color: #555454;
+}
+/* line 89, ../dev/sass/blocks/_l-pagination.scss */
+.b-pagination__number.-state_active:hover, .b-pagination__number.-state_active:active, .b-pagination__number.-state_active:visited, .b-pagination__number.-state_active:focus {
+  color: #555454;
+}
+
+/**
 * @section content
 */
-/* line 55, ../dev/sass/main.scss */
+/* line 57, ../dev/sass/main.scss */
 .l-content {
   max-width: 1220px;
   margin: 0 auto;
@@ -2229,7 +2353,7 @@ html, body {
   position: relative;
 }
 
-/* line 62, ../dev/sass/main.scss */
+/* line 64, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
@@ -2248,12 +2372,12 @@ html, body {
 .b-content {
   *zoom: 1;
 }
-/* line 67, ../dev/sass/main.scss */
+/* line 69, ../dev/sass/main.scss */
 .b-content__content {
   overflow: hidden;
 }
 @media only screen and (max-width: 640px) {
-  /* line 67, ../dev/sass/main.scss */
+  /* line 69, ../dev/sass/main.scss */
   .b-content__content {
     overflow: auto;
   }

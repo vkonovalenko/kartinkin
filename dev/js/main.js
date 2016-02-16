@@ -5,6 +5,7 @@ $(function() {
  like();
  initRate();
  selectView();
+ changePage();
 });
 
 function like() {
@@ -26,5 +27,12 @@ function initRate() {
 function selectView() {
 	$( '.js-panelView' ).on( 'click', '.js-panelView__number', function() {
 		$(this).parent().addClass( '-state_active' ).siblings().removeClass( '-state_active' );
+	});
+}
+
+function changePage() {
+	$( '.js-pagination__number' ).click(function(e) {
+		e.preventDefault();
+		$(this).addClass( '-state_active' ).siblings().removeClass( '-state_active' );
 	});
 }

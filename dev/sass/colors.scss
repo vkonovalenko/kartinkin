@@ -91,3 +91,24 @@
 	}
 }
 
+.b-pagination {
+	&__arrow  {
+		&:before {
+			background-image: url('../img/blocks/pagination/pagination-ico.png');
+		}
+	}
+	&__number {
+		color: $themeColor;
+
+		&:hover, &:active, &:visited, &:focus {
+			color: $themeColor;
+		}
+
+		&.-state_active {
+			&:hover {
+				color: $themeColor;
+			}
+		}
+	}
+}
+
