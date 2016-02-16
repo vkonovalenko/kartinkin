@@ -67,3 +67,12 @@
 .b-panelDualLinks__btn:before {
   background-image: url("../img/blocks/panel/panelDualLinks-ico.png");
 }
+
+/* line 80, ../dev/sass/colors.scss */
+.b-panelView__number {
+  color: #5bb14d;
+}
+/* line 83, ../dev/sass/colors.scss */
+.-state_active .b-panelView__number:hover {
+  color: #5bb14d;
+}

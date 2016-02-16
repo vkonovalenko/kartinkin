@@ -18,6 +18,20 @@
 			<div class="l-pageTitle">
 				<h2 class="b-pageTitle">Последние добавленные картинки</h2>
 			</div>
+			<div class="l-panelView">
+				<ul class="b-panelView">
+					<li class="b-panelView__item -type_title">Отображать:</li>
+					<li class="b-panelView__item -state_active">
+						<span class="b-panelView__number js-panelView__number">24</span>
+					</li>
+					<li class="b-panelView__item">
+						<span class="b-panelView__number js-panelView__number">48</span>
+					</li>
+					<li class="b-panelView__item">
+						<span class="b-panelView__number js-panelView__number">96</span>
+					</li>
+				</ul>
+			</div>
 			<div class="l-panelDualLinks">
 				<ul class="b-panelDualLinks">
 					<li class="b-panelDualLinks__item -type_download">

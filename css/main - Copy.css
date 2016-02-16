@@ -1468,56 +1468,62 @@ html, body {
 }
 
 /* line 13, ../dev/sass/blocks/_l-panel.scss */
-.l-panelDualLinks {
+.l-panelView, .l-panelDualLinks {
   float: right;
 }
 
 /* line 17, ../dev/sass/blocks/_l-panel.scss */
-.b-panelDualLinks {
+.l-panelDualLinks {
+  margin: 0 70px 0 0;
+}
+
+/* line 21, ../dev/sass/blocks/_l-panel.scss */
+.b-panelView, .b-panelDualLinks {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 /* line 16, ../dev/sass/_mixins.scss */
-.b-panelDualLinks:before, .b-panelDualLinks:after {
+.b-panelView:before, .b-panelView:after, .b-panelDualLinks:before, .b-panelDualLinks:after {
   content: " ";
   display: table;
 }
 /* line 21, ../dev/sass/_mixins.scss */
-.b-panelDualLinks:after {
+.b-panelView:after, .b-panelDualLinks:after {
   clear: both;
 }
 /* line 24, ../dev/sass/_mixins.scss */
-.b-panelDualLinks {
+.b-panelView, .b-panelDualLinks {
   *zoom: 1;
 }
-/* line 23, ../dev/sass/blocks/_l-panel.scss */
+
+/* line 30, ../dev/sass/blocks/_l-panel.scss */
 .b-panelDualLinks__item {
   float: left;
   margin: 0 30px 0 0;
 }
-/* line 26, ../dev/sass/blocks/_l-panel.scss */
+/* line 33, ../dev/sass/blocks/_l-panel.scss */
 .b-panelDualLinks__item:last-child {
   margin-right: 0;
 }
-/* line 31, ../dev/sass/blocks/_l-panel.scss */
+/* line 38, ../dev/sass/blocks/_l-panel.scss */
 .b-panelDualLinks__link, .b-panelDualLinks__btn {
   display: inline-block;
   vertical-align: top;
 }
-/* line 36, ../dev/sass/blocks/_l-panel.scss */
+/* line 43, ../dev/sass/blocks/_l-panel.scss */
 .b-panelDualLinks__link {
   padding: 12px 0 8px;
 }
-/* line 39, ../dev/sass/blocks/_l-panel.scss */
+/* line 46, ../dev/sass/blocks/_l-panel.scss */
 .b-panelDualLinks__link:hover, .b-panelDualLinks__link:focus, .b-panelDualLinks__link:visted, .b-panelDualLinks__link:active {
   text-decoration: none;
 }
-/* line 43, ../dev/sass/blocks/_l-panel.scss */
+/* line 50, ../dev/sass/blocks/_l-panel.scss */
 .b-panelDualLinks__link:hover {
   text-decoration: underline;
 }
-/* line 48, ../dev/sass/blocks/_l-panel.scss */
+/* line 55, ../dev/sass/blocks/_l-panel.scss */
 .b-panelDualLinks__btn {
   width: 40px;
   height: 40px;
@@ -1529,7 +1535,7 @@ html, body {
   border: 1px solid #d9e7e7;
   background: #fff;
 }
-/* line 56, ../dev/sass/blocks/_l-panel.scss */
+/* line 63, ../dev/sass/blocks/_l-panel.scss */
 .b-panelDualLinks__btn:before {
   display: block;
   width: 11px;
@@ -1539,13 +1545,43 @@ html, body {
   background: transparent 0 0 no-repeat;
   content: '';
 }
-/* line 66, ../dev/sass/blocks/_l-panel.scss */
+/* line 73, ../dev/sass/blocks/_l-panel.scss */
 .-type_download .b-panelDualLinks__btn:before {
   background-position: 0 0;
 }
-/* line 72, ../dev/sass/blocks/_l-panel.scss */
+/* line 79, ../dev/sass/blocks/_l-panel.scss */
 .-type_clear .b-panelDualLinks__btn:before {
   background-position: -24px 0;
+}
+
+/* line 88, ../dev/sass/blocks/_l-panel.scss */
+.b-panelView__item {
+  float: left;
+  margin: 0 8px 0 0;
+}
+/* line 91, ../dev/sass/blocks/_l-panel.scss */
+.b-panelView__item.-type_title {
+  padding: 12px 0 8px;
+}
+/* line 96, ../dev/sass/blocks/_l-panel.scss */
+.b-panelView__number {
+  width: 40px;
+  height: 40px;
+  display: block;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-style: italic;
+  cursor: pointer;
+}
+/* line 107, ../dev/sass/blocks/_l-panel.scss */
+.-state_active .b-panelView__number {
+  border: 1px solid #d9e7e7;
+  background: #fff;
+  color: #555454;
 }
 
 /**

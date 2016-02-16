@@ -10,15 +10,22 @@
 	@include clearfix;
 }
 
-.l-panelDualLinks {
+.l-panelView, .l-panelDualLinks {
 	float: right;
 }
 
-.b-panelDualLinks {
+.l-panelDualLinks {
+	margin: 0 70px 0 0;
+}
+
+.b-panelView, .b-panelDualLinks {
 	@include clearfix;
 	padding: 0;
 	margin: 0;
 	list-style: none;
+}
+
+.b-panelDualLinks {
 
 	&__item {
 		float: left;
@@ -72,6 +79,35 @@
 			&:before {
 				background-position: -24px 0;
 			}
+		}
+	}
+}
+
+.b-panelView {
+	
+	&__item {
+		float: left;
+    margin: 0 8px 0 0;
+		&.-type_title {
+	    padding: 12px 0 8px;
+		}
+	}
+
+	&__number {
+		width: 40px;
+		height: 40px;
+		display: block;
+		box-sizing: border-box;
+		margin: 0;
+    padding: 10px 0;
+		text-align: center;
+		font-style: italic;
+		cursor: pointer;
+
+		.-state_active & {
+			border: 1px solid #d9e7e7; 
+			background: #fff;
+			color: $secondColor;
 		}
 	}
 }

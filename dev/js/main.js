@@ -4,6 +4,7 @@
 $(function() {
  like();
  initRate();
+ selectView();
 });
 
 function like() {
@@ -20,4 +21,11 @@ function initRate() {
 		size: '1.0em',
 		cursor: 'pointer'
 	});	
+}
+
+function selectView() {
+	$( '.js-panelView__number' ).click(function() {
+		$( '.js-panelView__number' ).parent().removeClass('-state_active');
+		$(this).parent().addClass('-state_active');
+	});
 }

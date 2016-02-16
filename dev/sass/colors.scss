@@ -75,3 +75,15 @@
 	}
 }
 
+.b-panelView {
+
+	&__number { 
+		color: $themeColor;
+		.-state_active & {
+			&:hover {
+				color: $themeColor;
+			}
+		}
+	}
+}
+
