@@ -13,27 +13,11 @@
 	</ul>
 </div>
 <div class="l-content">
-	<div class="l-panel">
+	<div class="l-panel js-panelView">
 		<div class="b-panel">
 			<div class="l-pageTitle">
 				<h2 class="b-pageTitle">Последние добавленные картинки</h2>
 			</div>
-			
-			<div class="l-panelView">
-				<ul class="b-panelView">
-					<li class="b-panelView__item -type_title">Сортировать:</li>
-					<li class="b-panelView__item -state_active">
-						<span class="b-panelView__number js-panelView__number">24</span>
-					</li>
-					<li class="b-panelView__item">
-						<span class="b-panelView__number js-panelView__number">48</span>
-					</li>
-					<li class="b-panelView__item">
-						<span class="b-panelView__number js-panelView__number">96</span>
-					</li>
-				</ul>
-			</div>
-
 			<div class="l-panelView">
 				<ul class="b-panelView">
 					<li class="b-panelView__item -type_title">Отображать:</li>
@@ -45,6 +29,23 @@
 					</li>
 					<li class="b-panelView__item">
 						<span class="b-panelView__number js-panelView__number">96</span>
+					</li>
+				</ul>
+			</div>
+			<div class="l-panelView js-panelView -type_sort">
+				<ul class="b-panelView">
+					<li class="b-panelView__item -type_title">Сортировать:</li>
+					<li class="b-panelView__item -state_active">
+						<span class="b-panelView__number js-panelView__number -type_date">Date</span>
+					</li>
+					<li class="b-panelView__item">
+						<span class="b-panelView__number js-panelView__number -type_view">View</span>
+					</li>
+					<li class="b-panelView__item">
+						<span class="b-panelView__number js-panelView__number -type_rate"></span>
+					</li>
+					<li class="b-panelView__item">
+						<span class="b-panelView__number js-panelView__number -type_ascDesc">Asc/Desc</span>
 					</li>
 				</ul>
 			</div>

@@ -24,8 +24,8 @@ function initRate() {
 }
 
 function selectView() {
-	$( '.js-panelView__number' ).click(function() {
-		$( '.js-panelView__number' ).parent().removeClass('-state_active');
-		$(this).parent().addClass('-state_active');
+	//$( '.js-panelView__number' ).click(function() {
+	$( '.js-panelView' ).on( 'click', '.js-panelView__number', function() {
+		$(this).parent().addClass( '-state_active' ).siblings().removeClass( '-state_active' );
 	});
 }

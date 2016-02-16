@@ -76,3 +76,7 @@
 .-state_active .b-panelView__number:hover {
   color: #5bb14d;
 }
+/* line 88, ../dev/sass/colors.scss */
+.b-panelView__number:before {
+  background-image: url("../img/blocks/panel/panelView-ico.png");
+}

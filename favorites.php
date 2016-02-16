@@ -18,7 +18,7 @@
 			<div class="l-pageTitle">
 				<h2 class="b-pageTitle">Последние добавленные картинки</h2>
 			</div>
-			<div class="l-panelView">
+			<div class="l-panelView js-panelView">
 				<ul class="b-panelView">
 					<li class="b-panelView__item -type_title">Отображать:</li>
 					<li class="b-panelView__item -state_active">
