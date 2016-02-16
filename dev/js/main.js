@@ -24,7 +24,6 @@ function initRate() {
 }
 
 function selectView() {
-	//$( '.js-panelView__number' ).click(function() {
 	$( '.js-panelView' ).on( 'click', '.js-panelView__number', function() {
 		$(this).parent().addClass( '-state_active' ).siblings().removeClass( '-state_active' );
 	});
