@@ -2363,7 +2363,7 @@ html, body {
 }
 /* line 23, ../dev/sass/blocks/_l-detail.scss */
 .b-detail__block {
-  margin: 20px 0;
+  margin: 20px 10px;
   padding: 0 0 20px;
   border-bottom: 1px solid #dae8e7;
 }
@@ -2423,16 +2423,15 @@ html, body {
   float: left;
   position: relative;
   width: 120px;
-  margin: 0 10px;
   padding: 0 0 0 25px;
   color: #a7a7a7;
   font-weight: 700;
 }
-/* line 69, ../dev/sass/blocks/_l-detail.scss */
+/* line 68, ../dev/sass/blocks/_l-detail.scss */
 .-type_column .b-detailList__title {
   width: 130px;
 }
-/* line 73, ../dev/sass/blocks/_l-detail.scss */
+/* line 72, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__title:before {
   position: absolute;
   top: 1px;
@@ -2443,15 +2442,15 @@ html, body {
   background: url("../img/blocks/detail/detail-ico.png") 0 0 no-repeat;
   content: '';
 }
-/* line 86, ../dev/sass/blocks/_l-detail.scss */
+/* line 85, ../dev/sass/blocks/_l-detail.scss */
 .-type_description .b-detailList__title:before {
   background-position: -72px 0;
 }
-/* line 93, ../dev/sass/blocks/_l-detail.scss */
+/* line 92, ../dev/sass/blocks/_l-detail.scss */
 .-type_tags .b-detailList__title:before {
   background-position: -72px -28px;
 }
-/* line 99, ../dev/sass/blocks/_l-detail.scss */
+/* line 98, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__val {
   overflow: hidden;
 }
