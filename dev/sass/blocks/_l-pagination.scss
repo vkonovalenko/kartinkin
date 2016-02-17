@@ -11,9 +11,8 @@
 	text-align: center;
 
 	&__arrow, &__number {
+		@extend .b-quadrate__size;
 		display: block;
-		width: 40px;
-		height: 40px;
 		margin: 0;
     padding: 10px 0;
 		box-sizing: border-box;
@@ -26,12 +25,11 @@
 	}
 
 	&__arrow  {
+		@extend .b-quadrate__style;
 		position: relative;
 		overflow: hidden;
 		text-indent: 100px;
 		font-size: 0;
-		border: 1px solid #d9e7e7; 
-		background: #fff;
 		color: $secondColor;
 
 		&.-type_prev {
@@ -83,8 +81,7 @@
 		}
 
 		&.-state_active {
-			border: 1px solid #d9e7e7; 
-			background: #fff;
+			@extend .b-quadrate__style;
 			color: $secondColor;
 			&:hover, &:active, &:visited, &:focus {
 				color: $secondColor;

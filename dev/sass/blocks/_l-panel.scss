@@ -22,6 +22,20 @@
 	list-style: none;
 }
 
+.b-quadrate {
+	&__style {
+		border: 1px solid #d9e7e7; 
+		background: #fff;
+	}
+
+	&__size {
+		width: 40px;
+		height: 40px;
+	}
+
+}
+
+
 .b-panelDualLinks {
 
 	&__item {
@@ -50,13 +64,14 @@
 	}
 
 	&__btn {
-		width: 40px;
-		height: 40px;
+		@extend .b-quadrate__size;
+		@extend .b-quadrate__style;
 		box-sizing: border-box;
 		margin: 0 10px 0 0;
 		padding: 0 0 0 2px;
-		border: 1px solid #d9e7e7; 
-		background: #fff;
+
+		
+
 		&:before {
 			display: block;
 			width: 11px;
@@ -91,9 +106,8 @@
 	}
 
 	&__number {
+		@extend .b-quadrate__size;
 		position: relative;
-		width: 40px;
-		height: 40px;
 		display: block;
 		box-sizing: border-box;
 		margin: 0;
@@ -104,8 +118,7 @@
 		cursor: pointer;
 
 		.-state_active & {
-			border: 1px solid #d9e7e7; 
-			background: #fff;
+			@extend .b-quadrate__style;
 			color: $secondColor;
 		}
 
