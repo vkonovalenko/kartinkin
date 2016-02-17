@@ -1,4 +1,4 @@
-<div class="l-panelView">
+<div class="l-panelView js-panelView">
   <ul class="b-panelView">
     <li class="b-panelView__item -type_title">Отображать:</li>
     <li class="b-panelView__item -state_active">

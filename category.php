@@ -13,7 +13,7 @@
 	</ul>
 </div>
 <div class="l-content">
-	<div class="l-panel js-panelView">
+	<div class="l-panel">
 		<div class="b-panel">
 			<div class="l-pageTitle">
 				<h2 class="b-pageTitle">Последние добавленные картинки</h2>
