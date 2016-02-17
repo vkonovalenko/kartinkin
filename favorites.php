@@ -16,7 +16,7 @@
 	<div class="l-panel">
 		<div class="b-panel">
 			<div class="l-pageTitle">
-				<h2 class="b-pageTitle">Последние добавленные картинки</h2>
+				<h2 class="b-pageTitle">Избранное</h2>
 			</div>
 			<?php require('inc/view.php'); ?>
 			<?php require('inc/download.php'); ?>
