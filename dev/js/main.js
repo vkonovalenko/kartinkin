@@ -4,8 +4,8 @@
 $(function() {
  like();
  initRate();
- selectView();
  changePage();
+ selectView();
 });
 
 function like() {

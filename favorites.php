@@ -18,32 +18,8 @@
 			<div class="l-pageTitle">
 				<h2 class="b-pageTitle">Последние добавленные картинки</h2>
 			</div>
-			<div class="l-panelView js-panelView">
-				<ul class="b-panelView">
-					<li class="b-panelView__item -type_title">Отображать:</li>
-					<li class="b-panelView__item -state_active">
-						<span class="b-panelView__number js-panelView__number">24</span>
-					</li>
-					<li class="b-panelView__item">
-						<span class="b-panelView__number js-panelView__number">48</span>
-					</li>
-					<li class="b-panelView__item">
-						<span class="b-panelView__number js-panelView__number">96</span>
-					</li>
-				</ul>
-			</div>
-			<div class="l-panelDualLinks">
-				<ul class="b-panelDualLinks">
-					<li class="b-panelDualLinks__item -type_download">
-						<a href="" class="b-panelDualLinks__btn"></a>
-						<a href="" class="b-panelDualLinks__link">Скачать все</a>
-					</li>
-					<li class="b-panelDualLinks__item -type_clear">
-						<a href="" class="b-panelDualLinks__btn"></a>
-						<a href="" class="b-panelDualLinks__link">Очистить</a>
-					</li>
-				</ul>
-			</div>
+			<?php require('inc/view.php'); ?>
+			<?php require('inc/download.php'); ?>
 		</div>
 		
 	</div>
@@ -398,21 +374,7 @@
 				</ul>
 			</div>
 
-			<div class="l-pagination">
-				<div class="b-pagination">
-					<a href="" class="b-pagination__arrow -type_prev">prev</a>
-						
-					<div class="b-pagination__pages">
-						<a href="" class="b-pagination__number js-pagination__number">1</a>
-						<a href="" class="b-pagination__number js-pagination__number">2</a>
-						<a href="" class="b-pagination__number js-pagination__number -state_active">3</a>
-						<a href="" class="b-pagination__number js-pagination__number">4</a>
-						<a href="" class="b-pagination__number js-pagination__number">5</a>
-					</div>
-
-					<a href="" class="b-pagination__arrow -type_next -state_inactive">next</a>
-				</div>
-			</div>
+			<?php require('inc/pagination.php'); ?>
 		</div>
 	</main>
 
