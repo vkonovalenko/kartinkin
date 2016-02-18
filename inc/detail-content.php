@@ -68,8 +68,10 @@
         </div>
       </div>
       <div class="b-detail__item">
-        <div class="l-like">
-          <i class="b-like js-like">like</i>
+        <div class="b-detail__line">
+          <div class="l-like -size_big -side-right">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
     </div>

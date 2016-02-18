@@ -2109,8 +2109,20 @@ html, body {
   border-left: 1px solid #e1e6e6;
   content: '';
 }
-
 /* line 19, ../dev/sass/blocks/_l-like.scss */
+.l-like.-size_big:before {
+  height: 24px;
+}
+/* line 24, ../dev/sass/blocks/_l-like.scss */
+.l-like.-side-right {
+  float: right;
+}
+/* line 28, ../dev/sass/blocks/_l-like.scss */
+.l-like.-side-left {
+  float: left;
+}
+
+/* line 33, ../dev/sass/blocks/_l-like.scss */
 .b-like {
   display: block;
   overflow: hidden;
@@ -2120,9 +2132,19 @@ html, body {
   background: url("../img/blocks/like/like-ico.png") 0 0 no-repeat;
   cursor: pointer;
 }
-/* line 27, ../dev/sass/blocks/_l-like.scss */
+/* line 42, ../dev/sass/blocks/_l-like.scss */
+.-size_big .b-like {
+  width: 21px;
+  height: 18px;
+  background-position: -69px 0;
+}
+/* line 48, ../dev/sass/blocks/_l-like.scss */
 .b-like.-state_liked, .b-like:hover {
   background-position: -35px 0;
+}
+/* line 51, ../dev/sass/blocks/_l-like.scss */
+.-size_big .b-like.-state_liked, .-size_big .b-like:hover {
+  background-position: -101px 0;
 }
 
 /**
@@ -2384,14 +2406,29 @@ html, body {
 .b-detail__block {
   *zoom: 1;
 }
-/* line 29, ../dev/sass/blocks/_l-detail.scss */
+/* line 30, ../dev/sass/blocks/_l-detail.scss */
 .b-detail__item {
   float: left;
   margin: 0 40px 0 0;
 }
-/* line 32, ../dev/sass/blocks/_l-detail.scss */
+/* line 33, ../dev/sass/blocks/_l-detail.scss */
 .b-detail__item:last-child {
+  float: none;
+  overflow: hidden;
   margin-right: 0;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-detail__line:before, .b-detail__line:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-detail__line:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-detail__line {
+  *zoom: 1;
 }
 
 /* line 16, ../dev/sass/_mixins.scss */
@@ -2408,31 +2445,31 @@ html, body {
   *zoom: 1;
 }
 
-/* line 42, ../dev/sass/blocks/_l-detail.scss */
+/* line 49, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList {
   display: block;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 48, ../dev/sass/blocks/_l-detail.scss */
+/* line 55, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList.-type_column {
   float: left;
   margin-right: 20px;
 }
-/* line 51, ../dev/sass/blocks/_l-detail.scss */
+/* line 58, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList.-type_column:last-child {
   margin-right: 0;
 }
-/* line 56, ../dev/sass/blocks/_l-detail.scss */
+/* line 63, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__item {
   margin: 0 0 32px;
 }
-/* line 59, ../dev/sass/blocks/_l-detail.scss */
+/* line 66, ../dev/sass/blocks/_l-detail.scss */
 .-type_column .b-detailList__item {
   margin-bottom: 10px;
 }
-/* line 63, ../dev/sass/blocks/_l-detail.scss */
+/* line 70, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__item:last-child {
   margin-bottom: 0;
 }
@@ -2449,7 +2486,7 @@ html, body {
 .b-detailList__content {
   *zoom: 1;
 }
-/* line 72, ../dev/sass/blocks/_l-detail.scss */
+/* line 79, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__title {
   float: left;
   position: relative;
@@ -2459,11 +2496,11 @@ html, body {
   color: #a7a7a7;
   font-weight: 700;
 }
-/* line 81, ../dev/sass/blocks/_l-detail.scss */
+/* line 88, ../dev/sass/blocks/_l-detail.scss */
 .-type_column .b-detailList__title {
   width: 130px;
 }
-/* line 85, ../dev/sass/blocks/_l-detail.scss */
+/* line 92, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__title:before {
   position: absolute;
   top: 1px;
@@ -2474,39 +2511,39 @@ html, body {
   background: url("../img/blocks/detail/detail-ico.png") 0 0 no-repeat;
   content: '';
 }
-/* line 98, ../dev/sass/blocks/_l-detail.scss */
+/* line 105, ../dev/sass/blocks/_l-detail.scss */
 .-type_description .b-detailList__title:before {
   background-position: -72px 0;
 }
-/* line 105, ../dev/sass/blocks/_l-detail.scss */
+/* line 112, ../dev/sass/blocks/_l-detail.scss */
 .-type_tags .b-detailList__title:before {
   background-position: -72px -28px;
 }
-/* line 111, ../dev/sass/blocks/_l-detail.scss */
+/* line 118, ../dev/sass/blocks/_l-detail.scss */
 .-type_view .b-detailList__title:before {
   background-position: 0 2px;
 }
-/* line 117, ../dev/sass/blocks/_l-detail.scss */
+/* line 124, ../dev/sass/blocks/_l-detail.scss */
 .-type_download .b-detailList__title:before {
   background-position: -1px -28px;
 }
-/* line 123, ../dev/sass/blocks/_l-detail.scss */
+/* line 130, ../dev/sass/blocks/_l-detail.scss */
 .-type_share .b-detailList__title:before {
   background-position: -1px -58px;
 }
-/* line 129, ../dev/sass/blocks/_l-detail.scss */
+/* line 136, ../dev/sass/blocks/_l-detail.scss */
 .-type_rate .b-detailList__title:before {
   background-position: -35px 0;
 }
-/* line 135, ../dev/sass/blocks/_l-detail.scss */
+/* line 142, ../dev/sass/blocks/_l-detail.scss */
 .-type_added .b-detailList__title:before {
   background-position: -36px -29px;
 }
-/* line 141, ../dev/sass/blocks/_l-detail.scss */
+/* line 148, ../dev/sass/blocks/_l-detail.scss */
 .-type_score .b-detailList__title:before {
   background-position: -37px -59px;
 }
-/* line 147, ../dev/sass/blocks/_l-detail.scss */
+/* line 154, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__val {
   overflow: hidden;
 }

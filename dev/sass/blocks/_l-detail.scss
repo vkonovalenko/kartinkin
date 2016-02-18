@@ -26,12 +26,19 @@
 		padding: 0 0 20px;
 		border-bottom: 1px solid #dae8e7;
 	}
+
 	&__item {
 		float: left;
     margin: 0 40px 0 0;
     &:last-child {
+    	float: none;
+    	overflow: hidden;
     	margin-right: 0;
     }
+	}
+
+	&__line {
+		@include clearfix;
 	}
 }
 

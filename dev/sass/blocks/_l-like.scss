@@ -14,6 +14,20 @@
 		border-left: 1px solid #e1e6e6;
 		content: '';
 	}
+
+	&.-size_big {
+		&:before {
+			height: 24px;
+		}
+	}
+
+	&.-side-right {
+		float: right;
+	}
+
+	&.-side-left {
+		float: left;
+	}
 }
 
 .b-like {
@@ -24,7 +38,20 @@
 	text-indent: 100px;
 	background: url('../img/blocks/like/like-ico.png') 0 0 no-repeat;
 	cursor: pointer;
+
+	.-size_big & {
+		width: 21px;
+    height: 18px;
+    background-position: -69px 0;
+	}
+
 	&.-state_liked, &:hover {
 		background-position: -35px 0;
+
+		.-size_big & {
+	    background-position: -101px 0;
+		}
 	}
+
+
 }
