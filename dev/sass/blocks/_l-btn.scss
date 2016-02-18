@@ -9,7 +9,7 @@
 .b-btn {
 	position: relative;
 	display: inline-block;
-	min-width: 100px;
+	min-width: 130px;
 	padding: 10px;
 	margin: 0 20px 20px 0;
 	box-sizing: border-box;
@@ -52,6 +52,10 @@
 	&:hover, &:active, &:visited, &:focus {
 		color: #fff;
 		text-decoration: none;
+	}
+
+	&.-indentRight_none {
+		margin-right: 0;
 	}
 }
 

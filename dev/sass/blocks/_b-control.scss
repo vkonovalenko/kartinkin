@@ -3,13 +3,23 @@
 */
 
 .b-control {
-	&__select {}
+	&__select {
+		margin: 0 10px 0 0;
+	}
+
+	&.-side_right {
+		float: right;
+	}
+
+	&.-side_left {
+		float: left;
+	}
 }
 
 /*select*/
 .jq-selectbox {
 	vertical-align: top;
-	
+
 	&__select {
 		width: 178px;
     height: 40px;
@@ -47,13 +57,18 @@
 	}
 
 	&__dropdown {
+		border-bottom: 1px solid #dae8e7;
+		background: #fff;
+		color: inherit;
+	}
 
-		ul {
+	ul {
+		max-height: 145px;
+	}
 
-		}
-
-		li {
-
+	li {
+		&.selected, &:hover {
+			color: #fff;
 		}
 	}
 

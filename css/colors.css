@@ -52,55 +52,63 @@
   background: #5bb14d;
 }
 
-/* line 58, ../dev/sass/colors.scss */
+/* line 59, ../dev/sass/colors.scss */
 .b-breadCrumbs__item {
   color: #5bb14d;
 }
 
-/* line 64, ../dev/sass/colors.scss */
+/* line 65, ../dev/sass/colors.scss */
 .b-panelDualLinks__link {
   color: #5bb14d;
 }
-/* line 66, ../dev/sass/colors.scss */
+/* line 67, ../dev/sass/colors.scss */
 .b-panelDualLinks__link:hover, .b-panelDualLinks__link:active, .b-panelDualLinks__link:visited, .b-panelDualLinks__link:focus {
   color: #5bb14d;
 }
-/* line 72, ../dev/sass/colors.scss */
+/* line 73, ../dev/sass/colors.scss */
 .b-panelDualLinks__btn:before {
   background-image: url("../img/blocks/panel/panelDualLinks-ico.png");
 }
 
-/* line 80, ../dev/sass/colors.scss */
+/* line 81, ../dev/sass/colors.scss */
 .b-panelView__number {
   color: #5bb14d;
 }
-/* line 83, ../dev/sass/colors.scss */
+/* line 84, ../dev/sass/colors.scss */
 .-state_active .b-panelView__number:hover {
   color: #5bb14d;
 }
-/* line 88, ../dev/sass/colors.scss */
+/* line 89, ../dev/sass/colors.scss */
 .b-panelView__number:before {
   background-image: url("../img/blocks/panel/panelView-ico.png");
 }
 
-/* line 96, ../dev/sass/colors.scss */
+/* line 98, ../dev/sass/colors.scss */
 .b-pagination__arrow:before {
   background-image: url("../img/blocks/pagination/pagination-ico.png");
 }
-/* line 100, ../dev/sass/colors.scss */
+/* line 102, ../dev/sass/colors.scss */
 .b-pagination__number {
   color: #5bb14d;
 }
-/* line 103, ../dev/sass/colors.scss */
+/* line 105, ../dev/sass/colors.scss */
 .b-pagination__number:hover, .b-pagination__number:active, .b-pagination__number:visited, .b-pagination__number:focus {
   color: #5bb14d;
 }
-/* line 108, ../dev/sass/colors.scss */
+/* line 110, ../dev/sass/colors.scss */
 .b-pagination__number.-state_active:hover {
   color: #5bb14d;
 }
 
-/* line 119, ../dev/sass/colors.scss */
+/* line 122, ../dev/sass/colors.scss */
 .jq-selectbox:hover .jq-selectbox__trigger-arrow {
   border-top-color: #5bb14d;
+}
+/* line 130, ../dev/sass/colors.scss */
+.jq-selectbox li.selected, .jq-selectbox li:hover {
+  background-color: #5bb14d;
+}
+/* line 136, ../dev/sass/colors.scss */
+.jq-selectbox.focused .jq-selectbox__select {
+  border: 1px solid #5bb14d;
 }

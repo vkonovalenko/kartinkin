@@ -74,11 +74,19 @@
           </div>
         </div>
         <div class="b-detail__line">
-          <select name="" id="" class="b-control__select">
-            <option value="">1920х1080</option>
-            <option value="">1960х1080</option>
-          </select>
-          <a href="" class="b-btn">Скачать</a>
+          <div class="b-control -side_right">
+            <select name="" id="" class="b-control__select">
+              <option value="">1920х1080</option>
+              <option value="">1960х1080</option>
+              <option value="">1920х1080</option>
+              <option value="">1960х1080</option>
+              <option value="">1920х1080</option>
+              <option value="">1960х1080</option>
+              <option value="">1920х1080</option>
+              <option value="">1960х1080</option>
+            </select>
+            <a href="" class="b-btn -indentRight_none">Скачать</a>
+          </div>
         </div>
       </div>
     </div>

@@ -2580,7 +2580,7 @@ html, body {
 .b-btn {
   position: relative;
   display: inline-block;
-  min-width: 100px;
+  min-width: 130px;
   padding: 10px;
   margin: 0 20px 20px 0;
   -webkit-box-sizing: border-box;
@@ -2628,6 +2628,10 @@ html, body {
 .b-btn:hover, .b-btn:active, .b-btn:visited, .b-btn:focus {
   color: #fff;
   text-decoration: none;
+}
+/* line 57, ../dev/sass/blocks/_l-btn.scss */
+.b-btn.-indentRight_none {
+  margin-right: 0;
 }
 
 /**
@@ -2866,6 +2870,7 @@ html, body {
 /* line 109, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__like {
   overflow: hidden;
+  padding: 10px 0 0;
 }
 /* line 114, ../dev/sass/blocks/_l-preview.scss */
 .b-preview__stars {
@@ -2883,12 +2888,12 @@ html, body {
 /* line 4, ../dev/sass/blocks/_l-like.scss */
 .l-like {
   position: relative;
-  padding: 14px 0 4px 12px;
+  padding: 4px 0 4px 12px;
 }
 /* line 7, ../dev/sass/blocks/_l-like.scss */
 .l-like:before {
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 0;
   display: block;
   width: 1px;
@@ -3196,13 +3201,16 @@ html, body {
 /* line 30, ../dev/sass/blocks/_l-detail.scss */
 .b-detail__item {
   float: left;
-  margin: 0 40px 0 0;
+  margin: 0 10px 0 0;
 }
 /* line 33, ../dev/sass/blocks/_l-detail.scss */
 .b-detail__item:last-child {
-  float: none;
-  overflow: hidden;
+  float: right;
   margin-right: 0;
+}
+/* line 39, ../dev/sass/blocks/_l-detail.scss */
+.b-detail__line {
+  margin: 0 0 10px;
 }
 /* line 16, ../dev/sass/_mixins.scss */
 .b-detail__line:before, .b-detail__line:after {
@@ -3216,6 +3224,10 @@ html, body {
 /* line 24, ../dev/sass/_mixins.scss */
 .b-detail__line {
   *zoom: 1;
+}
+/* line 42, ../dev/sass/blocks/_l-detail.scss */
+.b-detail__line:last-child {
+  margin-bottom: 0;
 }
 
 /* line 16, ../dev/sass/_mixins.scss */
@@ -3232,31 +3244,31 @@ html, body {
   *zoom: 1;
 }
 
-/* line 49, ../dev/sass/blocks/_l-detail.scss */
+/* line 52, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList {
   display: block;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 55, ../dev/sass/blocks/_l-detail.scss */
+/* line 58, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList.-type_column {
   float: left;
   margin-right: 20px;
 }
-/* line 58, ../dev/sass/blocks/_l-detail.scss */
+/* line 61, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList.-type_column:last-child {
   margin-right: 0;
 }
-/* line 63, ../dev/sass/blocks/_l-detail.scss */
+/* line 66, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__item {
   margin: 0 0 32px;
 }
-/* line 66, ../dev/sass/blocks/_l-detail.scss */
+/* line 69, ../dev/sass/blocks/_l-detail.scss */
 .-type_column .b-detailList__item {
   margin-bottom: 10px;
 }
-/* line 70, ../dev/sass/blocks/_l-detail.scss */
+/* line 73, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__item:last-child {
   margin-bottom: 0;
 }
@@ -3273,7 +3285,7 @@ html, body {
 .b-detailList__content {
   *zoom: 1;
 }
-/* line 79, ../dev/sass/blocks/_l-detail.scss */
+/* line 82, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__title {
   float: left;
   position: relative;
@@ -3283,11 +3295,11 @@ html, body {
   color: #a7a7a7;
   font-weight: 700;
 }
-/* line 88, ../dev/sass/blocks/_l-detail.scss */
+/* line 91, ../dev/sass/blocks/_l-detail.scss */
 .-type_column .b-detailList__title {
   width: 130px;
 }
-/* line 92, ../dev/sass/blocks/_l-detail.scss */
+/* line 95, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__title:before {
   position: absolute;
   top: 1px;
@@ -3298,39 +3310,39 @@ html, body {
   background: url("../img/blocks/detail/detail-ico.png") 0 0 no-repeat;
   content: '';
 }
-/* line 105, ../dev/sass/blocks/_l-detail.scss */
+/* line 108, ../dev/sass/blocks/_l-detail.scss */
 .-type_description .b-detailList__title:before {
   background-position: -72px 0;
 }
-/* line 112, ../dev/sass/blocks/_l-detail.scss */
+/* line 115, ../dev/sass/blocks/_l-detail.scss */
 .-type_tags .b-detailList__title:before {
   background-position: -72px -28px;
 }
-/* line 118, ../dev/sass/blocks/_l-detail.scss */
+/* line 121, ../dev/sass/blocks/_l-detail.scss */
 .-type_view .b-detailList__title:before {
   background-position: 0 2px;
 }
-/* line 124, ../dev/sass/blocks/_l-detail.scss */
+/* line 127, ../dev/sass/blocks/_l-detail.scss */
 .-type_download .b-detailList__title:before {
   background-position: -1px -28px;
 }
-/* line 130, ../dev/sass/blocks/_l-detail.scss */
+/* line 133, ../dev/sass/blocks/_l-detail.scss */
 .-type_share .b-detailList__title:before {
   background-position: -1px -58px;
 }
-/* line 136, ../dev/sass/blocks/_l-detail.scss */
+/* line 139, ../dev/sass/blocks/_l-detail.scss */
 .-type_rate .b-detailList__title:before {
   background-position: -35px 0;
 }
-/* line 142, ../dev/sass/blocks/_l-detail.scss */
+/* line 145, ../dev/sass/blocks/_l-detail.scss */
 .-type_added .b-detailList__title:before {
   background-position: -36px -29px;
 }
-/* line 148, ../dev/sass/blocks/_l-detail.scss */
+/* line 151, ../dev/sass/blocks/_l-detail.scss */
 .-type_score .b-detailList__title:before {
   background-position: -37px -59px;
 }
-/* line 154, ../dev/sass/blocks/_l-detail.scss */
+/* line 157, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__val {
   overflow: hidden;
 }
@@ -3436,12 +3448,25 @@ html, body {
 /**
 * @section Control
 */
-/*select*/
+/* line 6, ../dev/sass/blocks/_b-control.scss */
+.b-control__select {
+  margin: 0 10px 0 0;
+}
 /* line 10, ../dev/sass/blocks/_b-control.scss */
+.b-control.-side_right {
+  float: right;
+}
+/* line 14, ../dev/sass/blocks/_b-control.scss */
+.b-control.-side_left {
+  float: left;
+}
+
+/*select*/
+/* line 20, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox {
   vertical-align: top;
 }
-/* line 13, ../dev/sass/blocks/_b-control.scss */
+/* line 23, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select {
   width: 178px;
   height: 40px;
@@ -3455,7 +3480,7 @@ html, body {
      -moz-box-shadow: none;
           box-shadow: none;
 }
-/* line 23, ../dev/sass/blocks/_b-control.scss */
+/* line 33, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select:hover {
   outline: 0;
   background: #fff;
@@ -3463,25 +3488,39 @@ html, body {
      -moz-box-shadow: none;
           box-shadow: none;
 }
-/* line 29, ../dev/sass/blocks/_b-control.scss */
+/* line 39, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select-text {
   color: #a7a7a7;
 }
-/* line 34, ../dev/sass/blocks/_b-control.scss */
+/* line 44, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox .placeholder {
   color: #a7a7a7;
   font-style: italic;
 }
-/* line 39, ../dev/sass/blocks/_b-control.scss */
+/* line 49, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__trigger {
   border-left: 0;
 }
-/* line 41, ../dev/sass/blocks/_b-control.scss */
+/* line 51, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__trigger-arrow {
   top: 17px;
   right: 18px;
   border-top: 4px solid #898989;
   border-right: 4px solid transparent;
+}
+/* line 59, ../dev/sass/blocks/_b-control.scss */
+.jq-selectbox__dropdown {
+  border-bottom: 1px solid #dae8e7;
+  background: #fff;
+  color: inherit;
+}
+/* line 65, ../dev/sass/blocks/_b-control.scss */
+.jq-selectbox ul {
+  max-height: 145px;
+}
+/* line 70, ../dev/sass/blocks/_b-control.scss */
+.jq-selectbox li.selected, .jq-selectbox li:hover {
+  color: #fff;
 }
 
 /**

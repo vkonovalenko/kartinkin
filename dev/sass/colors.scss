@@ -55,6 +55,7 @@
 }
 
 .b-breadCrumbs {
+
 	&__item {
 		color: $themeColor;
 	}
@@ -92,6 +93,7 @@
 }
 
 .b-pagination {
+
 	&__arrow  {
 		&:before {
 			background-image: url('../img/blocks/pagination/pagination-ico.png');
@@ -113,6 +115,7 @@
 }
 
 .jq-selectbox {
+
 	&:hover {
 		.jq-selectbox {
 			&__trigger {
@@ -120,6 +123,18 @@
 					border-top-color: $themeColor;
 				}
 			}
+		}
+	}
+
+	li {
+		&.selected, &:hover {
+			background-color: $themeColor;
+		}
+	}
+
+	&.focused {
+		.jq-selectbox__select {
+			border: 1px solid $themeColor;
 		}
 	}
 }
