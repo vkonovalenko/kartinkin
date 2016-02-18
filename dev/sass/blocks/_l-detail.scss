@@ -26,8 +26,12 @@
 		padding: 0 0 20px;
 		border-bottom: 1px solid #dae8e7;
 	}
-	&_item {
+	&__item {
 		float: left;
+    margin: 0 40px 0 0;
+    &:last-child {
+    	margin-right: 0;
+    }
 	}
 }
 

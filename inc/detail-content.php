@@ -58,7 +58,7 @@
               <div class="b-detailList__content">
                 <div class="b-detailList__title">Ваша оценка:</div>
                 <div class="b-detailList__val">
-                  <div class="js-rateStarts b-rateStarts">
+                  <div class="js-rateStarts b-rateStarts -size-big">
                     <input type=hidden name"rating"/>
                   </div>
                 </div>
@@ -68,7 +68,9 @@
         </div>
       </div>
       <div class="b-detail__item">
-        
+        <div class="l-like">
+          <i class="b-like js-like">like</i>
+        </div>
       </div>
     </div>
     <div class="b-detail__block">

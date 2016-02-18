@@ -14,13 +14,13 @@
         </div>
         <div class="b-preview__like">
           <div class="l-like">
-<i class="b-like js-like">like</i>
-</div>
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -57,7 +57,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -87,7 +87,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -117,7 +117,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -147,7 +147,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -177,7 +177,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -207,7 +207,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -237,7 +237,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -267,7 +267,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -297,7 +297,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -327,7 +327,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>
@@ -357,7 +357,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts">
+          <div class="js-rateStarts b-rateStarts -size-small">
             <input type=hidden name"rating"/>
           </div>
           <div class="b-rateNumber">0</div>

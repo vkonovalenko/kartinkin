@@ -15,11 +15,18 @@ function like() {
 }
 
 function initRate() {
-	$( '.js-rateStarts' ).rating('create', {
+	$( '.js-rateStarts.-size-small' ).rating('create', {
 		coloroff: '#e1e6e6',
 		coloron:'#47e12d', 
 		limit: 5,
 		size: '1.0em',
+		cursor: 'pointer'
+	});	
+	$( '.js-rateStarts.-size-big' ).rating('create', {
+		coloroff: '#e1e6e6',
+		coloron:'#47e12d', 
+		limit: 5,
+		size: '1.3em',
 		cursor: 'pointer'
 	});	
 }
