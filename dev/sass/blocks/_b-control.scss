@@ -1,0 +1,61 @@
+/**
+* @section Control
+*/
+
+.b-control {
+	&__select {}
+}
+
+/*select*/
+.jq-selectbox {
+	vertical-align: top;
+	
+	&__select {
+		width: 178px;
+    height: 40px;
+    padding: 2px 33px 0 21px;
+		border: 1px solid #b1b1b1;
+		outline: 0;
+		border-radius: 2px; 
+		background: #fff;
+		box-shadow: none;
+
+		&:hover {
+			outline: 0;
+			background: #fff;
+			box-shadow: none;
+		}
+
+		&-text {
+			color: $thirdColor;
+		}
+	}
+
+	.placeholder {
+		color: $thirdColor;
+		font-style: italic;
+	}
+
+	&__trigger {
+		border-left: 0;
+		&-arrow {
+      top: 17px;
+    	right: 18px;
+	    border-top: 4px solid #898989;
+	    border-right: 4px solid transparent;
+		}
+	}
+
+	&__dropdown {
+
+		ul {
+
+		}
+
+		li {
+
+		}
+	}
+
+}
+

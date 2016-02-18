@@ -73,6 +73,13 @@
             <i class="b-like js-like">like</i>
           </div>
         </div>
+        <div class="b-detail__line">
+          <select name="" id="" class="b-control__select">
+            <option value="">1920х1080</option>
+            <option value="">1960х1080</option>
+          </select>
+          <a href="" class="b-btn">Скачать</a>
+        </div>
       </div>
     </div>
     <div class="b-detail__block">

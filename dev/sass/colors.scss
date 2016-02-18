@@ -112,3 +112,15 @@
 	}
 }
 
+.jq-selectbox {
+	&:hover {
+		.jq-selectbox {
+			&__trigger {
+				&-arrow {
+					border-top-color: $themeColor;
+				}
+			}
+		}
+	}
+}
+

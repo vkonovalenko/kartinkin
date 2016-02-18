@@ -6,6 +6,8 @@ $(function() {
  initRate();
  changePage();
  selectView();
+ initPlaceholder();
+ initStyler();
 });
 
 function like() {
@@ -42,4 +44,12 @@ function changePage() {
 		e.preventDefault();
 		$(this).addClass( '-state_active' ).siblings().removeClass( '-state_active' );
 	});
+}
+
+function initPlaceholder() {
+	$( 'input, textarea' ).placeholder({ customClass: 'b-placeholder' });
+}
+
+function initStyler() {
+	$('select').styler();
 }

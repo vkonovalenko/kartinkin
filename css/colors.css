@@ -99,3 +99,8 @@
 .b-pagination__number.-state_active:hover {
   color: #5bb14d;
 }
+
+/* line 119, ../dev/sass/colors.scss */
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #5bb14d;
+}
