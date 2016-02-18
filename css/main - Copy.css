@@ -2392,16 +2392,21 @@ html, body {
 /* line 40, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList.-type_column {
   float: left;
+  margin-right: 20px;
 }
-/* line 44, ../dev/sass/blocks/_l-detail.scss */
+/* line 43, ../dev/sass/blocks/_l-detail.scss */
+.b-detailList.-type_column:last-child {
+  margin-right: 0;
+}
+/* line 48, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__item {
   margin: 0 0 32px;
 }
-/* line 47, ../dev/sass/blocks/_l-detail.scss */
+/* line 51, ../dev/sass/blocks/_l-detail.scss */
 .-type_column .b-detailList__item {
   margin-bottom: 10px;
 }
-/* line 51, ../dev/sass/blocks/_l-detail.scss */
+/* line 55, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__item:last-child {
   margin-bottom: 0;
 }
@@ -2418,20 +2423,21 @@ html, body {
 .b-detailList__content {
   *zoom: 1;
 }
-/* line 60, ../dev/sass/blocks/_l-detail.scss */
+/* line 64, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__title {
   float: left;
   position: relative;
-  width: 120px;
+  width: 110px;
+  margin: 0 10px 0 0;
   padding: 0 0 0 25px;
   color: #a7a7a7;
   font-weight: 700;
 }
-/* line 68, ../dev/sass/blocks/_l-detail.scss */
+/* line 73, ../dev/sass/blocks/_l-detail.scss */
 .-type_column .b-detailList__title {
   width: 130px;
 }
-/* line 72, ../dev/sass/blocks/_l-detail.scss */
+/* line 77, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__title:before {
   position: absolute;
   top: 1px;
@@ -2442,15 +2448,39 @@ html, body {
   background: url("../img/blocks/detail/detail-ico.png") 0 0 no-repeat;
   content: '';
 }
-/* line 85, ../dev/sass/blocks/_l-detail.scss */
+/* line 90, ../dev/sass/blocks/_l-detail.scss */
 .-type_description .b-detailList__title:before {
   background-position: -72px 0;
 }
-/* line 92, ../dev/sass/blocks/_l-detail.scss */
+/* line 97, ../dev/sass/blocks/_l-detail.scss */
 .-type_tags .b-detailList__title:before {
   background-position: -72px -28px;
 }
-/* line 98, ../dev/sass/blocks/_l-detail.scss */
+/* line 103, ../dev/sass/blocks/_l-detail.scss */
+.-type_view .b-detailList__title:before {
+  background-position: 0 2px;
+}
+/* line 109, ../dev/sass/blocks/_l-detail.scss */
+.-type_download .b-detailList__title:before {
+  background-position: -1px -28px;
+}
+/* line 115, ../dev/sass/blocks/_l-detail.scss */
+.-type_share .b-detailList__title:before {
+  background-position: -1px -58px;
+}
+/* line 121, ../dev/sass/blocks/_l-detail.scss */
+.-type_rate .b-detailList__title:before {
+  background-position: -35px 0;
+}
+/* line 127, ../dev/sass/blocks/_l-detail.scss */
+.-type_added .b-detailList__title:before {
+  background-position: -36px -29px;
+}
+/* line 133, ../dev/sass/blocks/_l-detail.scss */
+.-type_score .b-detailList__title:before {
+  background-position: -37px -59px;
+}
+/* line 139, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__val {
   overflow: hidden;
 }
@@ -2488,9 +2518,75 @@ html, body {
 }
 
 /**
+* @section Socials
+*/
+/* line 5, ../dev/sass/blocks/_b-socials.scss */
+.b-socials {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-socials:before, .b-socials:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-socials:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-socials {
+  *zoom: 1;
+}
+/* line 12, ../dev/sass/blocks/_b-socials.scss */
+.b-socials__item {
+  float: left;
+  margin: 0 7px 0 0;
+}
+/* line 15, ../dev/sass/blocks/_b-socials.scss */
+.b-socials__item:last-child {
+  margin-right: 0;
+}
+/* line 20, ../dev/sass/blocks/_b-socials.scss */
+.b-socials__link {
+  display: block;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  text-indent: 100px;
+  outline: 0;
+  color: inherit;
+  background: url("../img/blocks/socials/socials-ico.png") 0 0 no-repeat;
+}
+/* line 30, ../dev/sass/blocks/_b-socials.scss */
+.b-socials__link:hover, .b-socials__link:visited, .b-socials__link:active, .b-socials__link:focus {
+  color: inherit;
+  outline: 0;
+  text-decoration: none;
+}
+/* line 36, ../dev/sass/blocks/_b-socials.scss */
+.-type_mail .b-socials__link {
+  background-position: 0 0;
+}
+/* line 40, ../dev/sass/blocks/_b-socials.scss */
+.-type_vk .b-socials__link {
+  background-position: -26px 0;
+}
+/* line 44, ../dev/sass/blocks/_b-socials.scss */
+.-type_fb .b-socials__link {
+  background-position: -52px 0;
+}
+/* line 48, ../dev/sass/blocks/_b-socials.scss */
+.-type_classmates .b-socials__link {
+  background-position: -78px 0;
+}
+
+/**
 * @section content
 */
-/* line 61, ../dev/sass/main.scss */
+/* line 63, ../dev/sass/main.scss */
 .l-content {
   max-width: 1220px;
   margin: 0 auto;
@@ -2498,7 +2594,7 @@ html, body {
   position: relative;
 }
 
-/* line 68, ../dev/sass/main.scss */
+/* line 70, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
@@ -2517,12 +2613,12 @@ html, body {
 .b-content {
   *zoom: 1;
 }
-/* line 73, ../dev/sass/main.scss */
+/* line 75, ../dev/sass/main.scss */
 .b-content__content {
   overflow: hidden;
 }
 @media only screen and (max-width: 640px) {
-  /* line 73, ../dev/sass/main.scss */
+  /* line 75, ../dev/sass/main.scss */
   .b-content__content {
     overflow: auto;
   }
