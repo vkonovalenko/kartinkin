@@ -21,9 +21,13 @@
 	}
 
 	&__block {
+		@include clearfix;
 		margin: 20px 10px;
 		padding: 0 0 20px;
 		border-bottom: 1px solid #dae8e7;
+	}
+	&_item {
+		float: left;
 	}
 }
 
