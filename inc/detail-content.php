@@ -6,39 +6,54 @@
     <div class="b-detail__block">
       <div class="l-detailList">
         <ul class="b-detailList -type_column">
-          <li class="b-detailList__item -type_description">
+          <li class="b-detailList__item -type_view">
             <div class="b-detailList__content">
               <div class="b-detailList__title">Просмотров:</div>
               <div class="b-detailList__val">3425</div>
             </div>
           </li>
-          <li class="b-detailList__item -type_description">
+          <li class="b-detailList__item -type_download">
             <div class="b-detailList__content">
               <div class="b-detailList__title">Скачиваний:</div>
               <div class="b-detailList__val">12</div>
             </div>
           </li>
-          <li class="b-detailList__item -type_description">
+          <li class="b-detailList__item -type_share">
             <div class="b-detailList__content">
               <div class="b-detailList__title">Поделиться:</div>
-              <div class="b-detailList__val"></div>
+              <div class="b-detailList__val">
+                <ul class="b-socials">
+                  <li class="b-socials__item -type_mail">
+                    <a href="" class="b-socials__link">почта</a>
+                  </li>
+                  <li class="b-socials__item -type_vk">
+                    <a href="" class="b-socials__link">вконтакте</a>
+                  </li>
+                  <li class="b-socials__item -type_fb">
+                    <a href="" class="b-socials__link">фейсбук</a>
+                  </li>
+                  <li class="b-socials__item -type_classmates">
+                    <a href="" class="b-socials__link">одноклассники</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </li>
         </ul>
         <ul class="b-detailList -type_column">
-          <li class="b-detailList__item -type_description">
+          <li class="b-detailList__item -type_rate">
             <div class="b-detailList__content">
               <div class="b-detailList__title">Рейтинг:</div>
               <div class="b-detailList__val">4.3 (2345)</div>
             </div>
           </li>
-          <li class="b-detailList__item -type_description">
+          <li class="b-detailList__item -type_added">
             <div class="b-detailList__content">
               <div class="b-detailList__title">Добавлено:</div>
               <div class="b-detailList__val">24 Сен. 2015</div>
             </div>
           </li>
-          <li class="b-detailList__item -type_description">
+          <li class="b-detailList__item -type_score">
             <div class="b-detailList__content">
               <div class="b-detailList__title">Ваша оценка:</div>
               <div class="b-detailList__val">

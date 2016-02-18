@@ -1,0 +1,55 @@
+/**
+* @section Socials
+*/
+
+.b-socials {
+	@include clearfix;
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	&__item {
+		float: left;
+    margin: 0 7px 0 0;
+    &:last-child {
+    	margin-right: 0;
+    }
+	}
+
+	&__link {
+		display: block;
+		width: 20px;
+		height: 20px;
+		overflow: hidden;
+		text-indent: 100px;
+		outline: 0;
+		color: inherit;
+		background: url('../img/blocks/socials/socials-ico.png') 0 0 no-repeat;
+
+		&:hover, &:visited, &:active, &:focus {
+			color: inherit;
+			outline: 0;
+			text-decoration: none;
+		}
+
+		.-type_mail & {
+			background-position: 0 0;
+		}
+
+		.-type_vk & {
+	    background-position: -26px 0;
+		}
+
+		.-type_fb & {
+	    background-position: -52px 0;
+		}
+
+		.-type_classmates & {
+	    background-position: -78px 0;
+		}
+
+	}
+}
+
+

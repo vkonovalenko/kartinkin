@@ -39,6 +39,10 @@
 
 	&.-type_column {
 		float: left;
+    margin-right: 20px;
+    &:last-child {
+    	margin-right: 0;
+    }
 	}
 
 	&__item {
@@ -60,7 +64,8 @@
 	&__title {
 		float: left;
 		position: relative;
-		width: 120px;
+		width: 110px;
+    margin: 0 10px 0 0;
     padding: 0 0 0 25px;
 		color: $thirdColor;
 		font-weight: 700;
@@ -91,6 +96,42 @@
 
 			&:before {
 				background-position: -72px -28px;
+			}
+		}
+
+		.-type_view & {
+			&:before {
+				background-position: 0 2px;
+			}
+		}
+
+		.-type_download & {
+			&:before {
+				background-position: -1px -28px;
+			}
+		}
+
+		.-type_share & {
+			&:before {
+				background-position: -1px -58px;
+			}
+		}
+
+		.-type_rate & {
+			&:before {
+				background-position: -35px 0;
+			}
+		}
+
+		.-type_added & {
+			&:before {
+				background-position: -36px -29px;
+			}
+		}
+
+		.-type_score & {
+			&:before {
+				background-position: -37px -59px;
 			}
 		}
 	}
