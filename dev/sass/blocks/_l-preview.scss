@@ -107,19 +107,8 @@
 	}
 
 	&__like {
-		position: relative;
-    padding: 14px 0 4px 12px;
 		overflow: hidden;
-		&:before {
-			position: absolute;
-			top: 10px;
-			left: 0;
-			display: block;
-			width: 1px;
-			height: 21px;
-			border-left: 1px solid #e1e6e6;
-			content: '';
-		}
+		
 	}
 
 	&__stars {

@@ -13,7 +13,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+<i class="b-like js-like">like</i>
+</div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -48,7 +50,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -76,7 +80,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -104,7 +110,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -132,7 +140,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -160,7 +170,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -188,7 +200,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -216,7 +230,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -244,7 +260,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -272,7 +290,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -300,7 +320,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
@@ -328,7 +350,9 @@
           </a>
         </div>
         <div class="b-preview__like">
-          <i class="b-like js-like">like</i>
+          <div class="l-like">
+            <i class="b-like js-like">like</i>
+          </div>
         </div>
       </div>
       <div class="b-preview__info -type_two">
