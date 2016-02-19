@@ -1,8 +1,10 @@
 <div class="l-detail">
   <div class="b-detail">
+
     <div class="b-detail__imgWrapper">
       <img src="img/userfiles/detail/detail-1.png" alt="" class="b-detail__img">
     </div>
+
     <div class="b-detail__block">
       <div class="b-detail__item">
         <div class="l-detailList">
@@ -90,6 +92,7 @@
         </div>
       </div>
     </div>
+
     <div class="b-detail__block">
       <div class="l-detailList">
         <ul class="b-detailList">
@@ -132,5 +135,48 @@
         </ul>
       </div>
     </div>
+
+    <div class="b-detail__block">
+      <div class="l-slider">
+        <div class="b-slider js-slider">
+          <div class="b-slider__slides">
+
+            <div class="b-slider__slide js-slider__slide">
+              <div class="b-slider__slideItems">
+                <div class="b-slider__item js-slider__item">
+                  <img src="img/userfiles/slider/slide-1.png" alt="" class="b-slider__img">
+                </div>
+                <div class="b-slider__item js-slider__item">
+                  <img src="img/userfiles/slider/slide-2.png" alt="" class="b-slider__img">
+                </div>
+                <div class="b-slider__item js-slider__item">
+                  <img src="img/userfiles/slider/slide-3.png" alt="" class="b-slider__img">
+                </div>
+              </div>
+            </div>
+
+            <div class="b-slider__slide js-slider__slide">
+              <div class="b-slider__slideItems">
+                <div class="b-slider__item js-slider__item">
+                  <img src="img/userfiles/slider/slide-1.png" alt="" class="b-slider__img">
+                </div>
+                <div class="b-slider__item js-slider__item">
+                  <img src="img/userfiles/slider/slide-2.png" alt="" class="b-slider__img">
+                </div>
+                <div class="b-slider__item js-slider__item">
+                  <img src="img/userfiles/slider/slide-3.png" alt="" class="b-slider__img">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          <a href="" class="b-slider__arrow js-slider__arrow -type_prev">prev</a>
+          <a href="" class="b-slider__arrow js-slider__arrow -type_next">next</a>
+
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>

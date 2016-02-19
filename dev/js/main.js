@@ -8,6 +8,7 @@ $(function() {
  selectView();
  initPlaceholder();
  initStyler();
+ initCycle();
 });
 
 function like() {
@@ -52,4 +53,18 @@ function initPlaceholder() {
 
 function initStyler() {
 	$('select').styler();
+}
+
+function initCycle() {
+	$('.js-slider').cycle({
+    fx: 'fade',
+    slides: '.js-slider__slide',
+    slideActiveClass: '-state_active',
+    prev: '.js-slider__arrow.-type_prev',
+    next: '.js-slider__arrow.-type_next',
+    timeout: 15000,
+    pauseOnHover: true,
+    swipe: true,
+    slideNum: 3
+  });
 }
