@@ -197,7 +197,7 @@
     <div class="l-comments">
       <div class="b-comments">
 
-        <h3 class="b-commentsList__title">Комментарии:</h3>
+        <h3 class="b-comments__title">Комментарии:</h3>
 
         <ul class="b-commentsList">
           <li class="b-commentsList__item">
