@@ -5,7 +5,10 @@
 	
 }
 .b-comments {
-	&__title {}
+	&__title {
+		margin: 0;
+		padding: 0;
+	}
 }
 .b-commentsList {
 	@include clearfix;
