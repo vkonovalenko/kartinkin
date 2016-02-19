@@ -1,0 +1,45 @@
+/**
+* @section Comments
+*/
+.l-comments {
+	
+}
+.b-comments {
+	&__title {}
+}
+.b-commentsList {
+	@include clearfix;
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	&__item {}
+
+	&__avatarWrap {
+		width: 54px;
+		height: 54px;
+		padding: 1px;
+		float: left;
+	}
+
+	&__content {
+		overflow: hidden;
+	}
+
+	&__username {
+		float: left;
+	}
+
+	&__date {
+		float: right;
+	}
+
+	&__text {
+		clear: both;
+	}
+
+	.b-commentsListList__item & {
+		clear: both;
+	}
+}

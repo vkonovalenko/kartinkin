@@ -3656,9 +3656,60 @@ html, body {
 }
 
 /**
+* @section Comments
+*/
+/* line 10, ../dev/sass/blocks/_l-comments.scss */
+.b-commentsList {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-commentsList:before, .b-commentsList:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-commentsList:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-commentsList {
+  *zoom: 1;
+}
+/* line 19, ../dev/sass/blocks/_l-comments.scss */
+.b-commentsList__avatarWrap {
+  width: 54px;
+  height: 54px;
+  padding: 1px;
+  float: left;
+}
+/* line 26, ../dev/sass/blocks/_l-comments.scss */
+.b-commentsList__content {
+  overflow: hidden;
+}
+/* line 30, ../dev/sass/blocks/_l-comments.scss */
+.b-commentsList__username {
+  float: left;
+}
+/* line 34, ../dev/sass/blocks/_l-comments.scss */
+.b-commentsList__date {
+  float: right;
+}
+/* line 38, ../dev/sass/blocks/_l-comments.scss */
+.b-commentsList__text {
+  clear: both;
+}
+/* line 42, ../dev/sass/blocks/_l-comments.scss */
+.b-commentsListList__item .b-commentsList {
+  clear: both;
+}
+
+/**
 * @section content
 */
-/* line 68, ../dev/sass/main.scss */
+/* line 70, ../dev/sass/main.scss */
 .l-content {
   max-width: 1220px;
   margin: 0 auto;
@@ -3666,7 +3717,7 @@ html, body {
   position: relative;
 }
 
-/* line 75, ../dev/sass/main.scss */
+/* line 77, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
@@ -3685,12 +3736,12 @@ html, body {
 .b-content {
   *zoom: 1;
 }
-/* line 80, ../dev/sass/main.scss */
+/* line 82, ../dev/sass/main.scss */
 .b-content__content {
   overflow: hidden;
 }
 @media only screen and (max-width: 640px) {
-  /* line 80, ../dev/sass/main.scss */
+  /* line 82, ../dev/sass/main.scss */
   .b-content__content {
     overflow: auto;
   }

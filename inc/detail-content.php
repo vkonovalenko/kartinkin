@@ -194,5 +194,31 @@
       </div>
     </div>
 
+    <div class="l-comments">
+      <div class="b-comments">
+
+        <h3 class="b-commentsList__title">Комментарии:</h3>
+
+        <ul class="b-commentsList">
+          <li class="b-commentsList__item">
+            <div class="b-commentsList__avatarWrap">
+              <img src="" alt="" class="b-commentsList__avatar">
+            </div>
+            <div class="b-commentsList__content">
+              <div class="b-commentsList__username">Альберт Шеварнадзе:</div>
+              <div class="b-commentsList__date">01.02.2016, 22:05 </div>
+              <div class="b-commentsList__text">Ай какой хароший девушек, я таких люблю.</div>
+            </div>
+            <ul class="b-commentsList">
+              
+            </ul>
+          </li>
+        </ul>
+
+        <div class="b-comments__form"></div>
+
+      </div>
+    </div>
+
   </div>
 </div>
