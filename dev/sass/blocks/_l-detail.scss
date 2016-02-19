@@ -69,8 +69,14 @@
 	&__item {
 		margin: 0 0 32px;
 
+		&:last-child {
+			margin-bottom: 0;
+		}
 		.-type_column & {
 			margin-bottom: 10px;
+			&:last-child {
+				margin-bottom: 10px;
+			}
 		}
 	}
 

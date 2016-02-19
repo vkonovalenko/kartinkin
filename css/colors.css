@@ -112,3 +112,12 @@
 .jq-selectbox.focused .jq-selectbox__select {
   border: 1px solid #5bb14d;
 }
+
+/* line 145, ../dev/sass/colors.scss */
+.b-slider__arrow:before {
+  background: url("../img/blocks/slider/slider-ico.png") 0 0 no-repeat;
+}
+/* line 150, ../dev/sass/colors.scss */
+.b-slider__title {
+  color: #5bb14d;
+}

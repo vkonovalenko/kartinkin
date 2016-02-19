@@ -56,12 +56,12 @@ function initStyler() {
 }
 
 function initCycle() {
-	$('.js-slider').cycle({
-    fx: 'fade',
+	$('.js-slider__slides').cycle({
+    fx: 'scrollHorz',
     slides: '.js-slider__slide',
     slideActiveClass: '-state_active',
-    prev: '.js-slider__arrow.-type_prev',
-    next: '.js-slider__arrow.-type_next',
+    prev: '.-type_prev .js-slider__arrow',
+    next: '.-type_next .js-slider__arrow',
     timeout: 15000,
     pauseOnHover: true,
     swipe: true,

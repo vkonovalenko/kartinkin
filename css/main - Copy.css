@@ -1205,9 +1205,9 @@ replacement image appears.
   -moz-border-radius: 3px;
        border-radius: 3px;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), inset -1px -1px #FFF, inset 1px -1px #FFF;
      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), inset -1px -1px #FFF, inset 1px -1px #FFF;
@@ -1249,9 +1249,9 @@ replacement image appears.
   -moz-border-radius: 50%;
        border-radius: 50%;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), inset -1px -1px #FFF, inset 1px -1px #FFF;
      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), inset -1px -1px #FFF, inset 1px -1px #FFF;
@@ -1332,9 +1332,9 @@ replacement image appears.
   -moz-border-radius: 0 4px 4px 0;
        border-radius: 0 4px 4px 0;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
      -moz-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1347,9 +1347,9 @@ replacement image appears.
 /* line 102, ../dev/sass/plugins/_jquery.formstyler.scss */
 .jq-file:hover .jq-file__browse {
   background: #E6E6E6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: -moz-linear-gradient(#f6f6f6, #e6e6e6);
   background: -o-linear-gradient(#f6f6f6, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: linear-gradient(#f6f6f6, #e6e6e6);
 }
 
@@ -1440,9 +1440,9 @@ replacement image appears.
   -moz-border-radius: 4px;
        border-radius: 4px;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1467,9 +1467,9 @@ replacement image appears.
 /* line 182, ../dev/sass/plugins/_jquery.formstyler.scss */
 .jq-number__spin:hover {
   background: #E6E6E6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: -moz-linear-gradient(#f6f6f6, #e6e6e6);
   background: -o-linear-gradient(#f6f6f6, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: linear-gradient(#f6f6f6, #e6e6e6);
 }
 
@@ -1554,9 +1554,9 @@ replacement image appears.
   -moz-border-radius: 4px;
        border-radius: 4px;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
      -moz-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1569,9 +1569,9 @@ replacement image appears.
 /* line 251, ../dev/sass/plugins/_jquery.formstyler.scss */
 .jq-selectbox__select:hover {
   background: #E6E6E6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: -moz-linear-gradient(#f6f6f6, #e6e6e6);
   background: -o-linear-gradient(#f6f6f6, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: linear-gradient(#f6f6f6, #e6e6e6);
 }
 
@@ -1919,9 +1919,9 @@ input[type='reset'].styler {
        border-radius: 4px;
   outline: none;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
      -moz-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1947,9 +1947,9 @@ input[type='button'].styler:not([disabled]):hover,
 input[type='submit'].styler:not([disabled]):hover,
 input[type='reset'].styler:hover {
   background: #E6E6E6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: -moz-linear-gradient(#f6f6f6, #e6e6e6);
   background: -o-linear-gradient(#f6f6f6, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: linear-gradient(#f6f6f6, #e6e6e6);
 }
 
@@ -3271,7 +3271,15 @@ html, body {
   margin: 0 0 32px;
 }
 /* line 72, ../dev/sass/blocks/_l-detail.scss */
+.b-detailList__item:last-child {
+  margin-bottom: 0;
+}
+/* line 75, ../dev/sass/blocks/_l-detail.scss */
 .-type_column .b-detailList__item {
+  margin-bottom: 10px;
+}
+/* line 77, ../dev/sass/blocks/_l-detail.scss */
+.-type_column .b-detailList__item:last-child {
   margin-bottom: 10px;
 }
 /* line 16, ../dev/sass/_mixins.scss */
@@ -3287,7 +3295,7 @@ html, body {
 .b-detailList__content {
   *zoom: 1;
 }
-/* line 81, ../dev/sass/blocks/_l-detail.scss */
+/* line 87, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__title {
   float: left;
   position: relative;
@@ -3297,11 +3305,11 @@ html, body {
   color: #a7a7a7;
   font-weight: 700;
 }
-/* line 90, ../dev/sass/blocks/_l-detail.scss */
+/* line 96, ../dev/sass/blocks/_l-detail.scss */
 .-type_column .b-detailList__title {
   width: 130px;
 }
-/* line 94, ../dev/sass/blocks/_l-detail.scss */
+/* line 100, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__title:before {
   position: absolute;
   top: 1px;
@@ -3312,39 +3320,39 @@ html, body {
   background: url("../img/blocks/detail/detail-ico.png") 0 0 no-repeat;
   content: '';
 }
-/* line 107, ../dev/sass/blocks/_l-detail.scss */
+/* line 113, ../dev/sass/blocks/_l-detail.scss */
 .-type_description .b-detailList__title:before {
   background-position: -72px 0;
 }
-/* line 114, ../dev/sass/blocks/_l-detail.scss */
+/* line 120, ../dev/sass/blocks/_l-detail.scss */
 .-type_tags .b-detailList__title:before {
   background-position: -72px -28px;
 }
-/* line 120, ../dev/sass/blocks/_l-detail.scss */
+/* line 126, ../dev/sass/blocks/_l-detail.scss */
 .-type_view .b-detailList__title:before {
   background-position: 0 2px;
 }
-/* line 126, ../dev/sass/blocks/_l-detail.scss */
+/* line 132, ../dev/sass/blocks/_l-detail.scss */
 .-type_download .b-detailList__title:before {
   background-position: -1px -28px;
 }
-/* line 132, ../dev/sass/blocks/_l-detail.scss */
+/* line 138, ../dev/sass/blocks/_l-detail.scss */
 .-type_share .b-detailList__title:before {
   background-position: -1px -58px;
 }
-/* line 138, ../dev/sass/blocks/_l-detail.scss */
+/* line 144, ../dev/sass/blocks/_l-detail.scss */
 .-type_rate .b-detailList__title:before {
   background-position: -35px 0;
 }
-/* line 144, ../dev/sass/blocks/_l-detail.scss */
+/* line 150, ../dev/sass/blocks/_l-detail.scss */
 .-type_added .b-detailList__title:before {
   background-position: -36px -29px;
 }
-/* line 150, ../dev/sass/blocks/_l-detail.scss */
+/* line 156, ../dev/sass/blocks/_l-detail.scss */
 .-type_score .b-detailList__title:before {
   background-position: -37px -59px;
 }
-/* line 156, ../dev/sass/blocks/_l-detail.scss */
+/* line 162, ../dev/sass/blocks/_l-detail.scss */
 .b-detailList__val {
   overflow: hidden;
 }
@@ -3526,9 +3534,122 @@ html, body {
 }
 
 /**
+* @section Slider
+*/
+/* line 5, ../dev/sass/blocks/_l-slider.scss */
+.l-slider {
+  position: relative;
+}
+
+/* line 9, ../dev/sass/blocks/_l-slider.scss */
+.b-slider {
+  text-align: center;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-slider:before, .b-slider:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-slider:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-slider {
+  *zoom: 1;
+}
+/* line 13, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__slides {
+  display: inline-block;
+  margin: 5px 0 0;
+}
+/* line 29, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__item {
+  width: 150px;
+  height: 100px;
+  overflow: hidden;
+  display: table-cell;
+  padding: 0 60px 0 0;
+}
+/* line 35, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__item:last-child {
+  padding-right: 0;
+}
+/* line 40, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__arrowWrap {
+  position: relative;
+  width: 40px;
+}
+/* line 43, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__arrowWrap.-type_prev {
+  float: left;
+}
+/* line 47, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__arrowWrap.-type_next {
+  float: right;
+}
+/* line 52, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__arrow {
+  position: absolute;
+  top: 38px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  display: block;
+  border: 1px solid #dae8e7;
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+  text-indent: 100px;
+  font-size: 0;
+}
+/* line 66, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__arrow:hover, .b-slider__arrow:focus, .b-slider__arrow:active, .b-slider__arrow:visited {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 71, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__arrow:before {
+  display: block;
+  width: 7px;
+  height: 10px;
+  margin: 13px auto;
+  content: '';
+}
+/* line 79, ../dev/sass/blocks/_l-slider.scss */
+.-type_prev .b-slider__arrow {
+  left: 0;
+}
+/* line 82, ../dev/sass/blocks/_l-slider.scss */
+.-type_prev .b-slider__arrow:before {
+  background-position: -29px 0;
+}
+/* line 87, ../dev/sass/blocks/_l-slider.scss */
+.-type_prev .b-slider__arrow:hover:before, .-type_prev .b-slider__arrow:focus:before {
+  background-position: 0 0;
+}
+/* line 93, ../dev/sass/blocks/_l-slider.scss */
+.-type_next .b-slider__arrow {
+  right: 0;
+}
+/* line 96, ../dev/sass/blocks/_l-slider.scss */
+.-type_next .b-slider__arrow:before {
+  background-position: -43px 0;
+}
+/* line 101, ../dev/sass/blocks/_l-slider.scss */
+.-type_next .b-slider__arrow:hover:before, .-type_next .b-slider__arrow:focus:before {
+  background-position: -14px 0;
+}
+/* line 108, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__title {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+
+/**
 * @section content
 */
-/* line 67, ../dev/sass/main.scss */
+/* line 68, ../dev/sass/main.scss */
 .l-content {
   max-width: 1220px;
   margin: 0 auto;
@@ -3536,7 +3657,7 @@ html, body {
   position: relative;
 }
 
-/* line 74, ../dev/sass/main.scss */
+/* line 75, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
@@ -3555,12 +3676,12 @@ html, body {
 .b-content {
   *zoom: 1;
 }
-/* line 79, ../dev/sass/main.scss */
+/* line 80, ../dev/sass/main.scss */
 .b-content__content {
   overflow: hidden;
 }
 @media only screen and (max-width: 640px) {
-  /* line 79, ../dev/sass/main.scss */
+  /* line 80, ../dev/sass/main.scss */
   .b-content__content {
     overflow: auto;
   }

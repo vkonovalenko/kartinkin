@@ -138,20 +138,27 @@
 
     <div class="b-detail__block">
       <div class="l-slider">
-        <div class="b-slider js-slider">
-          <div class="b-slider__slides">
+        <div class="b-slider ">
+          <div class="b-slider__slides js-slider__slides">
 
             <div class="b-slider__slide js-slider__slide">
               <div class="b-slider__slideItems">
+                <div class="b-slider__slideItems">
                 <div class="b-slider__item js-slider__item">
                   <img src="img/userfiles/slider/slide-1.png" alt="" class="b-slider__img">
+                  <div class="b-slider__title">
+                    Девушка покрашенная желтой краской строителями
+                  </div>
                 </div>
                 <div class="b-slider__item js-slider__item">
                   <img src="img/userfiles/slider/slide-2.png" alt="" class="b-slider__img">
+                  <div class="b-slider__title">Девушка и MakeUp</div>
                 </div>
                 <div class="b-slider__item js-slider__item">
                   <img src="img/userfiles/slider/slide-3.png" alt="" class="b-slider__img">
+                  <div class="b-slider__title">Девушка с цепью</div>
                 </div>
+              </div>
               </div>
             </div>
 
@@ -159,20 +166,29 @@
               <div class="b-slider__slideItems">
                 <div class="b-slider__item js-slider__item">
                   <img src="img/userfiles/slider/slide-1.png" alt="" class="b-slider__img">
+                  <div class="b-slider__title">
+                    Девушка покрашенная желтой краской строителями
+                  </div>
                 </div>
                 <div class="b-slider__item js-slider__item">
                   <img src="img/userfiles/slider/slide-2.png" alt="" class="b-slider__img">
+                  <div class="b-slider__title">Девушка и MakeUp</div>
                 </div>
                 <div class="b-slider__item js-slider__item">
                   <img src="img/userfiles/slider/slide-3.png" alt="" class="b-slider__img">
+                  <div class="b-slider__title">Девушка с цепью</div>
                 </div>
               </div>
             </div>
 
           </div>
-          
-          <a href="" class="b-slider__arrow js-slider__arrow -type_prev">prev</a>
-          <a href="" class="b-slider__arrow js-slider__arrow -type_next">next</a>
+
+          <div class="b-slider__arrowWrap -type_prev">
+            <a href="" class="b-slider__arrow js-slider__arrow">prev</a>
+          </div>
+           <div class="b-slider__arrowWrap -type_next">
+            <a href="" class="b-slider__arrow js-slider__arrow">next</a>
+          </div>
 
         </div>
       </div>
