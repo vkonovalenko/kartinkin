@@ -2588,6 +2588,11 @@ html, body {
           box-sizing: border-box;
   -moz-border-radius: 2px;
        border-radius: 2px;
+  border: 0;
+  outline: 0;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -2595,25 +2600,25 @@ html, body {
   font-size: 16px;
   font-weight: 700;
 }
-/* line 24, ../dev/sass/blocks/_l-btn.scss */
+/* line 27, ../dev/sass/blocks/_l-btn.scss */
 .l-btn .b-btn {
   margin-bottom: 0;
 }
-/* line 28, ../dev/sass/blocks/_l-btn.scss */
+/* line 31, ../dev/sass/blocks/_l-btn.scss */
 .b-btn.-display_block {
   display: block;
   width: 100%;
   margin-right: 0;
 }
-/* line 34, ../dev/sass/blocks/_l-btn.scss */
+/* line 37, ../dev/sass/blocks/_l-btn.scss */
 .b-btn.-type_icon {
   padding-left: 40px;
 }
-/* line 36, ../dev/sass/blocks/_l-btn.scss */
+/* line 39, ../dev/sass/blocks/_l-btn.scss */
 .b-btn.-type_icon:before {
   display: block;
 }
-/* line 41, ../dev/sass/blocks/_l-btn.scss */
+/* line 44, ../dev/sass/blocks/_l-btn.scss */
 .b-btn:before {
   display: none;
   position: absolute;
@@ -2624,14 +2629,18 @@ html, body {
   background-image: url("../img/blocks/btn/btn-ico.png");
   content: '';
 }
-/* line 52, ../dev/sass/blocks/_l-btn.scss */
+/* line 55, ../dev/sass/blocks/_l-btn.scss */
 .b-btn:hover, .b-btn:active, .b-btn:visited, .b-btn:focus {
   color: #fff;
   text-decoration: none;
 }
-/* line 57, ../dev/sass/blocks/_l-btn.scss */
+/* line 60, ../dev/sass/blocks/_l-btn.scss */
 .b-btn.-indentRight_none {
   margin-right: 0;
+}
+/* line 64, ../dev/sass/blocks/_l-btn.scss */
+.b-btn.-indent_top {
+  margin-top: 5px;
 }
 
 /**
@@ -3465,24 +3474,53 @@ html, body {
 * @section Control
 */
 /* line 6, ../dev/sass/blocks/_b-control.scss */
-.b-control__select {
+.b-control__title {
+  margin: 0 0 15px;
+  padding: 0;
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: normal;
+}
+/* line 14, ../dev/sass/blocks/_b-control.scss */
+.b-control__select, .b-control__field {
   margin: 0 10px 0 0;
 }
-/* line 10, ../dev/sass/blocks/_b-control.scss */
+/* line 18, ../dev/sass/blocks/_b-control.scss */
 .b-control.-side_right {
   float: right;
 }
-/* line 14, ../dev/sass/blocks/_b-control.scss */
+/* line 22, ../dev/sass/blocks/_b-control.scss */
 .b-control.-side_left {
   float: left;
 }
+/* line 26, ../dev/sass/blocks/_b-control.scss */
+.b-control__field {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  -moz-border-radius: 2px;
+       border-radius: 2px;
+  border: 1px solid #dae8e7;
+}
+/* line 32, ../dev/sass/blocks/_b-control.scss */
+.b-control__field:focus {
+  outline: 0;
+}
+/* line 36, ../dev/sass/blocks/_b-control.scss */
+.b-control__field.-type_textarea {
+  width: 100%;
+  display: block;
+  margin-right: 0;
+  min-height: 60px;
+}
 
 /*select*/
-/* line 20, ../dev/sass/blocks/_b-control.scss */
+/* line 46, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox {
   vertical-align: top;
 }
-/* line 23, ../dev/sass/blocks/_b-control.scss */
+/* line 49, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select {
   width: 178px;
   height: 40px;
@@ -3496,7 +3534,7 @@ html, body {
      -moz-box-shadow: none;
           box-shadow: none;
 }
-/* line 33, ../dev/sass/blocks/_b-control.scss */
+/* line 59, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select:hover {
   outline: 0;
   background: #fff;
@@ -3504,37 +3542,37 @@ html, body {
      -moz-box-shadow: none;
           box-shadow: none;
 }
-/* line 39, ../dev/sass/blocks/_b-control.scss */
+/* line 65, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select-text {
   color: #a7a7a7;
 }
-/* line 44, ../dev/sass/blocks/_b-control.scss */
+/* line 70, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox .placeholder {
   color: #a7a7a7;
   font-style: italic;
 }
-/* line 49, ../dev/sass/blocks/_b-control.scss */
+/* line 75, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__trigger {
   border-left: 0;
 }
-/* line 51, ../dev/sass/blocks/_b-control.scss */
+/* line 77, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__trigger-arrow {
   top: 17px;
   right: 18px;
   border-top: 4px solid #898989;
   border-right: 4px solid transparent;
 }
-/* line 59, ../dev/sass/blocks/_b-control.scss */
+/* line 85, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__dropdown {
   border-bottom: 1px solid #dae8e7;
   background: #fff;
   color: inherit;
 }
-/* line 65, ../dev/sass/blocks/_b-control.scss */
+/* line 91, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox ul {
   max-height: 145px;
 }
-/* line 70, ../dev/sass/blocks/_b-control.scss */
+/* line 96, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox li.selected, .jq-selectbox li:hover {
   color: #fff;
 }
@@ -3664,18 +3702,10 @@ html, body {
 /**
 * @section Comments
 */
-/* line 8, ../dev/sass/blocks/_l-comments.scss */
-.b-comments__title {
-  margin: 0 0 15px;
-  padding: 0;
-  color: #a7a7a7;
-  font-size: 14px;
-}
-
-/* line 15, ../dev/sass/blocks/_l-comments.scss */
+/* line 7, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList {
   display: block;
-  margin: 0;
+  margin: 15px 0 19px;
   padding: 0;
   list-style: none;
 }
@@ -3692,15 +3722,15 @@ html, body {
 .b-commentsList {
   *zoom: 1;
 }
-/* line 22, ../dev/sass/blocks/_l-comments.scss */
+/* line 14, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__item {
   margin: 12px 0 0;
 }
-/* line 24, ../dev/sass/blocks/_l-comments.scss */
+/* line 16, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__item:first-child {
   margin-top: 0;
 }
-/* line 29, ../dev/sass/blocks/_l-comments.scss */
+/* line 21, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__avatarWrap {
   float: left;
   width: 56px;
@@ -3711,13 +3741,13 @@ html, body {
        border-radius: 2px;
   border: 1px solid #dae8e7;
 }
-/* line 39, ../dev/sass/blocks/_l-comments.scss */
+/* line 31, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__avatar {
   display: block;
   width: 100%;
   height: 100%;
 }
-/* line 45, ../dev/sass/blocks/_l-comments.scss */
+/* line 37, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__content {
   overflow: hidden;
   padding: 6px 9px 15px;
@@ -3726,35 +3756,36 @@ html, body {
   border: 1px solid #dae8e7;
   font-size: 12px;
 }
-/* line 53, ../dev/sass/blocks/_l-comments.scss */
+/* line 45, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__username, .b-commentsList__date {
   margin: 0 0 5px;
 }
-/* line 57, ../dev/sass/blocks/_l-comments.scss */
+/* line 49, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__date, .b-commentsList__text {
   color: #555454;
 }
-/* line 61, ../dev/sass/blocks/_l-comments.scss */
+/* line 53, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__username {
   float: left;
   font-weight: 700;
 }
-/* line 66, ../dev/sass/blocks/_l-comments.scss */
+/* line 58, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__date {
   float: right;
 }
-/* line 70, ../dev/sass/blocks/_l-comments.scss */
+/* line 62, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__text {
   clear: both;
 }
-/* line 74, ../dev/sass/blocks/_l-comments.scss */
+/* line 66, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__item .b-commentsList {
   position: relative;
   clear: both;
   margin-top: 12px;
+  margin-bottom: 0;
   padding-left: 40px;
 }
-/* line 80, ../dev/sass/blocks/_l-comments.scss */
+/* line 73, ../dev/sass/blocks/_l-comments.scss */
 .b-commentsList__item .b-commentsList:before {
   position: absolute;
   left: 7px;
@@ -3766,10 +3797,66 @@ html, body {
   content: '';
 }
 
+/* line 88, ../dev/sass/blocks/_l-comments.scss */
+.b-commentsForm__item {
+  margin: 0 0 20px;
+}
+/* line 16, ../dev/sass/_mixins.scss */
+.b-commentsForm__item:before, .b-commentsForm__item:after {
+  content: " ";
+  display: table;
+}
+/* line 21, ../dev/sass/_mixins.scss */
+.b-commentsForm__item:after {
+  clear: both;
+}
+/* line 24, ../dev/sass/_mixins.scss */
+.b-commentsForm__item {
+  *zoom: 1;
+}
+/* line 92, ../dev/sass/blocks/_l-comments.scss */
+.b-commentsForm__item:last-child {
+  margin-bottom: 0;
+}
+
+/**
+* @section ╨íaptcha
+*/
+/* line 7, ../dev/sass/blocks/_b-captcha.scss */
+.b-captcha.-side_right {
+  float: right;
+}
+/* line 11, ../dev/sass/blocks/_b-captcha.scss */
+.b-captcha.-side_left {
+  float: left;
+}
+/* line 15, ../dev/sass/blocks/_b-captcha.scss */
+.b-captcha__field, .b-captcha__imgWrap {
+  margin: 0 12px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 22, ../dev/sass/blocks/_b-captcha.scss */
+.b-captcha__field .b-control__field {
+  margin-right: 0;
+}
+/* line 27, ../dev/sass/blocks/_b-captcha.scss */
+.b-captcha__imgWrap {
+  width: 213px;
+  height: 50px;
+  overflow: hidden;
+}
+/* line 33, ../dev/sass/blocks/_b-captcha.scss */
+.b-captcha__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 /**
 * @section content
 */
-/* line 70, ../dev/sass/main.scss */
+/* line 72, ../dev/sass/main.scss */
 .l-content {
   max-width: 1220px;
   margin: 0 auto;
@@ -3777,7 +3864,7 @@ html, body {
   position: relative;
 }
 
-/* line 77, ../dev/sass/main.scss */
+/* line 79, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
@@ -3796,12 +3883,12 @@ html, body {
 .b-content {
   *zoom: 1;
 }
-/* line 82, ../dev/sass/main.scss */
+/* line 84, ../dev/sass/main.scss */
 .b-content__content {
   overflow: hidden;
 }
 @media only screen and (max-width: 640px) {
-  /* line 82, ../dev/sass/main.scss */
+  /* line 84, ../dev/sass/main.scss */
   .b-content__content {
     overflow: auto;
   }

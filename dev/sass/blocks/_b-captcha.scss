@@ -1,0 +1,39 @@
+/**
+* @section Сaptcha
+*/
+
+.b-captcha {
+
+	&.-side_right {
+		float: right;
+	}
+
+	&.-side_left {
+		float: left;
+	}
+
+	&__field, &__imgWrap {
+		margin: 0 12px 0 0;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	&__field {
+		.b-control__field {
+			margin-right: 0;
+		}
+	}
+
+	&__imgWrap {
+		width: 213px;
+		height: 50px;
+		overflow: hidden;
+	}
+
+	&__img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+

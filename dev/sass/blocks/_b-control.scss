@@ -3,7 +3,15 @@
 */
 
 .b-control {
-	&__select {
+	&__title {
+		margin: 0 0 15px;
+		padding: 0;
+		color: $thirdColor;
+    font-size: 14px;
+    font-weight: normal;
+	}
+
+	&__select, &__field {
 		margin: 0 10px 0 0;
 	}
 
@@ -13,6 +21,24 @@
 
 	&.-side_left {
 		float: left;
+	}
+
+	&__field {
+		box-sizing: border-box;
+		padding: 10px;
+		border-radius: 2px; 
+		border: 1px solid #dae8e7;
+
+		&:focus {
+			outline: 0;
+		}
+
+		&.-type_textarea {
+	    width: 100%;
+			display: block;
+			margin-right: 0;
+			min-height: 60px;
+		}
 	}
 }
 

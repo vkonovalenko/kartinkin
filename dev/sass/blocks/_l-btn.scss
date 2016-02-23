@@ -13,7 +13,10 @@
 	padding: 10px;
 	margin: 0 20px 20px 0;
 	box-sizing: border-box;
-	border-radius: 2px; 
+	border-radius: 2px;
+	border: 0;
+	outline: 0; 
+	box-shadow: none;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
@@ -56,6 +59,10 @@
 
 	&.-indentRight_none {
 		margin-right: 0;
+	}
+
+	&.-indent_top {
+		margin-top: 5px;
 	}
 }
 

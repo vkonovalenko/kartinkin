@@ -121,3 +121,8 @@
 .b-slider__title {
   color: #5bb14d;
 }
+
+/* line 159, ../dev/sass/colors.scss */
+.b-control__field:focus {
+  border: 1px solid #5bb14d;
+}

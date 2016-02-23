@@ -198,7 +198,7 @@
       <div class="l-comments">
         <div class="b-comments">
 
-          <h3 class="b-comments__title">Комментарии:</h3>
+          <h3 class="b-control__title">Комментарии:</h3>
 
           <ul class="b-commentsList">
             <li class="b-commentsList__item">
@@ -258,8 +258,21 @@
           <div class="b-commentsForm">
             <form>
               <div class="b-commentsForm__item">
-                <label class="b-comments__title"></label>
-                <textarea></textarea>
+                <label class="b-control__title">Оставьте свой комментарий:</label>
+                <textarea class="b-control__field -type_textarea"></textarea>
+              </div>
+              <div class="b-commentsForm__item">
+                <div class="b-control -side_right">
+                  <button class="b-btn -indentRight_none -indent_top">Отправить</button>
+                </div>
+                <div class="b-captcha -side_right">
+                  <div class="b-captcha__imgWrap">
+                    <img class="b-captcha__img" src="img/blocks/captcha/captcha-photo.png"  alt="">
+                  </div>
+                  <div class="b-captcha__field">
+                    <input class="b-control__field">
+                  </div>
+                </div>
               </div>
             </form>
           </div>

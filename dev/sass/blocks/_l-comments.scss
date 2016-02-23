@@ -1,21 +1,13 @@
 /**
 * @section Comments
 */
-.l-comments {
-	
-}
-.b-comments {
-	&__title {
-		margin: 0 0 15px;
-		padding: 0;
-		color: $thirdColor;
-    font-size: 14px;
-	}
-}
+.l-comments {}
+.b-comments {}
+
 .b-commentsList {
 	@include clearfix;
 	display: block;
-	margin: 0;
+	margin: 15px 0 19px;
 	padding: 0;
 	list-style: none;
 
@@ -75,6 +67,7 @@
 		position: relative;
 		clear: both;
 		margin-top: 12px;
+		margin-bottom: 0;
     padding-left: 40px;
 
     &:before {
@@ -87,5 +80,17 @@
     	background: url('../img/blocks/comments/comments-ico.png') 0 0 no-repeat;
     	content: '';
     }
+	}
+}
+
+.b-commentsForm {
+
+	&__item {
+		@include clearfix;
+		margin: 0 0 20px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 }
