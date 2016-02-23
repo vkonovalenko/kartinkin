@@ -194,29 +194,77 @@
       </div>
     </div>
 
-    <div class="l-comments">
-      <div class="b-comments">
+    <div class="b-detail__block -type_last">
+      <div class="l-comments">
+        <div class="b-comments">
 
-        <h3 class="b-comments__title">Комментарии:</h3>
+          <h3 class="b-comments__title">Комментарии:</h3>
 
-        <ul class="b-commentsList">
-          <li class="b-commentsList__item">
-            <div class="b-commentsList__avatarWrap">
-              <img src="" alt="" class="b-commentsList__avatar">
-            </div>
-            <div class="b-commentsList__content">
-              <div class="b-commentsList__username">Альберт Шеварнадзе:</div>
-              <div class="b-commentsList__date">01.02.2016, 22:05 </div>
-              <div class="b-commentsList__text">Ай какой хароший девушек, я таких люблю.</div>
-            </div>
-            <ul class="b-commentsList">
-              
-            </ul>
-          </li>
-        </ul>
+          <ul class="b-commentsList">
+            <li class="b-commentsList__item">
+              <div class="b-commentsList__avatarWrap">
+                <img src="img/userfiles/comments/avatar-1.jpg" alt="" class="b-commentsList__avatar">
+              </div>
+              <div class="b-commentsList__content">
+                <div class="b-commentsList__username">Альберт Шеварнадзе:</div>
+                <div class="b-commentsList__date">01.02.2016, 22:05 </div>
+                <div class="b-commentsList__text">Ай какой хароший девушек, я таких люблю.</div>
+              </div>
+            </li>
+            <li class="b-commentsList__item">
+              <div class="b-commentsList__avatarWrap">
+                <img src="img/userfiles/comments/avatar-1.jpg" alt="" class="b-commentsList__avatar">
+              </div>
+              <div class="b-commentsList__content">
+                <div class="b-commentsList__username">Альберт Шеварнадзе:</div>
+                <div class="b-commentsList__date">01.02.2016, 22:05 </div>
+                <div class="b-commentsList__text">Ай какой хароший девушек, я таких люблю.</div>
+              </div>
+              <ul class="b-commentsList">
+                <li class="b-commentsList__item">
+                  <div class="b-commentsList__avatarWrap">
+                    <img src="img/userfiles/comments/avatar-2.jpg" alt="" class="b-commentsList__avatar">
+                  </div>
+                  <div class="b-commentsList__content">
+                    <div class="b-commentsList__username">Альберт Шеварнадзе:</div>
+                    <div class="b-commentsList__date">01.02.2016, 22:05 </div>
+                    <div class="b-commentsList__text">Ай какой хароший девушек, я таких люблю.</div>
+                  </div>
+                </li>
+                <li class="b-commentsList__item">
+                  <div class="b-commentsList__avatarWrap">
+                    <img src="img/userfiles/comments/avatar-2.jpg" alt="" class="b-commentsList__avatar">
+                  </div>
+                  <div class="b-commentsList__content">
+                    <div class="b-commentsList__username">Альберт Шеварнадзе:</div>
+                    <div class="b-commentsList__date">01.02.2016, 22:05 </div>
+                    <div class="b-commentsList__text">Ай какой хароший девушек, я таких люблю.</div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="b-commentsList__item">
+              <div class="b-commentsList__avatarWrap">
+                <img src="img/userfiles/comments/avatar-1.jpg" alt="" class="b-commentsList__avatar">
+              </div>
+              <div class="b-commentsList__content">
+                <div class="b-commentsList__username">Альберт Шеварнадзе:</div>
+                <div class="b-commentsList__date">01.02.2016, 22:05 </div>
+                <div class="b-commentsList__text">Ай какой хароший девушек, я таких люблю.</div>
+              </div>
+            </li>
+          </ul>
 
-        <div class="b-comments__form"></div>
+          <div class="b-commentsForm">
+            <form>
+              <div class="b-commentsForm__item">
+                <label class="b-comments__title"></label>
+                <textarea></textarea>
+              </div>
+            </form>
+          </div>
 
+        </div>
       </div>
     </div>
 

@@ -6,8 +6,10 @@
 }
 .b-comments {
 	&__title {
-		margin: 0;
+		margin: 0 0 15px;
 		padding: 0;
+		color: $thirdColor;
+    font-size: 14px;
 	}
 }
 .b-commentsList {
@@ -17,21 +19,48 @@
 	padding: 0;
 	list-style: none;
 
-	&__item {}
+	&__item {
+		margin: 12px 0 0;
+		&:first-child  {
+			margin-top: 0;
+		}
+	}
 
 	&__avatarWrap {
-		width: 54px;
-		height: 54px;
-		padding: 1px;
 		float: left;
+		width: 56px;
+		height: 56px;
+		padding: 1px;
+    margin: 0 15px 0 0;
+    border-radius: 2px; 
+    border: 1px solid #dae8e7;
+	}
+
+	&__avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
 	}
 
 	&__content {
 		overflow: hidden;
+		padding: 6px 9px 15px;
+		border-radius: 2px; 
+		border: 1px solid #dae8e7;
+		font-size: 12px;
+	}
+
+	&__username, &__date {
+		margin: 0 0 5px;
+	}
+	    
+	&__date, &__text {
+		color: $secondColor;
 	}
 
 	&__username {
 		float: left;
+		font-weight: 700;
 	}
 
 	&__date {
@@ -42,7 +71,21 @@
 		clear: both;
 	}
 
-	.b-commentsListList__item & {
+	.b-commentsList__item & {
+		position: relative;
 		clear: both;
+		margin-top: 12px;
+    padding-left: 40px;
+
+    &:before {
+    	position: absolute;
+    	left: 7px;
+    	top: 18px;
+    	display: block;
+    	width: 22px;
+    	height: 16px;
+    	background: url('../img/blocks/comments/comments-ico.png') 0 0 no-repeat;
+    	content: '';
+    }
 	}
 }
