@@ -3499,28 +3499,30 @@ html, body {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   padding: 10px;
+  height: 41px;
   -moz-border-radius: 2px;
        border-radius: 2px;
   border: 1px solid #dae8e7;
 }
-/* line 32, ../dev/sass/blocks/_b-control.scss */
+/* line 33, ../dev/sass/blocks/_b-control.scss */
 .b-control__field:focus {
   outline: 0;
 }
-/* line 36, ../dev/sass/blocks/_b-control.scss */
+/* line 37, ../dev/sass/blocks/_b-control.scss */
 .b-control__field.-type_textarea {
   width: 100%;
+  height: auto;
+  min-height: 60px;
   display: block;
   margin-right: 0;
-  min-height: 60px;
 }
 
 /*select*/
-/* line 46, ../dev/sass/blocks/_b-control.scss */
+/* line 48, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox {
   vertical-align: top;
 }
-/* line 49, ../dev/sass/blocks/_b-control.scss */
+/* line 51, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select {
   width: 178px;
   height: 40px;
@@ -3534,7 +3536,7 @@ html, body {
      -moz-box-shadow: none;
           box-shadow: none;
 }
-/* line 59, ../dev/sass/blocks/_b-control.scss */
+/* line 61, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select:hover {
   outline: 0;
   background: #fff;
@@ -3542,37 +3544,37 @@ html, body {
      -moz-box-shadow: none;
           box-shadow: none;
 }
-/* line 65, ../dev/sass/blocks/_b-control.scss */
+/* line 67, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select-text {
   color: #a7a7a7;
 }
-/* line 70, ../dev/sass/blocks/_b-control.scss */
+/* line 72, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox .placeholder {
   color: #a7a7a7;
   font-style: italic;
 }
-/* line 75, ../dev/sass/blocks/_b-control.scss */
+/* line 77, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__trigger {
   border-left: 0;
 }
-/* line 77, ../dev/sass/blocks/_b-control.scss */
+/* line 79, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__trigger-arrow {
   top: 17px;
   right: 18px;
   border-top: 4px solid #898989;
   border-right: 4px solid transparent;
 }
-/* line 85, ../dev/sass/blocks/_b-control.scss */
+/* line 87, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__dropdown {
   border-bottom: 1px solid #dae8e7;
   background: #fff;
   color: inherit;
 }
-/* line 91, ../dev/sass/blocks/_b-control.scss */
+/* line 93, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox ul {
   max-height: 145px;
 }
-/* line 96, ../dev/sass/blocks/_b-control.scss */
+/* line 98, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox li.selected, .jq-selectbox li:hover {
   color: #fff;
 }

@@ -26,6 +26,7 @@
 	&__field {
 		box-sizing: border-box;
 		padding: 10px;
+		height: 41px;
 		border-radius: 2px; 
 		border: 1px solid #dae8e7;
 
@@ -35,9 +36,10 @@
 
 		&.-type_textarea {
 	    width: 100%;
+	    height: auto;
+	    min-height: 60px;
 			display: block;
 			margin-right: 0;
-			min-height: 60px;
 		}
 	}
 }
