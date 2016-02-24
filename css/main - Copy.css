@@ -3883,7 +3883,7 @@ html, body {
   display: none;
   position: fixed;
   right: 50%;
-  top: 95px;
+  bottom: 130px;
   z-index: 1500;
 }
 /* line 13, ../dev/sass/blocks/_b-scrollUp.scss */
