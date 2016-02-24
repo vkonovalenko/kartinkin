@@ -3017,7 +3017,7 @@ html, body {
 /* line 15, ../dev/sass/blocks/_l-breadCrumbs.scss */
 .b-breadCrumbs__item {
   float: left;
-  margin: 0 20px 0 0;
+  margin: 0 20px 5px 0;
 }
 /* line 19, ../dev/sass/blocks/_l-breadCrumbs.scss */
 .b-breadCrumbs__item:last-child {
@@ -3619,12 +3619,11 @@ html, body {
 /* line 29, ../dev/sass/blocks/_l-slider.scss */
 .b-slider__item {
   width: 150px;
-  height: 100px;
   overflow: hidden;
   display: table-cell;
   padding: 0 60px 0 0;
 }
-/* line 35, ../dev/sass/blocks/_l-slider.scss */
+/* line 34, ../dev/sass/blocks/_l-slider.scss */
 .b-slider__item:last-child {
   padding-right: 0;
 }
@@ -3636,27 +3635,32 @@ html, body {
     padding-right: 0;
   }
 }
-/* line 45, ../dev/sass/blocks/_l-slider.scss */
-.b-slider__img {
-  /*display: block;
+/* line 44, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__imgWrap {
   width: 100%;
-  height: 100%;*/
+  height: 100px;
 }
-/* line 51, ../dev/sass/blocks/_l-slider.scss */
+/* line 49, ../dev/sass/blocks/_l-slider.scss */
+.b-slider__img {
+  display: block;
+  width: 150px;
+  height: 100%;
+}
+/* line 55, ../dev/sass/blocks/_l-slider.scss */
 .b-slider__arrowWrap {
   position: relative;
   width: 40px;
   height: 100px;
 }
-/* line 55, ../dev/sass/blocks/_l-slider.scss */
+/* line 59, ../dev/sass/blocks/_l-slider.scss */
 .b-slider__arrowWrap.-type_prev {
   float: left;
 }
-/* line 59, ../dev/sass/blocks/_l-slider.scss */
+/* line 63, ../dev/sass/blocks/_l-slider.scss */
 .b-slider__arrowWrap.-type_next {
   float: right;
 }
-/* line 64, ../dev/sass/blocks/_l-slider.scss */
+/* line 68, ../dev/sass/blocks/_l-slider.scss */
 .b-slider__arrow {
   position: absolute;
   top: 38px;
@@ -3671,12 +3675,12 @@ html, body {
   text-indent: 100px;
   font-size: 0;
 }
-/* line 78, ../dev/sass/blocks/_l-slider.scss */
+/* line 82, ../dev/sass/blocks/_l-slider.scss */
 .b-slider__arrow:hover, .b-slider__arrow:focus, .b-slider__arrow:active, .b-slider__arrow:visited {
   color: inherit;
   text-decoration: none;
 }
-/* line 83, ../dev/sass/blocks/_l-slider.scss */
+/* line 87, ../dev/sass/blocks/_l-slider.scss */
 .b-slider__arrow:before {
   display: block;
   width: 7px;
@@ -3684,31 +3688,31 @@ html, body {
   margin: 13px auto;
   content: '';
 }
-/* line 91, ../dev/sass/blocks/_l-slider.scss */
+/* line 95, ../dev/sass/blocks/_l-slider.scss */
 .-type_prev .b-slider__arrow {
   left: 0;
 }
-/* line 94, ../dev/sass/blocks/_l-slider.scss */
+/* line 98, ../dev/sass/blocks/_l-slider.scss */
 .-type_prev .b-slider__arrow:before {
   background-position: -29px 0;
 }
-/* line 99, ../dev/sass/blocks/_l-slider.scss */
+/* line 103, ../dev/sass/blocks/_l-slider.scss */
 .-type_prev .b-slider__arrow:hover:before, .-type_prev .b-slider__arrow:focus:before {
   background-position: 0 0;
 }
-/* line 105, ../dev/sass/blocks/_l-slider.scss */
+/* line 109, ../dev/sass/blocks/_l-slider.scss */
 .-type_next .b-slider__arrow {
   right: 0;
 }
-/* line 108, ../dev/sass/blocks/_l-slider.scss */
+/* line 112, ../dev/sass/blocks/_l-slider.scss */
 .-type_next .b-slider__arrow:before {
   background-position: -43px 0;
 }
-/* line 113, ../dev/sass/blocks/_l-slider.scss */
+/* line 117, ../dev/sass/blocks/_l-slider.scss */
 .-type_next .b-slider__arrow:hover:before, .-type_next .b-slider__arrow:focus:before {
   background-position: -14px 0;
 }
-/* line 120, ../dev/sass/blocks/_l-slider.scss */
+/* line 124, ../dev/sass/blocks/_l-slider.scss */
 .b-slider__title {
   margin: 10px 0 0;
   font-size: 12px;

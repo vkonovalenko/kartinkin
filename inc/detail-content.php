@@ -145,17 +145,23 @@
               <div class="b-slider__slideItems">
                 <div class="b-slider__slideItems">
                 <div class="b-slider__item js-slider__item">
-                  <img src="img/userfiles/slider/slide-1.png" alt="" class="b-slider__img">
+                  <div class="b-slider__imgWrap">
+                    <img src="img/userfiles/slider/slide-1.png" alt="" class="b-slider__img">
+                  </div>
                   <div class="b-slider__title">
                     Девушка покрашенная желтой краской строителями
                   </div>
                 </div>
                 <div class="b-slider__item js-slider__item">
-                  <img src="img/userfiles/slider/slide-2.png" alt="" class="b-slider__img">
+                  <div class="b-slider__imgWrap">
+                    <img src="img/userfiles/slider/slide-2.png" alt="" class="b-slider__img">
+                  </div>
                   <div class="b-slider__title">Девушка и MakeUp</div>
                 </div>
                 <div class="b-slider__item js-slider__item">
-                  <img src="img/userfiles/slider/slide-3.png" alt="" class="b-slider__img">
+                  <div class="b-slider__imgWrap">
+                    <img src="img/userfiles/slider/slide-3.png" alt="" class="b-slider__img">
+                  </div>
                   <div class="b-slider__title">Девушка с цепью</div>
                 </div>
               </div>
@@ -165,17 +171,23 @@
             <div class="b-slider__slide js-slider__slide">
               <div class="b-slider__slideItems">
                 <div class="b-slider__item js-slider__item">
-                  <img src="img/userfiles/slider/slide-1.png" alt="" class="b-slider__img">
+                  <div class="b-slider__imgWrap">
+                    <img src="img/userfiles/slider/slide-1.png" alt="" class="b-slider__img">
+                  </div>
                   <div class="b-slider__title">
                     Девушка покрашенная желтой краской строителями
                   </div>
                 </div>
                 <div class="b-slider__item js-slider__item">
-                  <img src="img/userfiles/slider/slide-2.png" alt="" class="b-slider__img">
+                  <div class="b-slider__imgWrap">
+                    <img src="img/userfiles/slider/slide-2.png" alt="" class="b-slider__img">
+                  </div>
                   <div class="b-slider__title">Девушка и MakeUp</div>
                 </div>
                 <div class="b-slider__item js-slider__item">
-                  <img src="img/userfiles/slider/slide-3.png" alt="" class="b-slider__img">
+                  <div class="b-slider__imgWrap">
+                    <img src="img/userfiles/slider/slide-3.png" alt="" class="b-slider__img">
+                  </div>
                   <div class="b-slider__title">Девушка с цепью</div>
                 </div>
               </div>
