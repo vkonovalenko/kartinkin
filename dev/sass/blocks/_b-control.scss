@@ -4,6 +4,7 @@
 
 .b-control {
 	&__title {
+		display: block;
 		margin: 0 0 15px;
 		padding: 0;
 		color: $thirdColor;
@@ -12,6 +13,7 @@
 	}
 
 	&__select, &__field {
+    display: block;
 		margin: 0 10px 0 0;
 	}
 
@@ -24,14 +26,19 @@
 	}
 
 	&__field {
+		width: 180px;
+		height: 41px;
 		box-sizing: border-box;
 		padding: 10px;
-		height: 41px;
 		border-radius: 2px; 
 		border: 1px solid #dae8e7;
 
 		&:focus {
 			outline: 0;
+		}
+
+		&.-size_big {
+			width: 300px;
 		}
 
 		&.-type_textarea {

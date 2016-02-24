@@ -258,6 +258,10 @@
           <div class="b-commentsForm">
             <form>
               <div class="b-commentsForm__item">
+                <label class="b-control__title">Ваше имя:</label>
+                <input type="text" class="b-control__field -size_big">
+              </div>
+              <div class="b-commentsForm__item">
                 <label class="b-control__title">Оставьте свой комментарий:</label>
                 <textarea class="b-control__field -type_textarea"></textarea>
               </div>
