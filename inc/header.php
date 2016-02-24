@@ -87,7 +87,7 @@
   <![endif]-->
 
   <div class="l-wrapper">
-    <header class="l-siteHeader" role="banner"> 
+    <header class="l-siteHeader js-siteHeader" role="banner"> 
       <div class="b-siteHeader">
         <div class="l-siteLogo">
           <?php

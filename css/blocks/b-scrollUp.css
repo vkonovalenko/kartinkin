@@ -1,0 +1,56 @@
+/**
+* @section Like
+*/
+/* line 4, ../../dev/sass/blocks/b-scrollUp.scss */
+.l-like {
+  position: relative;
+  padding: 4px 0 4px 12px;
+}
+/* line 7, ../../dev/sass/blocks/b-scrollUp.scss */
+.l-like:before {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  display: block;
+  width: 1px;
+  height: 21px;
+  border-left: 1px solid #e1e6e6;
+  content: '';
+}
+/* line 19, ../../dev/sass/blocks/b-scrollUp.scss */
+.l-like.-size_big:before {
+  height: 24px;
+}
+/* line 24, ../../dev/sass/blocks/b-scrollUp.scss */
+.l-like.-side-right {
+  float: right;
+}
+/* line 28, ../../dev/sass/blocks/b-scrollUp.scss */
+.l-like.-side-left {
+  float: left;
+}
+
+/* line 33, ../../dev/sass/blocks/b-scrollUp.scss */
+.b-like {
+  display: block;
+  overflow: hidden;
+  width: 15px;
+  height: 13px;
+  text-indent: 100px;
+  background: url("../img/blocks/like/like-ico.png") 0 0 no-repeat;
+  cursor: pointer;
+}
+/* line 42, ../../dev/sass/blocks/b-scrollUp.scss */
+.-size_big .b-like {
+  width: 21px;
+  height: 18px;
+  background-position: -69px 0;
+}
+/* line 48, ../../dev/sass/blocks/b-scrollUp.scss */
+.b-like.-state_liked, .b-like:hover {
+  background-position: -35px 0;
+}
+/* line 51, ../../dev/sass/blocks/b-scrollUp.scss */
+.-size_big .b-like.-state_liked, .-size_big .b-like:hover {
+  background-position: -101px 0;
+}

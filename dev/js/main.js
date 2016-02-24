@@ -9,6 +9,7 @@ $(function() {
  initPlaceholder();
  initStyler();
  initCycle();
+ scrollUp();
 });
 
 function like() {
@@ -68,3 +69,32 @@ function initCycle() {
     slideNum: 3
   });
 }
+
+function scrollUp() {
+  function windowScrollUp() {
+  var windowH, pageH, diffH, slideH, headerH; 
+
+      windowH=$(window).height();
+      pageH=$(document).height();
+      diffH=pageH-windowH;
+
+      headerH=$('.js-siteHeader').height();
+      diffHScroll=headerH;
+ 
+      if(diffH>120 && $(window).scrollTop()>diffHScroll) { 
+          $('.js-scrollUp').addClass( '-state_active' );
+      }
+      else {
+          $('.js-scrollUp').removeClass( '-state_active' );
+      }
+      
+  }
+  
+  $('.js-scrollUp').click(function(){
+    $( 'body' ).animate({ 'scrollTop' : 0 }, 'slow' );
+  });
+
+  windowScrollUp();
+  $(window).scroll(windowScrollUp);
+}
+

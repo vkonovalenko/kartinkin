@@ -1,5 +1,6 @@
+    <?php include('scrollup.php'); ?>
   </div><!--content-->
-
+  
   <footer class="l-siteFooter" role="contentinfo">
     <div class="b-siteFooter">
       <address class="l-siteCopyright vcard" itemscope itemtype="http://schema.org/Organization">
