@@ -126,3 +126,8 @@
 .b-control__field:focus {
   border: 1px solid #5bb14d;
 }
+
+/* line 167, ../dev/sass/colors.scss */
+.b-loader:before {
+  background: rgba(146, 199, 127, 0.85) url("../img/blocks/loader/loader-ico.gif") center 50% no-repeat;
+}

@@ -162,3 +162,10 @@
 	}
 }
 
+.b-loader {
+
+	&:before {
+		background: rgba(146, 199, 127, .85) url('../img/blocks/loader/loader-ico.gif') center 50%  no-repeat;
+	}
+}
+
