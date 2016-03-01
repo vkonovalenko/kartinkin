@@ -1,0 +1,47 @@
+/**
+* @section popup
+*/
+
+
+.fancybox-close {
+  .b-customFancybox & {
+    width: 17px;
+    height: 17px;
+    top: -12px;
+    right: -12px;
+    background: url('../img/blocks/popup/popup-ico.png') 0 0 no-repeat;
+  }
+}
+
+.fancybox-opened .fancybox-skin, .fancybox-skin {
+   &.b-customFancybox {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+.l-popup {
+	display: none;
+	width: $popupWidth;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 3px;
+	background: #e8eded;
+}
+
+.b-popup {
+
+	&__title {
+		margin: 0 0 20px;
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	&__inner {
+		padding: 10px;
+		border: 1px solid #dae8e7;
+		background: #fff;
+	}
+}

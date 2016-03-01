@@ -3936,9 +3936,57 @@ html, body {
 }
 
 /**
+* @section popup
+*/
+/* line 7, ../dev/sass/blocks/_l-popup.scss */
+.b-customFancybox .fancybox-close {
+  width: 17px;
+  height: 17px;
+  top: -12px;
+  right: -12px;
+  background: url("../img/blocks/popup/popup-ico.png") 0 0 no-repeat;
+}
+
+/* line 17, ../dev/sass/blocks/_l-popup.scss */
+.fancybox-opened .fancybox-skin.b-customFancybox, .fancybox-skin.b-customFancybox {
+  padding: 0;
+  background: transparent;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 24, ../dev/sass/blocks/_l-popup.scss */
+.l-popup {
+  display: none;
+  width: 420px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  -moz-border-radius: 3px;
+       border-radius: 3px;
+  background: #e8eded;
+}
+
+/* line 35, ../dev/sass/blocks/_l-popup.scss */
+.b-popup__title {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+/* line 42, ../dev/sass/blocks/_l-popup.scss */
+.b-popup__inner {
+  padding: 10px;
+  border: 1px solid #dae8e7;
+  background: #fff;
+}
+
+/**
 * @section content
 */
-/* line 76, ../dev/sass/main.scss */
+/* line 77, ../dev/sass/main.scss */
 .l-content {
   max-width: 1220px;
   margin: 0 auto;
@@ -3946,7 +3994,7 @@ html, body {
   position: relative;
 }
 
-/* line 83, ../dev/sass/main.scss */
+/* line 84, ../dev/sass/main.scss */
 .b-content {
   position: relative;
   display: block;
@@ -3965,12 +4013,12 @@ html, body {
 .b-content {
   *zoom: 1;
 }
-/* line 88, ../dev/sass/main.scss */
+/* line 89, ../dev/sass/main.scss */
 .b-content__content {
   overflow: hidden;
 }
 @media only screen and (max-width: 640px) {
-  /* line 88, ../dev/sass/main.scss */
+  /* line 89, ../dev/sass/main.scss */
   .b-content__content {
     overflow: auto;
   }

@@ -10,6 +10,7 @@ $(function() {
  initStyler();
  initCycle();
  scrollUp();
+ initFancybox();
 });
 
 function like() {
@@ -96,5 +97,17 @@ function scrollUp() {
 
   windowScrollUp();
   $(window).scroll(windowScrollUp);
+}
+
+function initFancybox() {
+	$('.js-popupLink').fancybox({
+		tpl: {
+		  wrap : '<div class="fancybox-wrap" tabIndex="-1"><div class="fancybox-skin b-customFancybox"><div class="fancybox-outer"><div class="fancybox-inner"></div></div></div></div>',
+		  closeBtn : '<a title="Close" class="fancybox-close" href="javascript:;"></a>'
+		},
+		helpers : {
+		  overlay : {css : {'background' : 'rgba(0, 0, 0, 0.8)'}, closeClick : false, speedOut: 200, closeEffect : 'elastic', openEffect : 'elastic'}
+		}
+	});
 }
 

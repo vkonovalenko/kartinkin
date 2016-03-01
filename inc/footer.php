@@ -1,4 +1,5 @@
     <?php include('scrollup.php'); ?>
+    <?php include('popups.php'); ?>
   </div><!--content-->
   
   <footer class="l-siteFooter" role="contentinfo">

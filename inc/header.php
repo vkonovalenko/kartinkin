@@ -114,7 +114,7 @@
           </a>
         </div>
         <div class="l-siteContactUs">
-          <a href="" class="b-siteContactUs">Написать нам</a>
+          <a class="b-siteContactUs js-popupLink" href="#js-popupMail">Написать нам</a>
         </div>
       </div>
     </header>
