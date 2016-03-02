@@ -81,7 +81,7 @@
 						<div class="b-popupForm__item_side_left -innerIndent_top">
 							<div class="b-control">
 								<input type="checkbox" class="b-control_checkbox" id="checkbox_remember">
-								<label for="#checkbox_remember" class="b-control__label">Запомнить меня</label>
+								<label for="checkbox_remember" class="b-control__label">Запомнить меня</label>
 							</div>
 						</div>
 						<div class="b-popupForm__item_side_right">
