@@ -40,8 +40,26 @@
 	}
 
 	&__inner {
-		padding: 10px;
+		position: relative;
+		padding: 20px;
 		border: 1px solid #dae8e7;
 		background: #fff;
+	}
+
+	&__resolution {
+		position: absolute;
+		top: -20px;
+		left: 15px;
+		right: 0;
+		color: #b1b8c1;
+		font-style: italic;
+		font-size: 14px;
+	}
+}
+
+.b-popupForm {
+
+	&__item {
+		margin: 0 0 20px;
 	}
 }

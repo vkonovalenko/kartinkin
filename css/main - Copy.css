@@ -2619,6 +2619,12 @@ html, body {
   display: block;
 }
 /* line 44, ../dev/sass/blocks/_l-btn.scss */
+.b-btn.-size_large {
+  min-height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 50, ../dev/sass/blocks/_l-btn.scss */
 .b-btn:before {
   display: none;
   position: absolute;
@@ -2629,16 +2635,16 @@ html, body {
   background-image: url("../img/blocks/btn/btn-ico.png");
   content: '';
 }
-/* line 55, ../dev/sass/blocks/_l-btn.scss */
+/* line 61, ../dev/sass/blocks/_l-btn.scss */
 .b-btn:hover, .b-btn:active, .b-btn:visited, .b-btn:focus {
   color: #fff;
   text-decoration: none;
 }
-/* line 60, ../dev/sass/blocks/_l-btn.scss */
+/* line 66, ../dev/sass/blocks/_l-btn.scss */
 .b-btn.-indentRight_none {
   margin-right: 0;
 }
-/* line 64, ../dev/sass/blocks/_l-btn.scss */
+/* line 70, ../dev/sass/blocks/_l-btn.scss */
 .b-btn.-indent_top {
   margin-top: 5px;
 }
@@ -3516,6 +3522,17 @@ html, body {
   width: 300px;
 }
 /* line 44, ../dev/sass/blocks/_b-control.scss */
+.b-control__field.-size_long {
+  min-height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 50, ../dev/sass/blocks/_b-control.scss */
+.b-control__field.-size_100 {
+  display: block;
+  width: 100%;
+}
+/* line 55, ../dev/sass/blocks/_b-control.scss */
 .b-control__field.-type_textarea {
   width: 100%;
   height: auto;
@@ -3523,13 +3540,17 @@ html, body {
   display: block;
   margin-right: 0;
 }
+/* line 62, ../dev/sass/blocks/_b-control.scss */
+.b-control__field.-type_textarea.-height_more {
+  min-height: 200px;
+}
 
 /*select*/
-/* line 55, ../dev/sass/blocks/_b-control.scss */
+/* line 70, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox {
   vertical-align: top;
 }
-/* line 58, ../dev/sass/blocks/_b-control.scss */
+/* line 73, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select {
   width: 178px;
   height: 40px;
@@ -3543,7 +3564,7 @@ html, body {
      -moz-box-shadow: none;
           box-shadow: none;
 }
-/* line 68, ../dev/sass/blocks/_b-control.scss */
+/* line 83, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select:hover {
   outline: 0;
   background: #fff;
@@ -3551,37 +3572,37 @@ html, body {
      -moz-box-shadow: none;
           box-shadow: none;
 }
-/* line 74, ../dev/sass/blocks/_b-control.scss */
+/* line 89, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__select-text {
   color: #a7a7a7;
 }
-/* line 79, ../dev/sass/blocks/_b-control.scss */
+/* line 94, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox .placeholder {
   color: #a7a7a7;
   font-style: italic;
 }
-/* line 84, ../dev/sass/blocks/_b-control.scss */
+/* line 99, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__trigger {
   border-left: 0;
 }
-/* line 86, ../dev/sass/blocks/_b-control.scss */
+/* line 101, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__trigger-arrow {
   top: 17px;
   right: 18px;
   border-top: 4px solid #898989;
   border-right: 4px solid transparent;
 }
-/* line 94, ../dev/sass/blocks/_b-control.scss */
+/* line 109, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox__dropdown {
   border-bottom: 1px solid #dae8e7;
   background: #fff;
   color: inherit;
 }
-/* line 100, ../dev/sass/blocks/_b-control.scss */
+/* line 115, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox ul {
   max-height: 145px;
 }
-/* line 105, ../dev/sass/blocks/_b-control.scss */
+/* line 120, ../dev/sass/blocks/_b-control.scss */
 .jq-selectbox li.selected, .jq-selectbox li:hover {
   color: #fff;
 }
@@ -3978,9 +3999,25 @@ html, body {
 }
 /* line 42, ../dev/sass/blocks/_l-popup.scss */
 .b-popup__inner {
-  padding: 10px;
+  position: relative;
+  padding: 20px;
   border: 1px solid #dae8e7;
   background: #fff;
+}
+/* line 49, ../dev/sass/blocks/_l-popup.scss */
+.b-popup__resolution {
+  position: absolute;
+  top: -20px;
+  left: 15px;
+  right: 0;
+  color: #b1b8c1;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* line 62, ../dev/sass/blocks/_l-popup.scss */
+.b-popupForm__item {
+  margin: 0 0 20px;
 }
 
 /**

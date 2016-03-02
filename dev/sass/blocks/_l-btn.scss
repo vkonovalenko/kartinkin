@@ -41,6 +41,12 @@
 		}
 	}
 
+	&.-size_large {
+		min-height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+
 	&:before {
 		display: none;
 		position: absolute;
