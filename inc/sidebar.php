@@ -5,8 +5,8 @@
     		<a class="b-btn -display_block -type_icon js-popupLink" href="#js-popupRegister">Регистрация</a>
     	</div>
     	<div class="l-links">
-    		<a href="" class="b-link -color_green -type_icon -type_login">Войти</a>
-    		<a href="" class="b-link -color_red -type_icon -type_favorites">Избранное</a>
+    		<a class="b-link -color_green -type_icon -type_login js-popupLink" href="#js-popupLogin">Войти</a>
+    		<a class="b-link -color_red -type_icon -type_favorites" href="">Избранное</a>
     	</div>
     </div>
     <div class="b-sidebar__block">

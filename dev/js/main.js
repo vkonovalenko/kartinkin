@@ -54,7 +54,7 @@ function initPlaceholder() {
 }
 
 function initStyler() {
-	$('select').styler();
+	$('select, input[type=checkbox]').styler();
 }
 
 function initCycle() {

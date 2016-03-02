@@ -139,6 +139,12 @@
 	}
 }
 
+.jq-checkbox  {
+	&.focused {
+		border: 1px solid $themeColor;
+	}
+}
+
 .b-slider {
 
 	&__arrow {

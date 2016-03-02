@@ -32,6 +32,7 @@
 		display: block;
 		width: 100%;
 		margin-right: 0;
+		margin-bottom: 0;
 	}
 
 	&.-type_icon {
@@ -41,10 +42,21 @@
 		}
 	}
 
-	&.-size_large {
-		min-height: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+	&.-size {
+
+		&_small, &_large {
+			min-height: 60px;
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+		}
+
+		&_small {
+			min-width: 160px;
+		}
+	}
+
+	&.-indents_none {
+		margin: 0;
 	}
 
 	&:before {

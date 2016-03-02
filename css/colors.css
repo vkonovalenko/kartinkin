@@ -113,21 +113,26 @@
   border: 1px solid #5bb14d;
 }
 
-/* line 145, ../dev/sass/colors.scss */
+/* line 143, ../dev/sass/colors.scss */
+.jq-checkbox.focused {
+  border: 1px solid #5bb14d;
+}
+
+/* line 151, ../dev/sass/colors.scss */
 .b-slider__arrow:before {
   background: url("../img/blocks/slider/slider-ico.png") 0 0 no-repeat;
 }
-/* line 150, ../dev/sass/colors.scss */
+/* line 156, ../dev/sass/colors.scss */
 .b-slider__title {
   color: #5bb14d;
 }
 
-/* line 159, ../dev/sass/colors.scss */
+/* line 165, ../dev/sass/colors.scss */
 .b-control__field:focus {
   border: 1px solid #5bb14d;
 }
 
-/* line 167, ../dev/sass/colors.scss */
+/* line 173, ../dev/sass/colors.scss */
 .b-loader:before {
   background: rgba(146, 199, 127, 0.85) url("../img/blocks/loader/loader-ico.gif") center 50% no-repeat;
 }

@@ -64,6 +64,38 @@
 			}
 		}
 	}
+
+	&__label {
+		font-size: 14px;
+		font-weight: normal;
+	}
+
+	&__checkbox {
+
+	}
+}
+
+/*checkbox*/ 
+
+.jq-checkbox  {
+  margin: 0 10px 0 0;
+	width: 18px;
+	height: 18px;
+	border: 1px solid #b2b2b2;
+	background: #fff;
+
+	&.focused {
+		border: 1px solid #b2b2b2;
+	}
+
+	&__div {
+		
+		.jq-checkbox.checked &  {
+	    margin: 4px 0 0 3px;
+			box-shadow: none;
+			background: url('../img/blocks/control/control__checkbox-ico.png') 0 0 no-repeat;
+		}
+	}
 }
 
 /*select*/
