@@ -13,7 +13,7 @@
 	</ul>
 </div>
 <div class="l-content">
-	<div class="l-panel">
+	<div class="l-panel js-panel">
 		<div class="b-panel">
 			<div class="l-pageTitle">
 				<h2 class="b-pageTitle">Девушки</h2>
@@ -21,8 +21,8 @@
 			<?php require('inc/view.php'); ?>
 			<?php require('inc/sort.php'); ?>
 		</div>
-		
 	</div>
+	
 	<main class="b-content" role="main">
 		<?php require('inc/sidebar.php'); ?>
 		<div class="b-content__content">

@@ -2483,6 +2483,7 @@ $(function() {
  initCycle();
  scrollUp();
  initFancybox();
+ makeFixedSidebar();
 });
 
 function like() {
@@ -2582,6 +2583,10 @@ function initFancybox() {
 		}
 	});
 }
+
+function makeFixedSidebar() {}
+
+
 
 
 /*Section "Type-Home" Animations*/

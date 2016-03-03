@@ -2491,22 +2491,26 @@ html, body {
     float: none;
   }
 }
+/* line 13, ../dev/sass/blocks/_l-sidebar.scss */
+.l-sidebar.-type_fixed {
+  position: fixed;
+}
 
-/* line 15, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 19, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebar__block {
   padding: 20px;
   margin: 0 0 20px;
   background: #fff;
 }
 
-/* line 22, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 26, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu {
   display: block;
   margin: 5px 0 0;
   padding: 0;
   list-style: none;
 }
-/* line 29, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 33, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__item {
   position: relative;
   padding: 0 0 10px 13px;
@@ -2529,13 +2533,13 @@ html, body {
 .b-sidebarMenu__item {
   *zoom: 1;
 }
-/* line 39, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 43, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__item:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: 0;
 }
-/* line 45, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 49, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__item:before {
   position: absolute;
   left: 0;
@@ -2545,19 +2549,19 @@ html, body {
   font-size: 28px;
   content: ".";
 }
-/* line 56, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 60, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__link {
   display: block;
   float: left;
   color: inherit;
   text-decoration: none;
 }
-/* line 62, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 66, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__link:hover, .b-sidebarMenu__link:active, .b-sidebarMenu__link:visited, .b-sidebarMenu__link:focus {
   color: inherit;
   text-decoration: none;
 }
-/* line 68, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 72, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__count {
   display: block;
   float: right;

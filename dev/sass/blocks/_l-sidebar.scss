@@ -9,6 +9,10 @@
    width: 100%;
    float: none;
   }
+
+  &.-type_fixed {
+  	position: fixed;
+  }
 }
 
 .b-sidebar {

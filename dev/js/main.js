@@ -11,6 +11,7 @@ $(function() {
  initCycle();
  scrollUp();
  initFancybox();
+ makeFixedSidebar();
 });
 
 function like() {
@@ -110,4 +111,8 @@ function initFancybox() {
 		}
 	});
 }
+
+function makeFixedSidebar() {}
+
+
 

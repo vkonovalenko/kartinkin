@@ -118,7 +118,7 @@
         </div>
       </div>
     </header>
-    <div class="l-siteSearch">
+    <div class="l-siteSearch js-siteSearch">
       <div class="b-siteSearch">
         <div class="b-siteSearch__inner">
           <form class="b-siteSearch__form" role="search" method="post" action="#">

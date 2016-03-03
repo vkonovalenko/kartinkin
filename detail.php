@@ -16,7 +16,7 @@
 	</ul>
 </div>
 <div class="l-content">
-	<div class="l-panel">
+	<div class="l-panel js-panel">
 		<div class="b-panel">
 			<div class="l-pageTitle">
 				<h2 class="b-pageTitle">Очень красивая картинка с ужасно красивой девушкой</h2>

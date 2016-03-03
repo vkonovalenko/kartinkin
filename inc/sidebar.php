@@ -1,4 +1,4 @@
-<div class="l-sidebar">
+<div class="l-sidebar js-sidebar">
   <div class="b-sidebar">
     <div class="b-sidebar__block">
     	<div class="l-btn">
