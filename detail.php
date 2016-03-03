@@ -4,7 +4,7 @@
   $uri = 'index';
   require('inc/header.php');
 ?>
-<div class="l-breadCrumbs">
+<div class="l-breadCrumbs js-breadCrumbs">
 	<ul class="b-breadCrumbs">
 		<li class="b-breadCrumbs__item">
 			<a href="" class="b-breadCrumbs__link">Секретный проект номер 1</a>
