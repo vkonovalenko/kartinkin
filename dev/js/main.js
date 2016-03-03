@@ -112,7 +112,27 @@ function initFancybox() {
 	});
 }
 
-function makeFixedSidebar() {}
+function makeFixedSidebar() {
+	function fixMenu() {
+		var headerH, searchH, panelH, brcrH, sum;
+
+		sum = headerH + searchH + panelH + brcrH;
+
+		headerH = $('.js-siteHeader').height();
+		searchH = $('.js-siteSearch').height();
+		panelH = $('.js-panel').height();
+		brcrH = $('.js-breadCrumbs').height();
+
+		if($(window).scrollTop()>sum) { 
+		  $('.js-sidebar').addClass( '-type_fixed' );
+		}
+		else {
+		  $('.js-sidebar').removeClass( '-type_fixed' );
+		}
+	}
+	fixMenu();
+  $(window).scroll(fixMenu);
+}
 
 
 
