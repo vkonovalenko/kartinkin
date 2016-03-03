@@ -167,6 +167,11 @@
 
 	&__val {
 		overflow: hidden;
+
+		.-type_column & {
+			float: left;
+			overflow: auto;
+		}
 	}
 }
 

@@ -2578,7 +2578,7 @@ function initFancybox() {
 		  closeBtn : '<a title="Close" class="fancybox-close" href="javascript:;"></a>'
 		},
 		helpers : {
-		  overlay : {css : {'background' : 'rgba(0, 0, 0, 0.8)'}, closeClick : false, speedOut: 200, closeEffect : 'elastic', openEffect : 'elastic'}
+		  overlay : {css : {'background' : 'rgba(0, 0, 0, 0.8)'}, closeClick : true, speedOut: 200, closeEffect : 'elastic', openEffect : 'elastic'}
 		}
 	});
 }

@@ -3386,6 +3386,11 @@ html, body {
 .b-detailList__val {
   overflow: hidden;
 }
+/* line 171, ../dev/sass/blocks/_l-detail.scss */
+.-type_column .b-detailList__val {
+  float: left;
+  overflow: auto;
+}
 
 /**
 * @section Btn
