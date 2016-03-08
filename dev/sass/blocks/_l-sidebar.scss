@@ -11,7 +11,11 @@
   }
 
   &.-type_fixed {
-  	position: fixed;
+  	@media screen and (min-width: 1900px) {
+	  	position: fixed;
+	  	top: 20px;
+	    right: 363px;
+  	}
   }
 }
 

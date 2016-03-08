@@ -116,18 +116,21 @@ function makeFixedSidebar() {
 	function fixMenu() {
 		var headerH, searchH, panelH, brcrH, sum;
 
-		sum = headerH + searchH + panelH + brcrH;
-
 		headerH = $('.js-siteHeader').height();
 		searchH = $('.js-siteSearch').height();
 		panelH = $('.js-panel').height();
 		brcrH = $('.js-breadCrumbs').height();
 
-		if($(window).scrollTop()>sum) { 
+		sum = headerH + searchH + panelH + brcrH;
+		console.log(sum);
+
+		if($(window).scrollTop()>=sum) { 
 		  $('.js-sidebar').addClass( '-type_fixed' );
+		  console.log('add');
 		}
 		else {
 		  $('.js-sidebar').removeClass( '-type_fixed' );
+		  console.log('remove');
 		}
 	}
 	fixMenu();
