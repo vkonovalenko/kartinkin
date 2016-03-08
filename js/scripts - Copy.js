@@ -2584,7 +2584,30 @@ function initFancybox() {
 	});
 }
 
-function makeFixedSidebar() {}
+function makeFixedSidebar() {
+	function fixMenu() {
+		var headerH, searchH, panelH, brcrH, sum;
+
+		headerH = $('.js-siteHeader').height();
+		searchH = $('.js-siteSearch').height();
+		panelH = $('.js-panel').height();
+		brcrH = $('.js-breadCrumbs').height();
+
+		sum = headerH + searchH + panelH + brcrH;
+		console.log(sum);
+
+		if($(window).scrollTop()>=sum) { 
+		  $('.js-sidebar').addClass( '-type_fixed' );
+		  console.log('add');
+		}
+		else {
+		  $('.js-sidebar').removeClass( '-type_fixed' );
+		  console.log('remove');
+		}
+	}
+	fixMenu();
+  $(window).scroll(fixMenu);
+}
 
 
 

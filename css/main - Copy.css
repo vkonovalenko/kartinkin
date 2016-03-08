@@ -1205,9 +1205,9 @@ replacement image appears.
   -moz-border-radius: 3px;
        border-radius: 3px;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), inset -1px -1px #FFF, inset 1px -1px #FFF;
      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), inset -1px -1px #FFF, inset 1px -1px #FFF;
@@ -1249,9 +1249,9 @@ replacement image appears.
   -moz-border-radius: 50%;
        border-radius: 50%;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), inset -1px -1px #FFF, inset 1px -1px #FFF;
      -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), inset -1px -1px #FFF, inset 1px -1px #FFF;
@@ -1332,9 +1332,9 @@ replacement image appears.
   -moz-border-radius: 0 4px 4px 0;
        border-radius: 0 4px 4px 0;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
      -moz-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1347,9 +1347,9 @@ replacement image appears.
 /* line 102, ../dev/sass/plugins/_jquery.formstyler.scss */
 .jq-file:hover .jq-file__browse {
   background: #E6E6E6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: -moz-linear-gradient(#f6f6f6, #e6e6e6);
   background: -o-linear-gradient(#f6f6f6, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: linear-gradient(#f6f6f6, #e6e6e6);
 }
 
@@ -1440,9 +1440,9 @@ replacement image appears.
   -moz-border-radius: 4px;
        border-radius: 4px;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1467,9 +1467,9 @@ replacement image appears.
 /* line 182, ../dev/sass/plugins/_jquery.formstyler.scss */
 .jq-number__spin:hover {
   background: #E6E6E6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: -moz-linear-gradient(#f6f6f6, #e6e6e6);
   background: -o-linear-gradient(#f6f6f6, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: linear-gradient(#f6f6f6, #e6e6e6);
 }
 
@@ -1554,9 +1554,9 @@ replacement image appears.
   -moz-border-radius: 4px;
        border-radius: 4px;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
      -moz-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1569,9 +1569,9 @@ replacement image appears.
 /* line 251, ../dev/sass/plugins/_jquery.formstyler.scss */
 .jq-selectbox__select:hover {
   background: #E6E6E6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: -moz-linear-gradient(#f6f6f6, #e6e6e6);
   background: -o-linear-gradient(#f6f6f6, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: linear-gradient(#f6f6f6, #e6e6e6);
 }
 
@@ -1919,9 +1919,9 @@ input[type='reset'].styler {
        border-radius: 4px;
   outline: none;
   background: #F5F5F5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: -moz-linear-gradient(#ffffff, #e6e6e6);
   background: -o-linear-gradient(#ffffff, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e6e6e6));
   background: linear-gradient(#ffffff, #e6e6e6);
   -webkit-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
      -moz-box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1947,9 +1947,9 @@ input[type='button'].styler:not([disabled]):hover,
 input[type='submit'].styler:not([disabled]):hover,
 input[type='reset'].styler:hover {
   background: #E6E6E6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: -moz-linear-gradient(#f6f6f6, #e6e6e6);
   background: -o-linear-gradient(#f6f6f6, #e6e6e6);
-  background: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#e6e6e6));
   background: linear-gradient(#f6f6f6, #e6e6e6);
 }
 
@@ -2491,26 +2491,30 @@ html, body {
     float: none;
   }
 }
-/* line 13, ../dev/sass/blocks/_l-sidebar.scss */
-.l-sidebar.-type_fixed {
-  position: fixed;
+@media screen and (min-width: 1900px) {
+  /* line 13, ../dev/sass/blocks/_l-sidebar.scss */
+  .l-sidebar.-type_fixed {
+    position: fixed;
+    top: 20px;
+    right: 363px;
+  }
 }
 
-/* line 19, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 23, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebar__block {
   padding: 20px;
   margin: 0 0 20px;
   background: #fff;
 }
 
-/* line 26, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 30, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu {
   display: block;
   margin: 5px 0 0;
   padding: 0;
   list-style: none;
 }
-/* line 33, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 37, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__item {
   position: relative;
   padding: 0 0 10px 13px;
@@ -2533,13 +2537,13 @@ html, body {
 .b-sidebarMenu__item {
   *zoom: 1;
 }
-/* line 43, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 47, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__item:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: 0;
 }
-/* line 49, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 53, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__item:before {
   position: absolute;
   left: 0;
@@ -2549,19 +2553,19 @@ html, body {
   font-size: 28px;
   content: ".";
 }
-/* line 60, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 64, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__link {
   display: block;
   float: left;
   color: inherit;
   text-decoration: none;
 }
-/* line 66, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 70, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__link:hover, .b-sidebarMenu__link:active, .b-sidebarMenu__link:visited, .b-sidebarMenu__link:focus {
   color: inherit;
   text-decoration: none;
 }
-/* line 72, ../dev/sass/blocks/_l-sidebar.scss */
+/* line 76, ../dev/sass/blocks/_l-sidebar.scss */
 .b-sidebarMenu__count {
   display: block;
   float: right;
