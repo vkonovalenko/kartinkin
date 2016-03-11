@@ -86,7 +86,9 @@ html, body {
   position: relative;
   display: block;
   margin: 20px 0 0;
+
   &__content {
+    max-width: 900px;
     overflow: hidden;
     @media only screen and (max-width: 640px) { 
      overflow: auto;
