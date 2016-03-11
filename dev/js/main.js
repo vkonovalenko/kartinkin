@@ -60,16 +60,19 @@ function initStyler() {
 
 function initCycle() {
 	$('.js-slider__slides').cycle({
-    fx: 'scrollHorz',
-    slides: '.js-slider__slide',
-    slideActiveClass: '-state_active',
-    prev: '.-type_prev .js-slider__arrow',
-    next: '.-type_next .js-slider__arrow',
-    timeout: 15000,
-    pauseOnHover: true,
-    swipe: true,
-    slideNum: 3
-  });
+		fx: 'scrollHorz',
+		slides: '.js-slider__slide',
+		slideActiveClass: '-state_active',
+		prev: '.-type_prev .js-slider__arrow',
+		next: '.-type_next .js-slider__arrow',
+		timeout: 15000,
+		pauseOnHover: true,
+		swipe: false,
+		paused: true,
+		slideNum: 3
+	});
+	  
+  $('.js-slider__slides').cycle('goto', $('#js-slider').data('page'));
 }
 
 function scrollUp() {
