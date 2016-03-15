@@ -2,7 +2,7 @@
   <div class="b-detail">
 
     <div class="b-detail__imgWrapper">
-      <img src="img/userfiles/detail/detail-1.png" alt="" class="b-detail__img">
+      <img src="img/userfiles/detail/detail-1.jpg" alt="" class="b-detail__img">
     </div>
 
     <div class="b-detail__block">
