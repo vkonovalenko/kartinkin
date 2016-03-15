@@ -21,20 +21,29 @@ function like() {
 }
 
 function initRate() {
-	$( '.js-rateStarts.-size-small' ).rating('create', {
-		coloroff: '#e1e6e6',
-		coloron:'#47e12d', 
-		limit: 5,
-		size: '1.0em',
-		cursor: 'pointer'
-	});	
-	$( '.js-rateStarts.-size-big' ).rating('create', {
-		coloroff: '#e1e6e6',
-		coloron:'#47e12d', 
-		limit: 5,
-		size: '1.3em',
-		cursor: 'pointer'
-	});	
+	$( '.js-rateStarts' ).on( 'click', '.js-rateStarts__item', function(){
+		console.log('test');
+		fillStars($(this));
+	});
+	$( '.js-rateStarts' ).on( 'mouseout', '.js-rateStarts__item', function(){
+		clearStars($(this));
+	});
+	$( '.js-rateStarts' ).on( 'mouseover', '.js-rateStarts__item', function(){
+		fillStars($(this));
+	});
+	
+}
+
+function fillStars(star) {
+	star.nextAll( '.js-rateStarts__item' ).removeClass( '-state_filled' ); 
+	star.addClass('-state_filled').prevAll('.js-rateStarts__item').addClass('-state_filled');
+	$( '.js-rateStarts' ).on( 'mouseover mouseout', '.js-rateStarts__item', function() {
+		
+	});
+}
+
+function clearStars(star) {
+	star.removeClass( '-state_filled' ).siblings( '.js-rateStarts__item' ).removeClass( '-state_filled' ); 
 }
 
 function selectView() {
@@ -125,15 +134,12 @@ function makeFixedSidebar() {
 		brcrH = $('.js-breadCrumbs').height();
 
 		sum = headerH + searchH + panelH + brcrH;
-		console.log(sum);
 
 		if($(window).scrollTop()>=sum) { 
 		  $('.js-sidebar').addClass( '-type_fixed' );
-		  console.log('add');
 		}
 		else {
 		  $('.js-sidebar').removeClass( '-type_fixed' );
-		  console.log('remove');
 		}
 	}
 	fixMenu();

@@ -77,8 +77,6 @@
     ga('create', 'UA-68801405-1', 'auto');
     ga('send', 'pageview');
   </script>
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 
 <body class="-type_home"> <!-- b-loader -type_screen -->

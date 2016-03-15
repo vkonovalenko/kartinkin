@@ -23,6 +23,18 @@
 
 .b-rateStarts {
 	margin: 0 2px 0 0;
+
+	&__item {
+		width: 12px;
+		height: 12px;
+		display: inline-block;
+		background: url('../img/blocks/rateStarts/rateStarts-ico.png') 0 0 no-repeat;
+		cursor: pointer;
+
+		&.-state_filled {
+	    background-position: -17px 0;
+		}
+	}
 }
 
 .b-rateNumber {

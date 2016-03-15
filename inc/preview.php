@@ -20,9 +20,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -57,9 +55,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+           <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -87,9 +83,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -117,9 +111,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -147,9 +139,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -177,9 +167,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -207,9 +195,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -237,9 +223,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -267,9 +251,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -297,9 +279,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -327,9 +307,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
@@ -357,9 +335,7 @@
       </div>
       <div class="b-preview__info -type_two">
         <div class="b-preview__stars">
-          <div class="js-rateStarts b-rateStarts -size-small">
-            <input type=hidden name"rating"/>
-          </div>
+          <?php require('rates.php'); ?>
           <div class="b-rateNumber">0</div>
         </div>
         <div class="b-preview__rate">
