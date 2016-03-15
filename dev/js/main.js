@@ -21,25 +21,25 @@ function like() {
 }
 
 function initRate() {
-	$( '.js-rateStarts' ).on( 'click', '.js-rateStarts__item', function(){
+	$( '.js-rateStarts' ).one( 'click', '.js-rateStarts__item', function(){
 		console.log('test');
 		fillStars($(this));
 	});
-	$( '.js-rateStarts' ).on( 'mouseout', '.js-rateStarts__item', function(){
-		clearStars($(this));
-	});
-	$( '.js-rateStarts' ).on( 'mouseover', '.js-rateStarts__item', function(){
-		fillStars($(this));
-	});
+	// $( '.js-rateStarts' ).on( 'mouseout', '.js-rateStarts__item', function(){
+	// 	clearStars($(this));
+	// });
+	// $( '.js-rateStarts' ).on( 'mouseover', '.js-rateStarts__item', function(){
+	// 	fillStars($(this));
+	// });
 	
 }
 
 function fillStars(star) {
 	star.nextAll( '.js-rateStarts__item' ).removeClass( '-state_filled' ); 
 	star.addClass('-state_filled').prevAll('.js-rateStarts__item').addClass('-state_filled');
-	$( '.js-rateStarts' ).on( 'mouseover mouseout', '.js-rateStarts__item', function() {
-		
-	});
+	// $( '.js-rateStarts' ).on( 'mouseover mouseout', '.js-rateStarts__item', function() {
+
+	// });
 }
 
 function clearStars(star) {
