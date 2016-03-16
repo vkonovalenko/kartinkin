@@ -2,13 +2,13 @@
   <ul class="b-preview">
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper b-loader">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-1.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -30,7 +30,7 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-2.png" alt="" class="b-preview__img">
         </a>
         <div class="b-preview__panel">
@@ -43,7 +43,7 @@
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -65,13 +65,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-3.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -93,13 +93,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-4.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -121,13 +121,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-5.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -149,13 +149,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-6.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -177,13 +177,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-7.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -205,13 +205,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-8.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -233,13 +233,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-9.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -261,13 +261,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-10.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -289,13 +289,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-11.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
@@ -317,13 +317,13 @@
     </li>
     <li class="b-preview__item">
       <div class="b-preview__imgWrapper">
-        <a href="" class="b-preview__linkWrapper">
+        <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-12.png" alt="" class="b-preview__img">
         </a>
       </div>
       <div class="b-preview__info -type_one">
         <div class="b-preview__title">
-          <a href="" class="b-preview__linkWrapper">
+          <a href="detail.php" class="b-preview__linkWrapper">
             Девушка покрашенная <br> желтой краской строителями
           </a>
         </div>
