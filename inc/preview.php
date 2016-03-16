@@ -1,7 +1,7 @@
 <div class="l-preview">
   <ul class="b-preview">
     <li class="b-preview__item">
-      <div class="b-preview__imgWrapper b-loader">
+      <div class="b-preview__imgWrapper">
         <a href="detail.php" class="b-preview__linkWrapper">
           <img src="img/userfiles/preview/preview-1.png" alt="" class="b-preview__img">
         </a>
