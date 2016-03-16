@@ -136,3 +136,8 @@
 .b-loader:before {
   background: rgba(146, 199, 127, 0.85) url("../img/blocks/loader/loader-ico.gif") center 50% no-repeat;
 }
+
+/* line 180, ../dev/sass/colors.scss */
+.b-rateStarts__item {
+  background: url("../img/blocks/rateStarts/rateStarts-ico.png") 0 0 no-repeat;
+}

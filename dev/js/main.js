@@ -22,24 +22,25 @@ function like() {
 
 function initRate() {
 	$( '.js-rateStarts' ).one( 'click', '.js-rateStarts__item', function(){
-		console.log('test');
+		$(this).parents( '.js-rateStarts' ).addClass( '-state_filled' );
 		fillStars($(this));
 	});
-	// $( '.js-rateStarts' ).on( 'mouseout', '.js-rateStarts__item', function(){
-	// 	clearStars($(this));
-	// });
-	// $( '.js-rateStarts' ).on( 'mouseover', '.js-rateStarts__item', function(){
-	// 	fillStars($(this));
-	// });
+	$( '.js-rateStarts' ).on( 'mouseover', '.js-rateStarts__item', function(){
+		if(!$(this).parents( '.js-rateStarts' ).hasClass( '-state_filled' )) {
+			fillStars($(this));
+		}
+	});
+	$( '.js-rateStarts' ).on( 'mouseout', '.js-rateStarts__item', function(){
+		if(!$(this).parents( '.js-rateStarts' ).hasClass( '-state_filled' )) {
+			clearStars($(this));
+		}
+	});
 	
 }
 
 function fillStars(star) {
 	star.nextAll( '.js-rateStarts__item' ).removeClass( '-state_filled' ); 
 	star.addClass('-state_filled').prevAll('.js-rateStarts__item').addClass('-state_filled');
-	// $( '.js-rateStarts' ).on( 'mouseover mouseout', '.js-rateStarts__item', function() {
-
-	// });
 }
 
 function clearStars(star) {

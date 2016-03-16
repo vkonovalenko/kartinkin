@@ -60,8 +60,8 @@
               <div class="b-detailList__content">
                 <div class="b-detailList__title">Ваша оценка:</div>
                 <div class="b-detailList__val">
-                  <div class="js-rateStarts b-rateStarts -size-big">
-                    <input type=hidden name"rating"/>
+                  <div class="l-rateStarts -size-big">
+                    <?php require('rates.php'); ?>
                   </div>
                 </div>
               </div>
