@@ -1,0 +1,23 @@
+/**
+* @section messege
+*/
+
+.b-messege {
+	display: block;
+	margin: 20px 0;
+	clear: both;
+	font-weight: 700;
+
+	&.-type_success {
+		color: $themeColor;
+	}
+
+	&.-type_error {
+		color: #db2304;
+	}
+
+	&.-align_center {
+		text-align: center;
+	}
+}
+

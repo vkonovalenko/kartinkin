@@ -277,6 +277,7 @@
                 <label class="b-control__title">Оставьте свой комментарий:</label>
                 <textarea class="b-control__field -type_textarea"></textarea>
               </div>
+              <div class="b-messege -type_success -align_center">Your messege is sent!!!</div>
               <div class="b-commentsForm__item">
                 <div class="b-control -side_right">
                   <button class="b-btn -indentRight_none -indent_top">Отправить</button>

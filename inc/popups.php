@@ -14,6 +14,8 @@
 					<div class="b-popupForm__item">
 						<textarea class="b-control__field -type_textarea -height_more" placeholder="Сообщение"></textarea>
 					</div>
+					<div class="b-messege -type_success">Your messege is sent!!!</div>
+					<div class="b-messege -type_error">Your messege isn`t sent!!!</div>
 					<div class="b-popupForm__item">
 						<input type="button" class="b-btn -display_block -size_large" value="Регистрация">
 					</div>
