@@ -141,3 +141,9 @@
 .b-rateStarts__item {
   background: url("../img/blocks/rateStarts/rateStarts-ico.png") 0 0 no-repeat;
 }
+
+/* line 185, ../dev/sass/colors.scss */
+.-slider_active {
+  border: 5px solid;
+  border-color: #dae8e7;
+}
